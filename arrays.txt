@@ -1,0 +1,50 @@
+
+ARRAYS
+----------------------------------
+
+1.1- Constantes predefinidasa
+----------------------------------
+Estas constantes están disponibles siempre ya que forman parte del núcleo de PHP.
+
+array_change_key_case
+----------------------
+CASE_LOWER se utiliza con array_change_key_case() y es usado para convertir keys de array a minúsculas. Esta también es la constante por defecto para 
+array_change_key_case().
+CASE_UPPER se utiliza con array_change_key_case() y es usado para convertir keys de array a mayúsculas.
+Indicadores de ordenado:
+
+
+array_multisort
+---------------------
+SORT_ASC se utiliza con array_multisort() para clasificar en orden ascendente.
+SORT_DESC se utiliza con array_multisort() para clasificar en orden descendente.
+
+
+SORT_REGULAR (integer)
+SORT_REGULAR se utiliza para comparar elementos normalmente.
+SORT_NUMERIC (integer)
+SORT_NUMERIC se utiliza para comparar elementos numéricamente.
+SORT_STRING (integer)
+SORT_STRING se utiliza para comparar elementos como cadenas.
+SORT_LOCALE_STRING (integer)
+SORT_LOCALE_STRING se utiliza para comparar elementos como cadenas, basado en la localización actual. Agregado en PHP 4.4.0 y 5.0.2.
+SORT_NATURAL (integer)
+SORT_NATURAL se utiliza para comparar elementos como cadenas utilizando "ordenamiento natural", como natsort(). Agregado en PHP 5.4.0.
+SORT_FLAG_CASE (integer)
+SORT_FLAG_CASE puede ser combinada (OR binario) con SORT_STRING o SORT_NATURAL para ordenar cadenas sin diferenciar mayúsculas y minúsculas. Agregado en PHP 5.4.0.
+Opciones de filtrado:
+
+ARRAY_FILTER_USE_KEY (integer)
+ARRAY_FILTER_USE_KEY se utiliza con array_filter() para pasar cada clave como el primer parámetro a la llamada de retorno proporcionada. Agregado en PHP 5.6.0.
+ARRAY_FILTER_USE_BOTH (integer)
+ARRAY_FILTER_USE_BOTH se utiliza con array_filter() para pasar tanto el valor como la clave a la llamada de retorno proporcionada. Agregado en PHP 5.6.0.
+COUNT_NORMAL (integer)
+COUNT_RECURSIVE (integer)
+EXTR_OVERWRITE (integer)
+EXTR_SKIP (integer)
+EXTR_PREFIX_SAME (integer)
+EXTR_PREFIX_ALL (integer)
+EXTR_PREFIX_INVALID (integer)
+EXTR_PREFIX_IF_EXISTS (integer)
+EXTR_IF_EXISTS (integer)
+EXTR_REFS (integer)

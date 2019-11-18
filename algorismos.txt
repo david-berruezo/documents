@@ -1,0 +1,24 @@
+TIPOS DE ALGORITMOS
+
+Cualitativos: Son aquellos en los que se describen los pasos utilizando palabras.
+Son todos aquellos pasos o instrucciones descritos por medio de palabras que sirven para llegar a la obtención de una respuesta o solución de un problema cualquier
+Cuantitativos: Son aquellos en los que se utilizan cálculos numéricos para definir los pasos del proceso.
+ Son aquellos pasos o instrucciones que involucran cálculos numéricos para llegar a un resultado satisfactorio
+Tipos de algoritmos de razonamiento:
+Algoritmos Estáticos: son los que funcionan siempre igual, independientemente del tipo de problema tratado.
+Algoritmos Adaptativos: algoritmos con cierta capacidad de aprendizaje.
+Algoritmos Probabilísticos: son algoritmos que no utilizan valores de verdad booleanos sino continuos. Existen varios tipos de algoritmos probabilísticos dependiendo de su funcionamiento, pudiéndose distinguir:
+§ Algoritmos numéricos: que proporcionan una solución aproximada del problema.
+§ Algoritmos de Montecarlo: que pueden dar la respuesta correcta o respuesta erróneas (con probabilidad baja).
+§ Algoritmos de Las Vegas: que nunca dan una respuesta incorrecta: o bien dan la respuesta correcta o informan del fallo.
+Algoritmo Cotidiano: es la serie de pasos que realizamos en nuestra vida diaria para realizar las diferentes tareas y actividades comunes, desde los pasos al levantarnos, así como ir de compras, etc.
+
+Algoritmo Voraz: un algoritmo voraz es aquel que, para resolver un determinado problema, sigue una meta heurística consistente en elegir la opción óptima en cada paso local con la esperanza de llegar a una solución general óptima.
+
+Algoritmo Determinista: es un algoritmo que, en términos informales, es completamente predictivo si se conocen sus entradas.
+
+Algoritmo Heurístico: es un algoritmo que abandona uno o ambos objetivos; por ejemplo, normalmente encuentran buenas soluciones, aunque no hay pruebas de que la solución no pueda ser arbitrariamente errónea en algunos casos; o se ejecuta razonablemente rápido, aunque no existe tampoco prueba de que siempre será así.
+
+Las heurísticas generalmente son usadas cuando no existe una solución óptima bajo las restricciones dadas (tiempo, espacio, etc.), o cuando no existe del todo.
+
+Algoritmo de escalada: la idea básica consiste en comenzar con una mala solución a un determinado problema y, repetidamente, aplicar optimizaciones a la misma hasta que esta sea óptima o satisfaga algún otro requisito.

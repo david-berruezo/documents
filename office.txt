@@ -1,0 +1,11 @@
+1.- DATOS DEL PROGRAMA
+--------------------------------------------------------------
+Office 2013 Professional Plus: YC7DK-G2NP3-2QQC3-J6H88-GVGXT
+Office 2013 Standard: KBKQT-2NMXY-JJWGP-M62JB-92CD4
+
+2.- ABRIR LA CONSOLA CMD COMO ADMINISTRADOR Y PEGAR
+--------------------------------------------------------------
+cd C:\Program Files\Microsoft Office\Office15
+cscript OSPP.VBS /inpkey:YC7DK-G2NP3-2QQC3-J6H88-GVGXT
+cscript OSPP.VBS /sethst:kms.digiboy.ir
+cscript OSPP.VBS /act

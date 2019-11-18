@@ -1,0 +1,19 @@
+VAGRANT
+------------------------------
+Automatizar las maquinas virtuales con:
+	1.- poped
+	2.- virtual box
+
+Le especificamos todo:
+	1.- Version del sistema operativo
+	2.- Configuracion de red
+	3.- Programas instalados
+
+COMANDOS 
+------------------------------
+01.- vagrant -v 
+02.- vagrant init
+03.- editamos Vagrantfile
+	03.1.- Vamos a la pagina de app.vagrantup.com y buscamos nuestra configuración de la maquina virtual	
+	03.2.- Ponemos la variable config.vm.box respecto a la configuración que queremos descargar
+04.- vagrant up

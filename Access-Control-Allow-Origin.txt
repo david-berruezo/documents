@@ -1,0 +1,17 @@
+Access-Control-Allow-Origin
+--------------------------------
+1) Set the header in the page directly using a templating language like PHP. Keep in mind there can be no HTML before your header or it will fail.
+	<?php header("Access-Control-Allow-Origin: http://example.com"); ?>
+2) Modify the server configuration file (apache.conf) and add this line. Note that "*" represents allow all. 
+   Some systems might also need the credential set. In general allow all access is a security risk and should be avoided:
+	Header set Access-Control-Allow-Origin "*"
+	Header set Access-Control-Allow-Credentials true
+
+3) To allow multiple domains on Apache web servers add the following to your config file
+    <IfModule mod_headers.c>
+      SetEnvIf Origin "http(s)?://(www\.)?(example.org|example.com)$" AccessControlAllowOrigin=$0$1
+      Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+      Header set Access-Control-Allow-Credentials true
+    </IfModule>
+
+4) For development use only hack your browser and allow unlimited CORS using the Chrome Allow-Control-Allow-Origin extension

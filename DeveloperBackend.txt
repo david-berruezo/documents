@@ -1,0 +1,99 @@
+BACKEND DEVELOPER
+----------------------------------------------------------
+
+JAVASCRIPT AND JAVASCRIPT AND JAVASCRIPT 
+
+BACKEND DEVELOPER RESPONSABILITES
+----------------------------------------------------------
+1.- USER_DATA 
+	1.1.- STORING DATA
+	1.2.- WHO ARE ACCESS TO IT
+2.- PAYMENT PROCESSING
+	2.1.- ACCEPTING DATA
+	2.2.- SECURILY STORING DATA
+	2.3.- MAKING CHARGES TO THAT PAYMENT 
+3.- API (APPLICATION PROGRAMMING INTERFACES)
+	3.1.- RESOURCES MEANT TO BE ACCESSED BY:
+		3.1.1.- WEB BROWSER
+		3.1.2.- MOBILE PHONE
+		3.1.3.- APPS
+
+
+BACKEND WEB SERVER BROWSER
+----------------------------------------------------------
+1.- APACHE  
+2.- NGINX
+3.- MICROSOFT IIS (INTERNET INFORMATION SERVICES)
+
+
+POPULAR PROGRAMMING LANGUAGES & THEIR WEB FRAMEWORKS
+----------------------------------------------------------
+1.- JAVA
+	2.1.- SPRING
+	2.2.- JSF (JAVA SERVER FACES) 
+
+2.- PHP
+	2.1.- SPRING
+	2.2.- JSF (JAVA SERVER FACES) 
+
+3.- JAVASCRIPT
+	1.1.- NODE.JS
+	1.2.- EXPRESS 
+
+4.- PYTHON
+	3.1.- DJANGO
+	3.2.- FLASK
+
+5.- C#
+	4.1.- ASP.NET MVC
+	4.2.- ASP.NET CORE 
+
+6.- RUBY
+
+
+OBJECT-RELATIONAL MAPPING
+----------------------------------------------------------
+
+
+LANGAUGE INTERCHANGE
+----------------------------------------------------------
+1.- JSON
+2.- XML
+
+
+POPULAR DATABASE SOFTWARE
+----------------------------------------------------------
+1.- MYSQL
+2.- SQL SERVER
+3.- POSTGREESQL
+
+POPULAR VERSION CONTROL SOFTWARE
+----------------------------------------------------------
+1.- GIT
+2.- SUBVERSION
+
+
+POPULAR CLOUD HOSTING PLATFORMS
+----------------------------------------------------------
+1.- AMAZON WEB SERVICES
+2.- HEROKU
+3.- GOOGLE CLOUD PLATFORM
+
+
+WEB FRAMEWORKS
+----------------------------------------------------------
+1.- SYMFONY		BUSQUEDA INFOJOBS 90
+2.- LARAVEL		BUSQUEDA INFOJOBS 66	
+3.- CODEIGNITER		BUSQUEDA INFOJOBS 21
+4.- ZEND FRAMEWORK	BUSQUEDA INFOJOBS 21
+5.- CAKE PHP		BUSQUEDA INFOJOBS 1
+
+
+CMS
+----------------------------------------------------------
+1.- DRUPAL		BUSQUEDA INFOJOBS 63	
+2.- WORDPRESS		BUSQUEDA INFOJOBS 180
+3.- MAGENTO		BUSQUEDA INFOJOBS 51
+4.- PRESTASHOP		BUSQUEDA INFOJOBS 69
+
+

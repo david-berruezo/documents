@@ -1,0 +1,377 @@
+INSTALACION MYSQL WINDOWS
+----------------------------------------------------
+1.- INSTALAR WINDOWS 
+2.- LUEGO PARAR EL SERVICIO
+3.- ABRIR EXPLORADOR DE WINDOWS
+	3.1.- IR A PESTANA VISTA Y PINCHAR CLICK SOBRE ELEMENTOS OCULTOS PARA VER LA CARPETA PROGRAM DATA   
+	3.2.- LUEGO IR /PROGRAM DATA/MYSQL/MYSQL SERVER 8.0/
+	3.3.- ABRIR Y LEER EL ARCHIVO my.ini con notepadd++ y dejar asi solo para ver el contenido
+4.- ABRIR LA CONSOLA 
+	4.1.- cd "Archivos de programa"
+	4.2.- cd "MySQL"
+	4.3.- cd "MySQ Server 8.0"
+	4.4.- cd bin
+5.- ESCRIBIR LA INSTRUCCION SIGUIENTE Y CREAR EL ARCHIVO DEL PUNTO 6 ANTES DE EJECUTAR LA INSTRUCCION
+	5.1.- mysqld --defaults-file="c:\\ProgramData\\MySQL\\MySQL Server 8.0\\my.ini" --init-file=c:\\Program Files\\MySQL\MySQL Server 8.0\\reset.txt
+6.- CREATE RESET FILE === reset.txt
+	6.1.- use mysql;
+	6.2.- update mysql.user set password = PASSWORD('Berruezin23') where User = 'root'
+	6.3.- FLUSH PRIVILEGES
+
+PARA ARRANCAR EL SERVIDOR
+----------------------------------------------------
+mysqld start
+mysqld.exe --console
+mysqld (y nada más y ya va bien)
+
+
+PARA ARRANCAR EL SERVIDOR POR CONSOLA
+----------------------------------------------------
+01.- C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld"
+
+PARA PARAR EL SERVIDOR POR CONSOLA
+----------------------------------------------------
+C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqladmin" -u root shutdown
+
+
+PARA SABER LA VERSIÓN
+----------------------------------------------------
+mysqladmin --version
+devuelve: mysqladmin  Ver 8.42 Distrib 5.6.27, for Win64 on x86_64
+
+PARA ENTRAR EN LA CONSOLA
+----------------------------------------------------
+MYSQL
+
+PARA CREAR OTRO SERVIDOR
+----------------------------------------------------
+mysqld --install MySQL2 --defaults-file="ruta/MySQL/my2.ini"
+
+
+PARA PARARLO 
+----------------------------------------------------
+net start MySQL2
+net stop  MySQL2
+
+PARA EMPEZAR UNA DE LA 2 INSTANCIAS
+----------------------------------------------------
+
+TIPOS DE COLUMNAS
+------------------------------------
+
+5 TIPOS DE COLUMNAS
+------------------------------------
+1.- caracteres 
+2.- enteros 
+3.- coma flotante
+4.- tiempos
+5.- Bloques enumerados y conjuntos.
+
+
+1.1.- CHAR
+Es un sinónimo de CHAR(1), y puede contener un único carácter.
+
+1.2.- CHAR()
+[NATIONAL] CHAR(M) [BINARY | ASCII | UNICODE]
+Contiene una cadena de longitud constante. Para mantener la longitud de la cadena, se rellena a la derecha con espacios. Estos espacios se eliminan al 
+recuperar el valor. Los valores válidos para M son de 0 a 255, y de 1 a 255 para versiones de MySQL previas a 3.23.
+Si no se especifica la palabra clave BINARY estos valores se ordenan y comparan sin distinguir mayúsculas y minúsculas.
+CHAR es un alias para CHARACTER.
+
+1.3.- VARCHAR()
+[NATIONAL] VARCHAR(M) [BINARY]
+Contiene una cadena de longitud variable. Los valores válidos para M son de 0 a 255, y de 1 a 255 en versiones de MySQL anteriores a 4.0.2.
+Los espacios al final se eliminan.
+Si no se especifica la palabra clave BINARY estos valores se ordenan y comparan sin distinguir mayúsculas y minúsculas.
+VARCHAR es un alias para CHARACTER VARYING.
+
+Tipos de datos enteros
+
+2.1.- TINYINT
+TINYINT[(M)] [UNSIGNED] [ZEROFILL]
+Contiene un valor entero muy pequeño. El rango con signo es entre -128 y 127. El rango sin singo, de 0 a 255.
+BIT, BOOL, BOOLEAN
+Todos son sinónimos de TINYINT(1).
+
+2.2.- SMALLINT
+SMALLINT[(M)] [UNSIGNED] [ZEROFILL]
+Contiene un entero corto. El rango con signo es de -32768 a 32767. El rango sin singo, de 0 a 65535.
+
+2.3.- MEDIUMINT
+MEDIUMINT[(M)] [UNSIGNED] [ZEROFILL]
+Contiene un entero de tamaño medio, el rango con signo está entre -8388608 y 8388607. El rango sin signo, entre 0 y 16777215.
+
+2.4.- INT
+INT[(M)] [UNSIGNED] [ZEROFILL]
+Contiene un entero de tamaño normal. El rango con signo está entre -2147483648 y 2147483647. El rango sin singo, entre 0 y 4294967295.
+
+2.5.- INTEGER
+INTEGER[(M)] [UNSIGNED] [ZEROFILL]
+Es sinónimo de INT.
+
+2.6.- BIGINT
+BIGINT[(M)] [UNSIGNED] [ZEROFILL]
+Contiene un entero grande. El rango con signo es de -9223372036854775808 a 9223372036854775807. El rango sin signo, de 0 a 18446744073709551615.
+
+
+Tipo de fechas
+
+3.1.- DATE 
+Contiene una fecha. El rango soportado está entre '1000-01-01' y '9999-12-31'. MySQL muestra los valores DATE con el formato 'AAAA-MM-DD', pero es posible asignar valores a columnas de este tipo usando tanto números como cadenas.
+
+3.2.- DATETIME
+Contiene una combinación de fecha y hora. El rango soportado está entre '1000-01-01 00:00:00' y '9999-12-31 23:59:59'. MySQL muestra los valores DATETIME con el formato 'AAAA-MM-DD HH:MM:SS', pero es posible asignar valores a columnas de este tipo usando tanto cadenas como números.
+
+3.3.- TIMESTAMP[(M)]
+Contiene un valor del tipo timestamp. El rango está entre '1970-01-01 00:00:00' y algún momento del año 2037.
+Hasta MySQL 4.0 los valores TIMESTAMP se mostraban como AAAAMMDDHHMMSS, AAMMDDHHMMSS, AAAAMMDD o AAMMDD, dependiendo del si el valor de M es 14 (o se omite), 12, 8 o 6, pero está permitido asignar valores a columnas TIMESTAMP usando tanto cadenas como números.
+Desde MySQL 4.1, TIMESTAMP se devuelve como una cadena con el formato 'AAAA-MM-DD HH:MM:SS'. Para convertir este valor a un número, bastará con sumar el valor 0. Ya no se soportan distintas longitudes para estas columnas.
+Se puede asignar fácilmente la fecha y hora actual a uno de estas columnas asignando el valor NULL.
+El argumento M afecta sólo al modo en que se visualiza la columna TIMESTAMP. Los valores siempre se almacenan usando cuatro bytes. Además, los valores de columnas TIMESTAMP(M), cuando M es 8 ó 14 se devuelven como números, mientras que para el resto de valores se devuelven como cadenas.
+
+3.4.- TIME
+Una hora. El rango está entre '-838:59:59' y '838:59:59'. MySQL muestra los valores TIME en el formato 'HH:MM:SS', pero permite asignar valores a columnas TIME usando tanto cadenas como números.
+YEAR
+YEAR[(2|4)]
+Contiene un año en formato de 2 ó 4 dígitos (por defecto es 4). Los valores válidos son entre 1901 y 2155, y 0000 en el formato de 4 dígitos. Y entre 1970-2069 si se usa el formato de 3 dígitos (70-69).
+MySQL muestra los valores YEAR usando el formato AAAA, pero permite asignar valores a una columna YEAR usando tanto cadenas como números.
+
+Tipos de datos para datos sin tipo o grandes bloques de datos
+
+4.1.- TINYBLOB, TINYTEXT
+Contiene una columna BLOB o TEXT con una longitud máxima de 255 caracteres (28 - 1).
+
+4.2.- BLOB, TEXT
+Contiene una columna BLOB o TEXT con una longitud máxima de 65535 caracteres (216 - 1).
+
+4.3.- MEDIUMBLOB, MEDIUMTEXT
+Contiene una columna BLOB o TEXT con una longitud máxima de 16777215 caracteres (224 - 1).
+
+4.4.- LONGBLOB, LONGTEXT
+Contiene una columna BLOB o TEXT con una longitud máxima de 4294967298 caracteres (232 - 1).
+
+Tipos enumerados y conjuntos
+
+5.1.- ENUM('valor1','valor2',...)
+Contiene un enumerado. Un objeto de tipo cadena que puede tener un único valor, entre una lista de valores 'valor1', 'valor2', ..., NULL o el valor especial de error "". Un ENUM puede tener un máximo de 65535 valores diferentes.
+
+5.2.- SET('valor1','valor2',...)
+Contiene un conjunto. Un objeto de tipo cadena que puede tener cero o más valores, cada uno de los cuales debe estar entre una lista de valores 'valor1', 'valor2', ...
+Un conjunto puede tener un máximo de 64 miembros.
+
+
+Lenguaje SQL Creación de bases de datos y tablas
+----------------------------------------------------
+
+A nivel teórico, existen dos lenguajes para el manejo de bases de datos:
+
+DDL (Data Definition Language) Lenguaje de definición de datos. Es el lenguaje que se usa para crear bases de datos y tablas, y para modificar sus estructuras, 
+así como los permisos y privilegios.
+Este lenguaje trabaja sobre unas tablas especiales llamadas diccionario de datos.
+
+DML (Data Manipilation Language) lenguaje de manipulación de datos. Es el que se usa para modificar y obtener datos desde las bases de datos.
+SQL engloba ambos lenguajes DDL+DML, y los estudiaremos juntos, ya que ambos forman parte del conjunto de sentencias de SQL.
+En este capítulo vamos a explicar el proceso para pasar del modelo lógico relacional, en forma de esquemas de relaciones, al modelo físico, usando sentencias SQL, 
+y viendo las peculiaridades específicas de MySQL.
+
+
+CONECTARSE POR CONSOLA
+-----------------------------------------------------
+mysql -h localhost -u root -p
+
+
+PARAR EL SERVIDOR
+-----------------------------------------------------
+mysqladmin -u root -p shutdown
+
+
+DEFINICIÓN DE COLUMNAS
+-----------------------------------------------------
+nombre_col tipo [NOT NULL | NULL] [DEFAULT valor_por_defecto] 
+        [AUTO_INCREMENT] [[PRIMARY] KEY] [COMMENT 'string'] 
+        [definición_referencia]
+
+
+
+DATABASE WITH CHARSET
+-----------------------------------------------------
+CREATE DATABASE libro_igniter_blueprints_chapter_4 CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+
+
+
+Comandos básicos para MySQL
+-----------------------------------------------------
+Crear una base de datos: create database [databasename];
+
+Listar todas las base de datos en el servidor: show databases;
+
+Cambiar a una base de datos: use [db name];
+
+Ver todas las tablas de una base de datos: show tables;
+
+Ver los formatos de campo de la base de datos: describe [table name];
+
+Eliminar una base de datos: drop database [database name];
+
+Eliminar una tabla de la base de datos: drop table [table name];
+
+Devolver todos los registros de una tabla: SELECT * FROM [table name];
+
+Devolver las columnas y la información de la columna correspondiente a la tabla designada:
+show columns from [table name];
+
+Mostrar ciertas filas seleccionadas con el valor «lo que sea»:                                                                  SELECT * FROM [table name] WHERE [field name] = «whatever»;
+
+Mostrar todos los registros que contengan el nombre «Bob» AND el número de teléfono ‘3444444’: SELECT * FROM [table name] WHERE name = «Bob» AND phone_number = ‘3444444’;
+
+Mostrar todos los registros que contienen el nombre «Bob» AND el número de teléfono ‘3444444’ ordenados por el campo «phone_number»:
+SELECT * FROM [table name] WHERE name != «Bob» AND phone_number = ‘3444444’ order by phone_number;
+
+Mostrar todos los registros que comienzan con la palabra ‘bob’ AND el número de teléfono ‘3444444’:  SELECT * FROM [table name] WHERE name like «Bob%» AND phone_number = ‘3444444’;
+
+Usar una expresión regular para encontrar registros. Usar «REGEXP BINARY» para forzar la sensibilidad a las mayúsculas. Esto encuentra cualquier registro que comience con «a»:
+SELECT * FROM [table name] WHERE rec RLIKE «^a$»;
+
+Mostrar registros únicos:  SELECT DISTINCT [column name] FROM [table name];
+
+Mostrar los registros seleccionados, ordenados en orden ascendente (asc) o descendente (desc):
+SELECT [col1],[col2] FROM [table name] ORDER BY [col2] DESC;
+
+Devolver un número de filas: SELECT COUNT(*) FROM [table name];
+
+Sumar el contenido de la columna:  SELECT SUM(*) FROM [table name];
+
+Unir tablas en columnas comunes: select lookup.illustrationid, lookup.personid,person.birthday from lookup left join person on lookup.personid=person.personid=statement to join birthday in person table with primary illustration id;
+
+Cambiar a mysql db. Crear un nuevo usuario:
+INSERT INTO [table name] (Host,User,Password) VALUES(‘%’,’user’,PASSWORD(‘password’));
+
+Cambiar la contraseña de un usuario (desde el shell de Unix):
+[mysql dir]/bin/mysqladmin -u root -h hostname.blah.org -p password ‘new-password’
+
+Cambiar la contraseña de un usuario (desde el prompt de MySQL):
+SET PASSWORD FOR ‘user’@’hostname’ = PASSWORD(‘passwordhere’);
+
+Permitir que el usuario «bob» se conecte con el servidor de localhost usando la contraseña «passwd»: grant usage on *.* to bob@localhost identified by ‘passwd’;
+
+Cambiar a mysql db. Otorgar privilegios de usuario para una db: INSERT INTO [table name] (Host,Db,User,Select_priv,Insert_priv,Update_priv,Delete_priv,Create_priv,Drop_priv) VALUES (‘%’,’databasename’,’username’,’Y’,’Y’,’Y’,’Y’,’Y’,’N’);
+
+Otra alternativa sería: grant all privileges on databasename.* to username@localhost;
+
+Actualizar datos en una tabla:
+UPDATE [table name] SET Select_priv = ‘Y’,Insert_priv = ‘Y’,Update_priv = ‘Y’ where [field name] = ‘user’;
+
+Eliminar filas de una tabla: DELETE from [table name] where [field name] = ‘whatever’;
+
+Actualizar base de datos permissions/privilages:  FLUSH PRIVILEGES;
+
+Eliminar una columna:  alter table [table name] drop column [column name];
+
+Agregar una nueva columna de una base de datos: 
+alter table [table name] add column [new column name] varchar (20);
+
+Cambiar el nombre de una columna: 
+alter table [table name] change [old column name] [new column name] varchar (50);
+
+Crear una columna única para no tener inconvenientes: 
+alter table [table name] add unique ([column name]);
+
+Hacer más grande una columna: 
+alter table [table name] modify [column name] VARCHAR(3);
+
+Eliminar una columna única de una tabla:
+alter table [table name] drop index [colmn name];
+
+Cargar un archivo CSV dentro de una tabla: 
+LOAD DATA INFILE ‘/tmp/filename.csv’ replace INTO TABLE [table name] FIELDS TERMINATED BY ‘,’ LINES TERMINATED BY ‘n’ (field1,field2,field3);
+
+Volcar todas las bases de datos en una copia de seguridad. El backup posee comandos sql para recrear todos las db:   [mysql dir]/bin/mysqldump -u root -ppassword –opt >/tmp/alldatabases.sql
+
+Volcar una base de datos para el back up: 
+[mysql dir]/bin/mysqldump -u username -ppassword –databases databasename >/tmp/databasename.sql
+
+Volver una tabla de una base de datos:
+[mysql dir]/bin/mysqldump -c -u username -ppassword databasename tablename > /tmp/databasename.tablename.sql
+
+Restaurar una base de datos (o tabla) de un backup: 
+[mysql dir]/bin/mysql -u username -ppassword databasename < /tmp/databasename.sql
+
+Crear una tabla de ejemplo 1: 
+CREATE TABLE [table name] (firstname VARCHAR(20), middleinitial VARCHAR(3), lastname VARCHAR(35),suffix VARCHAR(3),officeid VARCHAR(10),userid VARCHAR(15),username VARCHAR(8),email VARCHAR(35),phone VARCHAR(25), groups
+VARCHAR(15),datestamp DATE,timestamp time,pgpemail VARCHAR(255));
+
+Crear una tabla de ejemplo 2:
+create table [table name] (personid int(50) not null auto_increment primary key,firstname varchar(35),middlename varchar(50),lastnamevarchar(50) default ‘bato’);
+
+
+Relaciones
+-----------------------------------------------------
+
+Ejemplo tenemos base de datos de Productos:
+	01.- Tabla producto
+	02.- Tabla categorias
+Para ver a relación nos hacemos la pregunta ...
+
+1 producto puede estar en una categoria .... y ..... 1 categoria puede tener varios productos
+
+
+Relaciones (3):
+
+Relación de Uno a Uno (1:1): Éstas se dan cuando un registro está relacionado con otro y con ese solamente, y a su vez este segundo también estará relacionado solamente con el primero.
+
+Relación de Uno a Muchos (1:N): En este caso un registro estará relacionado sólo con otro, pero este segundo podrá estar relacionado con más de uno.
+
+Relación de Muchos a Muchos (N:M): En las relaciones Muchos a muchos a cada registro de la tabla A se le pueden asociar varios registros de la tabla B y cada registro de la tabla B puede estar relacionado con más de un registro de la tabla A.
+
+
+Restricciones(4):
+
+Restrict: Es el comportamiento por defecto, que impide realizar modificaciones que atentan contra la integridad referencial.
+
+Cascade: Borra los registros de la tabla dependiente cuando se borra el registro de la tabla principal (en una sentencia DELETE), o actualiza el valor de la clave secundaria cuando se actualiza el valor de la clave referenciada (en una sentencia UPDATE).
+
+Set Null: Establece a NULL el valor de la clave secundaria cuando se elimina el registro en la tabla principal o se modifica el valor del campo referenciado.
+
+No Action: Inhabilita el efecto de la restricción, permitiendo que se efectúe el cambio en la base de datos.
+
+
+Diferencias entre engines
+-----------------------------------------------------
+01.- MyIsam ===  fulltext
+02.- InnoDb ==== Transactions and foreign keys
+
+
+FECHAS MYSQL DATE | DATETIME | TIMESTAMP
+-----------------------------------------------------
+01.- DATE 		SOLO FECHAS
+02.- DATETIME 		FECHAS Y TIEMPO
+02.- TIMESTAMP 		FECHAS Y TIEMPO
+
+01.- DATE AND TIME
+	01.1.- '2015-07-21', 
+	01.2.- '20150721', 
+	01.3.- 20150721 
+
+ 	
+MySQL recognizes DATE values in these formats:
+------------------------------------------------------------------------------------------------------
+As a string in either 'YYYY-MM-DD' or 'YY-MM-DD' format. A “relaxed” syntax is permitted: Any punctuation character may be used as the delimiter between date parts. For example, '2012-12-31', '2012/12/31', '2012^12^31', and '2012@12@31' are equivalent.
+
+As a string with no delimiters in either 'YYYYMMDD' or 'YYMMDD' format, provided that the string makes sense as a date. For example, '20070523' and '070523' are interpreted as '2007-05-23', but '071332' is illegal (it has nonsensical month and day parts) and becomes '0000-00-00'.
+
+As a number in either YYYYMMDD or YYMMDD format, provided that the number makes sense as a date. For example, 19830905 and 830905 are interpreted as '1983-09-05'.
+
+
+
+MySQL recognizes DATETIME and TIMESTAMP values in these formats:
+------------------------------------------------------------------------------------------------------
+As a string in either 'YYYY-MM-DD hh:mm:ss' or 'YY-MM-DD hh:mm:ss' format. A “relaxed” syntax is permitted here, too: Any punctuation character may be used as the delimiter between date parts or time parts. For example, '2012-12-31 11:30:45', '2012^12^31 11+30+45', '2012/12/31 11*30*45', and '2012@12@31 11^30^45' are equivalent.
+
+The only delimiter recognized between a date and time part and a fractional seconds part is the decimal point.
+
+The date and time parts can be separated by T rather than a space. For example, '2012-12-31 11:30:45' '2012-12-31T11:30:45' are equivalent.
+
+As a string with no delimiters in either 'YYYYMMDDhhmmss' or 'YYMMDDhhmmss' format, provided that the string makes sense as a date. For example, '20070523091528' and '070523091528' are interpreted as '2007-05-23 09:15:28', but '071122129015' is illegal (it has a nonsensical minute part) and becomes '0000-00-00 00:00:00'.
+
+As a number in either YYYYMMDDhhmmss or YYMMDDhhmmss format, provided that the number makes sense as a date. For example, 19830905132800 and 830905132800 are interpreted as '1983-09-05 13:28:00'.

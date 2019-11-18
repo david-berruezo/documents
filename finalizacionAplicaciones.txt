@@ -1,0 +1,396 @@
+Para ver las frequencias de wifi
+--------------------------------
+wifi analyzer
+miwifi
+
+eCommerceBarcelona360
+-----------------------
+Revisar fallos
+--------------
+Proyectos eCommerceBarcelona360
+-------------------------------
+Prestashop
+-------------------------------
+1.- yourspanishwine.com
+2.- 2automocion.com
+3.- ibergrapa tienda
+4.- todoparasupez tienda
+5.- Hostal paris
+
+Wordpress
+-------------------------------
+1.- eCommerceBarcelona360 blog (falta formulario)
+2.- ibergrapa blog (falta formulario)
+3.- todoparasupez blog (falta formulario)
+4.- davidberruezo blog (falta blog)
+
+Error todoparasupez.com/blog cuando intentas acceder a un post da error de lectura de apache
+
+Zend framework 2
+-------------------------------
+1.- davidberruezo web
+2.- fruterias gaite
+3.- todoparasupez web
+4.- ibergrapa web
+5.- eCommerceBarcelona web
+6.- eCommerceBarcelona intranet
+7.- davidberruezo intranet
+
+
+HTML | JAVASCRIPT |
+-----------------------------
+1.- eCommerceDesign == MOVIMIENTO XZ MENU
+2.- Cemsalas Letras == MOVIMIENTO XY MENU
+3.- Berruezo        == PAN IMAGE IMAGEN == PAN IMAGE MENU
+4.- EllrMotorsport  == Arcos Circumferencias
+5.- EllrMotorsport  == Menu
+
+
+Faltarian
+-------------------------------
+berruezomoda    ----- web javascript | wordpress
+phpandfriends   ----- wordpress
+soloaves	----- prestashop marketplace o magento
+espaiclinic	----- prestashop marketplace o magento
+
+
+Dominios
+------------------------------
+berruezomoda.com
+ecommercebarcelona360.com 
+soloaves.com 
+todoparasupez.com 
+espaiclinic.es 
+davidberruezo.com 
+phpandfriends.com 
+fruteriasgaite.com 
+ibergrapa.com 
+2automocion.com 
+hostalparisbcn.com 
+yourspanishwine.com   
+
+
+DAVID BERRUEZO
+------------------------------
+
+MENU	
+Home
+ Projects
+ Currículum
+ Lab
+Contact
+About me
+
+PROYECTOS TOPEWEB (REALIZADO)
+------------------------------
+1.-  http://www.llobregat.com (calendari)
+	1.1- Fancy box
+	1.2.- Calendari
+	1.3.- Mostrar html como si saliera de php 
+	Ejemplo de esto seria cambiando el .htaccess
+	<?php
+	 $filename = 'test.html';
+ 	 header("Cache-Control: public");
+ 	 header("Content-Description: File Transfer");
+ 	 header("Content-Disposition: attachment; filename=$filename");
+	 header("Content-Type: application/octet-stream; ");
+ 	 header("Content-Transfer-Encoding: binary");
+	?>
+	1.4.- El formulario se abre con javascript
+2.-  http://www.latrona.com (html)
+	2.1.- Mapa de contacto
+	2.2.- Pagina en html normal
+3.-  http://www.can-borrell.com
+	3.1.- Sistema de reserves
+	3.2.- Carta con diferentes platos
+4.-  http://www.casasayas.net/
+	4.1.- Html y formulari no va apunta a un pl	
+5.-  http://www.mercantic.com
+	5.1.- Es un blog wordpress 
+	5.2.- Categorias: Comerços,gastronomia,espai creatiu,workshops,mercantic magazine,professionals
+	5.3.- Portfolio 
+6.-  http://www.cansarda.com/
+	6.1.- 2 restaurants 
+	6.2.- galeria de fotos
+	6.3.- Reservar el teu menu envaindo email		
+7.-  http://www.fast-components.com/
+	6.1.- pagina html 
+	6.2.- seccion como de búsqueda de recambios
+	6.3.- con especie de tienda online donde tu pones el producto
+	6.4.- y luego te envian un email
+8.-  http://www.fiquisa.com/
+	6.1.- pagina html 
+9.-  http://www.equipatuhotel.com/
+	9.1.- Es una pagina html 
+10.- http://www.topeweb.com/shopper/
+	10.1- ofertas de pisos
+	10.2- ofertas de alquileres
+11.- http://www.topeweb.com/gesven/
+	11.1- pagina html	
+12.- http://www.topeweb.com/calcristi
+	12.1- pagina html
+
+Arista
+-----------------------------------------
+taylor woodrow
+teraherzio
+iberital
+abertis intranet
+buffweb
+
+
+SISTEMAS INTERACTIVOS
+------------------------
+1.- CIELO
+2.- MENU BERRUEZO, TYPOGRAFIA BERRUEZO, SCROLL BERRUEZO
+3.- PAN IMAGE BERRUEZO
+4.- ANIMACION Y LETRAS CEMSALAS 1
+5.- CIRCUMFERENCIA
+
+
+SCRIPTS PAGINAS
+------------------------
+INDEX == INDEX
+------------------------
+<script type='text/javascript' src='js/comment-reply.min.js'></script>
+<script type='text/javascript' src='js/underscore.min.js'></script>
+<script type='text/javascript' src='js/jquery/jquery.masonry.min.js'></script>
+<script type='text/javascript' src='sliders/polaroid/js/jquery.polaroid.js'></script>
+<script type='text/javascript' src='js/jquery.colorbox-min.js'></script>
+<script type='text/javascript' src='js/jquery.easing.js'></script>
+<script type='text/javascript' src='js/jquery.carouFredSel-6.1.0-packed.js'></script>
+<script type='text/javascript' src='js/jQuery.BlackAndWhite.js'></script>
+<script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+<script type='text/javascript' src='sliders/polaroid/js/jquery.transform-0.8.0.min.js'></script>
+<script type='text/javascript' src='sliders/polaroid/js/jquery.preloader.js'></script>
+<script type='text/javascript' src='js/responsive.js'></script>
+<script type='text/javascript' src='js/mobilemenu.js'></script>
+<script type='text/javascript' src='js/jquery.superfish.js'></script>
+<script type='text/javascript' src='js/jquery.placeholder.js'></script>
+<script type='text/javascript' src='js/contact.js'></script>
+<script type='text/javascript' src='js/jquery.tipsy.js'></script>
+<script type='text/javascript' src='js/jquery.cycle.min.js'></script>
+<script type='text/javascript' src='js/shortcodes.js'></script>
+<script type='text/javascript' src='js/jquery.custom.js'></script>
+---------------------------------------
+TESTIMONIALS == ASOCIACION  == EQUIPO
+---------------------------------------
+<script type='text/javascript' src='js/hoverIntent.min.js'></script>
+<script type='text/javascript' src='js/media-upload.min.js'></script>
+<script type='text/javascript' src='js/jquery.clickout.min.js'></script>
+<script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='sliders/usquare/js/frontend/jquery.mCustomScrollbar.min.js'></script>
+<script type='text/javascript' src='sliders/usquare/js/frontend/jquery.usquare.js'></script>
+---------------------------------------
+LIBRA-BLOG-SMALL == HACEMOS == VENTAJAS
+---------------------------------------
+<script type='text/javascript' src='js/hoverIntent.min.js'></script>
+<script type='text/javascript' src='js/media-upload.min.js'></script>
+<script type='text/javascript' src='js/jquery.clickout.min.js'></script>
+<script type='text/javascript' src='js/jquery.tweetable.js'></script>
+
+
+INDEX
+---------
+<head>
+    <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x.png">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png" />
+    <link rel='stylesheet' id='thickbox-css'  href='js/thickbox/thickbox.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='usquare-css-css'  href='sliders/usquare/css/frontend/usquare_style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Playfair+Display%7COpen+Sans+Condensed%3A300%7COpen+Sans%7CShadows+Into+Light%7CMuli%7CDroid+Sans%7CArbutus+Slab%7CAbel&#038;ver=3.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='responsive-css'  href='css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='polaroid-slider-css'  href='sliders/polaroid/css/polaroid.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='ahortcodes-css'  href='css/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-css'  href='css/contact_form.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-css'  href='css/custom.css' type='text/css' media='all' />
+    <style type="text/css">
+            body { background-color: #ffffff; background-image: url('images/bg-pattern.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+    </style>
+    <script type='text/javascript' src='js/jquery/jquery.js'></script>
+</head>
+
+---------------------------------------
+TESTIMONIALS == TESTIMONIALS  == EQUIPO
+---------------------------------------
+<link rel='stylesheet' id='flexslider-elegant-css'  href='sliders/flexslider-elegant/css/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='sliders/flexslider/css/slider.css' type='text/css' media='all' />
+
+
+
+
+    <head>
+        <meta charset="UTF-8" />
+
+        <!-- this line will appear only if the website is visited with an iPad -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
+
+
+
+        <title>Libra | Just another Your Inspiration Themes site</title>
+
+        <!-- RESET STYLESHEET -->
+        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+        <!-- BOOTSTRAP STYLESHEET -->
+        <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
+        <!-- MAIN THEME STYLESHEET -->
+        <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+
+        <!-- [favicon] begin -->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <!-- [favicon] end -->
+
+        <!-- Touch icons more info: http://mathiasbynens.be/notes/touch-icons -->
+        <!-- For iPad3 with retina display: -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x.png" />
+        <!-- For first- and second-generation iPad: -->
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x.png" />
+        <!-- For first- and second-generation iPad: -->
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x.png">
+        <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png" />
+
+
+        <link rel='stylesheet' id='thickbox-css'  href='js/thickbox/thickbox.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Playfair+Display%7COpen+Sans+Condensed%3A300%7COpen+Sans%7CShadows+Into+Light%7CMuli%7CDroid+Sans%7CArbutus+Slab%7CAbel&#038;ver=3.5.1' type='text/css' media='all' />
+        <link rel='stylesheet' id='responsive-css'  href='css/responsive.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='polaroid-slider-css'  href='sliders/polaroid/css/polaroid.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='ahortcodes-css'  href='css/shortcodes.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='contact-form-css'  href='css/contact_form.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='blog-libra-big-css'  href='blog/libra-small/css/style.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='custom-css'  href='css/custom.css' type='text/css' media='all' />
+
+        <style type="text/css">
+            body { background-color: #ffffff; background-image: url('images/bg-pattern.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+        </style>
+
+        <script type='text/javascript' src='js/jquery/jquery.js'></script>
+
+
+    </head>
+
+
+--------------------------------------------------------------------------
+MIO
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes">
+<title>Libra | Just another Your Inspiration Themes site</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x.png">
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png">
+<link id="google-fonts-css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Playfair+Display%7COpen+Sans+Condensed%3A300%7COpen+Sans%7CShadows+Into+Light%7CMuli%7CDroid+Sans%7CArbutus+Slab%7CAbel&ver=3.5.1" type="text/css" media="all">
+<title>Equipo – WordPressPrueba</title>
+<link rel="alternate" type="application/rss+xml" title="WordpressPrueba » Feed" href="http://www.wordpressprueba.net/feed/">
+<link rel="alternate" type="application/rss+xml" title="WordpressPrueba » RSS de los comentarios" href="http://www.wordpressprueba.net/comments/feed/">
+<script type="text/javascript">
+<script src="http://www.wordpressprueba.net/wp-includes/js/wp-emoji-release.min.js?ver=4.5.2" type="text/javascript">
+<style type="text/css">
+<link id="woocommerce-layout-css" rel="stylesheet" href="//www.wordpressprueba.net/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.6.4" type="text/css" media="all">
+<link id="woocommerce-smallscreen-css" rel="stylesheet" href="//www.wordpressprueba.net/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.6.4" type="text/css" media="only screen and (max-width: 768px)">
+<link id="woocommerce-general-css" rel="stylesheet" href="//www.wordpressprueba.net/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.6.4" type="text/css" media="all">
+<link id="style-estilos-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/css/estilos.css?ver=4.5.2" type="text/css" media="all">
+<link id="style-style-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/style.css?ver=4.5.2" type="text/css" media="all">
+<link id="style-reset-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/css/reset.css?ver=4.5.2" type="text/css" media="all">
+<link id="style-bootstrap-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/css/bootstrap.css?ver=4.5.2" type="text/css" media="all">
+<link id="stylecss-style-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/css/style.css?ver=4.5.2" type="text/css" media="all">
+<link id="syle-thickbox-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/thickbox/thickbox.css?ver=4.5.2" type="text/css" media="all">
+<link id="style-usquare-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/sliders/usquare/css/frontend/usquare_style.css?ver=4.5.2" type="text/css" media="all">
+<link id="style-usquare_style-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/sliders/usquare/css/frontend/usquare_style.css?ver=4.5.2" type="text/css" media="all">
+<link id="style-responsive-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/css/responsive.css?ver=4.5.2" type="text/css" media="all">
+<link id="style-polaroid-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/sliders/polaroid/css/polaroid.css?ver=4.5.2" type="text/css" media="all">
+<link id="style-shorcodes-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/css/shortcodes.css?ver=4.5.2" type="text/css" media="all">
+<link id="style-contact_form-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/css/contact_form.css?ver=4.5.2" type="text/css" media="all">
+<link id="style-custom-css" rel="stylesheet" href="http://www.wordpressprueba.net/wp-content/themes/ecommerce/css/custom.css?ver=4.5.2" type="text/css" media="all">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/plugins/jquery-updater/js/jquery-3.1.1.min.js?ver=3.1.1">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/plugins/jquery-updater/js/jquery-migrate-3.0.0.min.js?ver=3.0.0">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery/jquery.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/comment-reply.min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/underscore.min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery/jquery.masonry.min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/sliders/polaroid/js/jquery.polaroid.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery.colorbox-min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery.easing.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery.carouFredSel-6.1.0-packed.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jQuery.BlackAndWhite.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery.touchSwipe.min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery.transform-0.8.0.min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/sliders/polaroid/js/jquery.preloader.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/responsive.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/mobilemenu.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery.superfish.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery.placeholder.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/contact.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/jquery.tipsy.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery.cycle.min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/jquery.custom.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/hoverIntent.min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/media-upload.min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery.clickout.min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/jquery.flexslider-min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/sliders/usquare/js/frontend/jquery.mCustomScrollbar.min.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/sliders/usquare/js/frontend/jquery.usquare.js?ver=4.5.2">
+<script type="text/javascript" src="http://www.wordpressprueba.net/wp-content/themes/ecommerce/js/funciones.js?ver=4.5.2">
+<link rel="https://api.w.org/" href="http://www.wordpressprueba.net/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.wordpressprueba.net/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.wordpressprueba.net/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 4.5.2">
+<meta name="generator" content="WooCommerce 2.6.4">
+<link rel="canonical" href="http://www.wordpressprueba.net/equipo/">
+<link rel="shortlink" href="http://www.wordpressprueba.net/?p=20">
+<link rel="alternate" type="application/json+oembed" href="http://www.wordpressprueba.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.wordpressprueba.net%2Fequipo%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://www.wordpressprueba.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.wordpressprueba.net%2Fequipo%2F&format=xml">
+</head>
+
+
+
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes">
+<title>Libra | Just another Your Inspiration Themes site</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" media="all" href="style.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x.png">
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png">
+<link id="thickbox-css" rel="stylesheet" href="js/thickbox/thickbox.css" type="text/css" media="all">
+<link id="google-fonts-css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Playfair+Display%7COpen+Sans+Condensed%3A300%7COpen+Sans%7CShadows+Into+Light%7CMuli%7CDroid+Sans%7CArbutus+Slab%7CAbel&ver=3.5.1" type="text/css" media="all">
+<link id="responsive-css" rel="stylesheet" href="css/responsive.css" type="text/css" media="all">
+<link id="usquare-css" rel="stylesheet" href="sliders/usquare/css/frontend/usquare_style.css" type="text/css" media="all">
+<link id="rotating-css" rel="stylesheet" href="css/usquare.css" type="text/css" media="all">
+<link id="ahortcodes-css" rel="stylesheet" href="css/shortcodes.css" type="text/css" media="all">
+<link id="contact-form-css" rel="stylesheet" href="css/contact_form.css" type="text/css" media="all">
+<link id="custom-css" rel="stylesheet" href="css/custom.css" type="text/css" media="all">
+<style type="text/css">
+<script type="text/javascript" src="js/jquery/jquery.js">
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+ 

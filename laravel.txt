@@ -1,0 +1,4 @@
+CREACION DE UN PROYECTO EN LARAVEL
+----------------------------------------
+1.- composer create-project laravel/laravel css
+2.- 

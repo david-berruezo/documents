@@ -1,0 +1,6 @@
+Composer comands
+------------------
+1.- Primero bajar composer.phar
+2.- composer self-update == You are already using composer version 1.2.0 (stable channel).
+3.- Creamos nuevas clases y cuando creamos una detrás de otra hacemos
+4.- composer dump-autoload -o

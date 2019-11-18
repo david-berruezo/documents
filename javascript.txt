@@ -1,0 +1,15 @@
+Tipos de objetos (5)
+-----------------------------
+1.- number, string, boolean, null, and undefined
+
+OBJETOS
+-----------------------------
+1.- CLASES === MODELOS A SEGUIR === PROTOTIPOS
+2.- OBJETOS (INSTANCIAS DE LAS CLASES)
+	2.1.- TIENEN METODOS   (TIENEN ACCIONES)
+	2.2.- TIENEN ATRIBUTOS (TIENEN CARACTERISTICAS)
+3.- FORMAS DE CREAR OBJETOS EN JS:
+	3.1.- OBJETOS LITERALES
+	3.2.- PROTOTIPO OBJECT()
+	3.3.- FUNCION CONSTRUCTORA
+	3.4.- CLASES (A PARITR DE ES6 O ES2015)

@@ -1,0 +1,7 @@
+Como funciona PECL
+---------------------
+
+
+Instalar extensiones
+---------------------
+pecl install mongoDb

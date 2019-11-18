@@ -1,0 +1,15 @@
+GROCERY-CRUD
+----------------------------------------
+01.- PRIMERO INSTALACIÓN DE GROCERY COPIAR TODOS LOS FICHEROS EN EL DIRECTORIO
+02.- SEGUNDO INSTALACIÓN CODEIGNITER COPIAR TODOS LOS FICHEROS EN EL DIRECTORIO
+
+
+CLASES DE GROCERY CRUD
+----------------------------------------
+01.- class grocery_CRUD_Field_Types
+02.- class grocery_CRUD_Model_Driver extends grocery_CRUD_Field_Types
+03.- class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
+04.- class grocery_CRUD_States extends grocery_CRUD_Layout
+05.- class Grocery_CRUD extends grocery_CRUD_States
+06.- class grocery_CRUD_Form_validation extends CI_Form_validation
+07.- class UploadHandler

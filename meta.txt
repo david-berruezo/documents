@@ -1,0 +1,17 @@
+ETIQUETAS META QUE DEBES DE CONOCER
+-----------------------------------------------
+1.- META-DESCRIPTION 
+   1.1.- <meta name=”description” content=”Esta es la meta descripción de la página” />
+2.- META-KEYWORDS
+   2.1.- <meta name=”description” content=”Esta es la meta descripción de la página” />	
+3.- META-ROBOTS
+   3.1.- <meta name=”robots” content=”Index/NoIndex o Follow/NoFollow,”>		
+4.- META-VIEWPORT
+5.- META-NOSITELINKSEARCHBOX
+6.- META-NO-SNIPPET
+7.- OTRAS META ETIQUETAS
+
+
+
+
+

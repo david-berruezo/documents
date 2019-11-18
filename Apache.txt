@@ -1,0 +1,61 @@
+Apache
+---------------------------------------------------------------------
+
+Installation
+---------------------------------------------------------------------
+rem # Or whatever path you unzipped the Apache files
+cd "C:\Apache24\bin"
+rem #Command to install Apache 2.4 as a Windows Service
+httpd.exe -k install -n "Apache 2.4"
+httpd.exe -k start
+
+
+Regular Expresions
+---------------------------------------------------------------------
+^.- Comienzo de cadena.
+$.- Fin de cadena.
+..- Cualquier caracter simple.
+(a|b).- Opcional entre a y b.
+(...).- Sección de grupo.
+[abc].- Item en rango (a, b ó c).
+[^abc].- Negación de item en rango (ni a, ni b, ni c).
+a?.- Cero ó 1 "a".
+a*.- Cero o más "a".
+a+.- Una o más "a".
+a{3}.- Exactamente 3 "a".
+a{3,}.- 3 ó más "a".
+a{3,6}.- De 3 a 6 "a".
+!(patron).- Aplicar regla cuando la URL no coincida con el patrón.
+\\.- Escapa un caracter especial.
+
+
+Modulos Predeterminados
+---------------------------------------------------------------------
+LoadModule env_module modules/mod_env.so
+LoadModule log_config_module modules/mod_log_config.so
+LoadModule mime_module modules/mod_mime.so
+LoadModule negotiation_module modules/mod_negotiation.so
+LoadModule include_module modules/mod_include.so
+LoadModule autoindex_module modules/mod_autoindex.so
+LoadModule dir_module modules/mod_dir.so
+LoadModule cgi_module modules/mod_cgi.so
+LoadModule asis_module modules/mod_asis.so
+LoadModule actions_module modules/mod_actions.so
+#LoadModule userdir_module modules/mod_userdir.so
+LoadModule alias_module modules/mod_alias.so
+LoadModule access_compat_module modules/mod_access_compat.so
+LoadModule auth_basic_module modules/mod_auth_basic.so
+LoadModule authn_core_module modules/mod_authn_core.so
+LoadModule authn_file_module modules/mod_authn_file.so
+LoadModule authz_core_module modules/mod_authz_core.so
+LoadModule setenvif_module modules/mod_setenvif.so
+
+
+Estos no pero lo tengo puestos en el http.conf
+----------------------------------------------------------------------
+LoadModule allowmethods_module modules/mod_allowmethods.so
+LoadModule authz_groupfile_module modules/mod_authz_groupfile.so
+LoadModule authz_host_module modules/mod_authz_host.so
+LoadModule authz_user_module modules/mod_authz_user.so
+LoadModule isapi_module modules/mod_isapi.so
+LoadModule rewrite_module modules/mod_rewrite.so

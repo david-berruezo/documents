@@ -1,0 +1,7 @@
+--------- Zend Framework ---------------
+1.- git clone zend skeleton application
+2.- php composer.phar selfupdate
+3.- php composer.phar install
+
+
+php composer.phar create-project -sdev --repository-url="https://packages.zendframework.com" zendframework/ellrmotorsport

@@ -1,0 +1,8 @@
+webpack
+----------------------------------
+01.- npm init 
+02.- npm install webpack
+03.- npx webpack ./src/app.js -o ./src/output.js 
+04.- npx webpack ./src/app.js -o ./build/output.js
+05.- webpack.config.js
+

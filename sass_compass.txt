@@ -1,0 +1,25 @@
+INSTALL SASS AND COMPASS
+----------------------------
+sudo gem install sass --pre
+sudo gem install compass
+
+CREATE NEW PROJECT
+----------------------------
+compass create my-project
+
+
+GENERATE STYLE.CSS
+---------------------------
+sass --watch style.scss:./../stylesheets/style.css
+
+CLAVE WIFI
+---------------------------
+7C3F3768FDC794CBDE61
+A6EwxJmP
+
+NORMALIZE
+---------------------------
+http://necolas.github.com/normalize.css/
+https://github.com/kristerkari/normalize.scss
+https://github.com/benfrain/normalize.scss
+

@@ -1,0 +1,45 @@
+Una expresión regular es una lenguaje formal para denotar o describir a una lenguage regular
+---------------------------------------------------------------------------------------------
+Luego lenguaje es un conjunto de cadenas entonces expresiones regulares denotan conjunto de cadenas pertenecientes al lenguage regular
+
+1.- Caracteres (Numeros letras signos de puntuación en definitiva todo el teclado)
+2.- Metacaracteres (\ . * ? + { } [ ] - () | ^ $ )
+	2.1- \  Escape en general
+	2.2- .  Representa cualquier carácter excepto el salto de linia
+	2.3- *  El patrón que le precede se repite 0 o más veces
+	2.4- ?  El patrón se repite 0 o 1 vez
+	2.5- +  El patrón se repito 1 o más veces
+	2.6- {} El patrón se repite un mínimo de x veces y un máximo de de y
+	2.7- [] Indica un conjunto de carácteres
+	2.8- - Define un rango de carácteres
+	2.9- () Define una agrupación o un patrón que luego puede ser referenciado
+	3.0- | Indica una expresión alternativa
+	3.1- ^ Indica el patrón que la acompaña esta al principio de la caena
+	3.2- [^] Niega el conjunto de carácteres
+	3.3- $ Indica que el patrón esta an final de la cadena
+
+Específicamente, las expresiones regulares se construyen utilizando los operadores unión, concatenación y clausura de Kleene. 
+Toda expresión regular tiene algún autómata finito asociado.
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [NC,L]
+SetEnv APPLICATION_ENV production
+SetEnv MAGIC_QUOTES 0
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^blog - [NC,L]
+RewriteRule ^app - [NC,L] 
+
+
+Banderas
+----------------------------------------
+[L] Finalizar el script
+
+
+Especificaciónes
+-------------------------------
+1.- 

@@ -1,0 +1,978 @@
+﻿INSTALACIÓN APACHE LOUNGE
+--------------------------------------------
+1.- DESCARGAR VERSION 2.4 DE 64 BITS VC 15
+1.- DESCARGAR VERSION 2.4 DE 64 BITS VC 15
+
+
+Comandos PHP
+--------------------
+php -m
+php -v
+
+--------------------
+
+Referencias Explicadas
+----------------------------
+
+¿Qué son las Referencias?
+¿Qué hacen las referencias?
+¿Qué NO son las Referencias?
+Pasar por Referencia
+Devolver Referencias
+Destruir Referencias
+Ubicar las Referencias
+
+Constantes predefinidas de php (HAY TAMBIÉN CONSTANTES PREDEFINIDAS DE CADA CLASE)
+-----------------------------------------------------------------------------------
+__LINE__	El número de línea actual en el fichero.
+__FILE__	Ruta completa y nombre del fichero con enlaces simbólicos resueltos. Si se usa dentro de un include, devolverá el nombre del fichero incluido.
+__DIR__		Directorio del fichero. Si se utiliza dentro de un include, devolverá el directorio del fichero incluído. Esta constante es igual que dirname(__FILE__). El nombre del directorio no lleva la barra final a no ser que esté en el directorio root.
+__FUNCTION__	Nombre de la función.
+__CLASS__	Nombre de la clase. El nombre de la clase incluye el namespace declarado en (p.e.j. Foo\Bar). Tenga en cuenta que a partir de PHP 5.4 __CLASS__ también funciona con traits. Cuando es usado en un método trait, __CLASS__ es el nombre de la clase del trait que está siendo utilizado.
+__TRAIT__	El nombre del trait. El nombre del trait incluye el espacio de nombres en el que fue declarado (p.e.j. Foo\Bar).
+__METHOD__	Nombre del método de la clase.
+__NAMESPACE__	Nombre del espacio de nombres actual.
+
+
+
+Include
+----------------------------
+include_path == Especifica la lista de directorios donde las funciones require, include, fopen(), file(), readfile() y file_get_contents() buscarán ficheros
+		El formato es como la variable de entorno PATH del sistema: una lista de directorios separados por dos puntos en Unix o separados por punto 
+		y coma en Windows.PHP considera cada entrada de la ruta de inclusión por separado cuando está buscando ficheros a incluir. Primero buscará 
+		en la primera ruta, y si no lo encuentra ahí, buscará en la siguiente, hasta que encuentre el fichero incluido, o devuelva una advertencia 
+		o un error. Se puede modificar o establecer una ruta de incluición propia en tiempo de ejecucción usando set_include_path(). 
+
+Funciones Afectadas ==  1.- require, 
+			2.- include, 
+			3.- fopen(), 
+			4.- file(), 
+			5.- readfile()
+			6.- file_get_contents() 
+
+
+
+
+Superglobales
+------------------
+$GLOBALS
+$_​SERVER
+$_​GET
+$_​POST
+$_​FILES
+$_​REQUEST
+$_​SESSION
+$_​ENV
+$_​COOKIE
+$php_​errormsg
+$HTTP_​RAW_​POST_​DATA
+$http_​response_​header
+$argc
+$argv
+
+Objeto Server
+---------------------
+Diferencias entre request_uri,php_self,script_filename
+
+Some practical examples of the differences between these variables:
+Example 1. PHP_SELF is different from SCRIPT_NAME only when requested url is in form:
+http://example.com/test.php/foo/bar
+
+[PHP_SELF] => /test.php/foo/bar
+[SCRIPT_NAME] => /test.php
+(this seems to be the only case when PATH_INFO contains sensible information [PATH_INFO] => /foo/bar) Note: this used to be different in some older PHP versions (<= 5.0 ?).
+
+Example 2. REQUEST_URI is different from SCRIPT_NAME when a non-empty query string is entered:
+http://example.com/test.php?foo=bar
+
+[SCRIPT_NAME] => /test.php
+[REQUEST_URI] => /test.php?foo=bar
+Example 3. REQUEST_URI is different from SCRIPT_NAME when server-side redirecton is in effect (for example mod_rewrite on apache):
+
+http://example.com/test.php
+
+[REQUEST_URI] => /test.php
+[SCRIPT_NAME] => /test2.php
+Example 4. REQUEST_URI is different from SCRIPT_NAME when handling HTTP errors with scripts.
+Using apache directive ErrorDocument 404 /404error.php
+http://example.com/test.php
+
+[REQUEST_URI] => /test.php
+[SCRIPT_NAME] => /404error.php
+On IIS server using custom error pages
+http://example.com/test.php
+
+[SCRIPT_NAME] => /404error.php
+[REQUEST_URI] => /404error.php?404;http://example.com/test.php
+
+RESULTADO SERIA PONER EN EL NAVEGADOR === http://localhost/prueba/php/superglobals/server.php/pepe/paco?id=1
+Y VEREMOS TODAS LAS DIFERENCIAS
+
+Funciones de Opciones / Info de PHP
+-----------------------------------
+
+assert_​options
+assert
+cli_​get_​process_​title
+cli_​set_​process_​title
+dl
+extension_​loaded
+gc_​collect_​cycles
+gc_​disable
+gc_​enable
+gc_​enabled
+gc_​mem_​caches
+get_​cfg_​var
+get_​current_​user
+get_​defined_​constants
+get_​extension_​funcs
+get_​include_​path
+get_​included_​files
+get_​loaded_​extensions
+get_​magic_​quotes_​gpc
+get_​magic_​quotes_​runtime
+get_​required_​files
+get_​resources
+getenv
+getlastmod
+getmygid
+getmyinode
+getmypid
+getmyuid
+getopt
+getrusage
+ini_​alter
+ini_​get_​all
+ini_​get
+ini_​restore
+ini_​set
+magic_​quotes_​runtime
+main
+memory_​get_​peak_​usage
+memory_​get_​usage
+php_​ini_​loaded_​file
+php_​ini_​scanned_​files
+php_​logo_​guid
+php_​sapi_​name
+php_​uname
+phpcredits
+phpinfo
+phpversion
+putenv
+restore_​include_​path
+set_​include_​path
+set_​magic_​quotes_​runtime
+set_​time_​limit
+sys_​get_​temp_​dir
+version_​compare
+zend_​logo_​guid
+zend_​thread_​id
+zend_​version
+
+
+Funciones de array
+--------------------
+
+array_change_key_case
+array_chunk
+array_column
+array_combine
+array_count_values
+array_diff_assoc
+array_diff_key
+array_diff_uassoc        
+array_diff_ukey
+array_diff
+array_fill_keys
+array_fill
+array_filter
+array_flip
+array_intersect_assoc
+array_intersect_key
+array_intersect_uassoc
+array_intersect_ukey
+array_intersect        
+array_key_exists
+array_keys
+array_map
+array_merge_recursive
+array_merge
+array_multisort
+array_pad
+array_pop
+array_product
+array_push
+array_rand
+array_reduce
+array_replace_recursive
+array_replace
+array_reverse
+array_search
+array_shift
+array_slice
+array_splice
+array_sum
+array_udiff_assoc
+array_udiff_uassoc
+array_udiff        
+array_uintersect_assoc        
+array_uintersect_uassoc
+array_uintersect
+array_unique
+array_unshift
+array_values
+array_walk_recursive        
+array_walk        
+array— Crea un array
+arsort
+asort
+compact
+count
+current
+each
+end        
+extract        
+in_array        
+key_exists
+key
+krsort
+ksort
+list
+natcasesort
+natsort
+next
+pos
+prev
+range
+reset
+rsort
+shuffle
+sizeof
+sort
+uasort
+uksort
+usort
+
+Funciones de string
+--------------------------------
+addcslashes
+addslashes
+bin2hex
+chop
+chr
+chunk_​split
+convert_​cyr_​string
+convert_​uudecode
+convert_​uuencode
+count_​chars
+crc32
+crypt
+echo
+explode
+fprintf
+get_​html_​translation_​table
+hebrev
+hebrevc
+hex2bin
+html_​entity_​decode
+htmlentities
+htmlspecialchars_​decode
+htmlspecialchars
+implode
+join
+lcfirst
+levenshtein
+localeconv
+ltrim
+md5_​file
+md5
+
+(31)
+
+metaphone
+money_​format
+nl_​langinfo
+nl2br
+number_​format
+ord
+parse_​str
+print
+printf
+quoted_​printable_​decode
+quoted_​printable_​encode
+quotemeta
+rtrim
+setlocale
+sha1_​file
+sha1
+similar_​text
+soundex
+sprintf
+sscanf
+str_​getcsv
+str_​ireplace
+str_​pad
+str_​repeat
+str_​replace
+str_​rot13
+str_​shuffle
+str_​split
+str_​word_​count
+strcasecmp
+strchr
+
+(30)
+
+strcmp
+strcoll
+strcspn
+strip_​tags
+stripcslashes
+stripos
+stripslashes
+stristr
+strlen
+strnatcasecmp
+strnatcmp
+strncasecmp
+strncmp
+strpbrk
+strpos
+strrchr
+strrev
+strripos
+strrpos
+strspn
+strstr
+strtok
+strtolower
+strtoupper
+strtr
+substr_​compare
+substr_​count
+substr_​replace
+substr
+trim
+ucfirst
+ucwords
+vfprintf
+vprintf
+vsprintf
+wordwrap
+
+Funciones de Opciones / Info de PHP
+-----------------------------------
+
+assert_​options
+assert
+cli_​get_​process_​title
+cli_​set_​process_​title
+dl
+extension_​loaded
+gc_​collect_​cycles
+gc_​disable
+gc_​enable
+gc_​enabled
+gc_​mem_​caches
+get_​cfg_​var
+get_​current_​user
+get_​defined_​constants
+get_​extension_​funcs
+get_​include_​path
+get_​included_​files
+get_​loaded_​extensions
+get_​magic_​quotes_​gpc
+get_​magic_​quotes_​runtime
+get_​required_​files
+get_​resources
+getenv
+getlastmod
+getmygid
+getmyinode
+getmypid
+getmyuid
+getopt
+getrusage
+ini_​alter
+ini_​get_​all
+ini_​get
+ini_​restore
+ini_​set
+magic_​quotes_​runtime
+main
+memory_​get_​peak_​usage
+memory_​get_​usage
+php_​ini_​loaded_​file
+php_​ini_​scanned_​files
+php_​logo_​guid
+php_​sapi_​name
+php_​uname
+phpcredits
+phpinfo
+phpversion
+putenv
+restore_​include_​path
+set_​include_​path
+set_​magic_​quotes_​runtime
+set_​time_​limit
+sys_​get_​temp_​dir
+version_​compare
+zend_​logo_​guid
+zend_​thread_​id
+zend_​version
+
+
+Funciones de manejo de variables
+---------------------------------
+boolval
+doubleval
+floatval
+intval
+strval
+is_​array
+is_​bool
+is_​double
+is_​float
+is_​int
+is_​integer
+is_​long
+is_​null
+is_​numeric
+is_​object
+is_​real
+is_​string
+is_​resource
+is_​scalar
+is_​callable
+empty
+gettype
+settype
+isset
+unset
+serialize
+unserialize
+debug_​zval_​dump
+print_​r
+var_​dump
+var_​export
+get_​defined_​vars
+get_​resource_​type
+import_​request_​variables
+
+Excepciones
+---------------------------
+
+BadFunctionCallException
+BadMethodCallException
+DomainException
+InvalidArgumentException
+LengthException
+LogicException
+OutOfBoundsException
+OutOfRangeException
+OverflowException
+RangeException
+RuntimeException
+UnderflowException
+UnexpectedValueException
+
+Funciones de manejo de funciones
+---------------------------------
+call_​user_​func_​array
+call_​user_​func
+create_​function
+forward_​static_​call_​array
+forward_​static_​call
+func_​get_​arg
+func_​get_​args
+func_​num_​args
+function_​exists
+get_​defined_​functions
+register_​shutdown_​function
+register_​tick_​function
+unregister_​tick_​function
+
+
+
+Funciones del Sistema de Archivos
+---------------------------------
+basename
+chgrp
+chmod
+chown
+clearstatcache
+copy
+delete
+dirname
+disk_​free_​space
+disk_​total_​space
+diskfreespace
+fclose
+feof
+fflush
+fgetc
+fgetcsv
+fgets
+fgetss
+file_​exists
+file_​get_​contents
+file_​put_​contents
+file
+fileatime
+filectime
+filegroup
+fileinode
+filemtime
+fileowner
+fileperms
+filesize
+filetype
+flock
+fnmatch
+fopen
+fpassthru
+fputcsv
+fputs
+fread
+fscanf
+fseek
+fstat
+ftell
+ftruncate
+fwrite
+glob
+is_​dir
+is_​executable
+is_​file
+is_​link
+is_​readable
+is_​uploaded_​file
+is_​writable
+is_​writeable
+lchgrp
+lchown
+link
+linkinfo
+lstat
+mkdir
+move_​uploaded_​file
+parse_​ini_​file
+parse_​ini_​string
+pathinfo
+pclose
+popen
+readfile
+readlink
+realpath_​cache_​get
+realpath_​cache_​size
+realpath
+rename
+rewind
+rmdir
+set_​file_​buffer
+stat
+symlink
+tempnam
+tmpfile
+touch
+umask
+unlink
+
+Funciones de directorio
+--------------------------------
+chdir
+chroot
+closedir
+dir
+getcwd
+opendir
+readdir
+rewinddir
+scandir
+
+
+
+Funciones de red
+-----------------------------------------
+
+checkdnsrr
+closelog
+define_​syslog_​variables
+dns_​check_​record
+dns_​get_​mx
+dns_​get_​record
+fsockopen
+gethostbyaddr
+gethostbyname
+gethostbynamel
+gethostname
+getmxrr
+getprotobyname
+getprotobynumber
+getservbyname
+getservbyport
+header_​register_​callback
+header_​remove
+header
+headers_​list
+headers_​sent
+http_​response_​code
+inet_​ntop
+inet_​pton
+ip2long
+long2ip
+openlog
+pfsockopen
+setcookie
+setrawcookie
+socket_​get_​status
+socket_​set_​blocking
+socket_​set_​timeout
+syslog
+
+
+PDO CLASS ATTRIBUTES
+---------------------------------
+PDO::PARAM_BOOL (integer) == Representa un tipo de dato booleano.
+PDO::PARAM_NULL (integer)
+Representa el tipo de dato NULL de SQL.
+PDO::PARAM_INT (integer)
+Representa el tipo de dato INTEGER de SQL .
+PDO::PARAM_STR (integer)
+Representa el tipo de dato CHAR, VARCHAR de SQL, u otro tipo de datos de cadena.
+PDO::PARAM_LOB (integer)
+Representa el tipo de dato de objeto grande (LOB) de SQL.
+PDO::PARAM_STMT (integer)
+Representa un tipo de conjunto de registros. No está soportado actualmente por ningún controlador.
+PDO::PARAM_INPUT_OUTPUT (integer)
+Especifica que el parámetro es de entrada/salida (INOUT) para un procedimiento almacenado. Se debe realizar un OR a nivel de bit con un tipo de datos PDO::PARAM_* explícito.
+PDO::FETCH_LAZY (integer)
+Especifica que el método de obtención debe devolver cada fila como un objeto con los nombres de las variables equivalentes a los nombres de las columnas devueltos en el conjunto de resultados. PDO::FETCH_LAZY crea los nombres de las variables del objeto a medida que se acceden a ellas. No es válida dentro de PDOStatement::fetchAll().
+PDO::FETCH_ASSOC (integer)
+Especifica que el método de obtención debe devolver cada fila como un array indexado por los nombres de las columnas devueltos en el correspondiente conjunto de resultados. Si éste contiene varias columnas con el mismo nombre, PDO::FETCH_ASSOC devuelve un único valor por nombre de columna.
+PDO::FETCH_NAMED (integer)
+Especifica que el método de obtención debe devolver cada fila como un array indexado por los nombres de las columnas devueltos en el correspondiente conjunto de resultados. Si éste contiene varias columnas con el mismo nombre, PDO::FETCH_NAMED devuelve un array de valores por nombre de columna.
+PDO::FETCH_NUM (integer)
+Especifica que el método de obtención debe devolver cada fila como un array indexado por los números de columna devueltos en el correspondiente conjunto de resultados, comenzando por la columna 0.
+PDO::FETCH_BOTH (integer)
+Especifica que el método de obtención debe devolver cada fila como un array indexado tanto por los nombres como por los números de las columnas devueltos en el correspondiente conjunto de resultados, comenzando por la columna 0.
+PDO::FETCH_OBJ (integer)
+Especifica que el método de obtención debe devolver cada fila como un objeto con los nombres de sus propiedades equivalentes a los nombres de las columnas devueltos en el conjunto de resultados.
+PDO::FETCH_BOUND (integer)
+Especifica que el método de obtención debe devolver TRUE y asignar los valores de las columnas del conjunto de resultados a las variables de PHP a las cuales están vinculadas con los métodos PDOStatement::bindParam() o PDOStatement::bindColumn().
+PDO::FETCH_COLUMN (integer)
+Especifica que el método de obtención debe devolver una única columna solicitada de la siguiente fila del conjunto de resultados.
+PDO::FETCH_CLASS (integer)
+Especifica que el método de obtención debe devolver una nueva instancia de la clase solicitada, haciendo corresponder las columnas con los nombres de las propiedades de la clase.
+Nota: El método mágico __set() se invoca si la propiedad no existe en la clase solicitada.
+PDO::FETCH_INTO (integer)
+Especifica que el método de obtencion debe actualizar una instancia existente de la clase solicitada, haciendo corresponder las columnas con los nombres de las propiedades de la clase.
+PDO::FETCH_FUNC (integer)
+Permite personalizar completamente la forma en que los datos son tratados sobre la marcha (únicamente válida dentro de PDOStatement::fetchAll()).
+PDO::FETCH_GROUP (integer)
+Grupo devuelto según valores. Usualmente combinada con PDO::FETCH_COLUMN o PDO::FETCH_KEY_PAIR.
+PDO::FETCH_UNIQUE (integer)
+Obtener solamente los valores únicos.
+PDO::FETCH_KEY_PAIR (integer)
+Obtener un resultado de dos columnas como un array donde la primera columna es la clave y la segunda el valor. Disponible desde PHP 5.2.3.
+PDO::FETCH_CLASSTYPE (integer)
+Determinar el nombre de la clase desde el valor de la primera columna.
+PDO::FETCH_SERIALIZE (integer)
+Igual que PDO::FETCH_INTO salvo que el objeto es proporcionado como una cadena serializada. Disponible desde PHP 5.1.0. Desde PHP 5.3.0, nunca se llama al constructor de la clase si está establecido este indicador.
+PDO::FETCH_PROPS_LATE (integer)
+Llamar al contructor antes de establecer propiedades. Disponible desde PHP 5.2.0
+PDO::ATTR_AUTOCOMMIT (integer)
+Si este valor es FALSE, PDO intenta desactivar la autoconsigna para que la conexión comience una transacción.
+PDO::ATTR_PREFETCH (integer)
+Establecer el tamaño de la precarga permite obtener un equilibrio entre rapidez y utilización de memoria para la aplicación. No todas las combinaciones de base de datos y controlador permiten establecer el tamaño de la precarga. Un valor más grande de precarga da como resultado un aumento del rendimiento a costa de un mayor uso de memoria.
+PDO::ATTR_TIMEOUT (integer)
+Establece el valor del tiempo de espera, en segundos, para las comunicaciones con la base de datos.
+PDO::ATTR_ERRMODE (integer)
+Véase la sección Errores y su manejo para obtener más información sobre este atributo.
+PDO::ATTR_SERVER_VERSION (integer)
+Este es un atributo de sólo lectura; devuelve información sobre la versión del servidor de bases de datos al que está conectado PDO.
+PDO::ATTR_CLIENT_VERSION (integer)
+Este es un atributo de sólo lectura; devuelve información sobre la versión de las bibliotecas cliente que está usando el controlador PDO.
+PDO::ATTR_SERVER_INFO (integer)
+Este es un atributo de sólo lectura; devuelve alguna metainformación sobre el servidor de bases de datos al que está conectado PDO.
+PDO::ATTR_CONNECTION_STATUS (integer)
+PDO::ATTR_CASE (integer)
+Forzar a los nombres de las columnas a emplear las mayúsculas/minúsculas especificadas por las constantes PDO::CASE_*.
+PDO::ATTR_CURSOR_NAME (integer)
+Obtener o establecer el nombre del cursor a utilizar. Es más útil cuando se emplean cursores desplazables y actualizaciones posicionadas.
+PDO::ATTR_CURSOR (integer)
+Selecciona el tipo de cursor. PDO actualmente admite PDO::CURSOR_FWDONLY y PDO::CURSOR_SCROLL. Cíñase a PDO::CURSOR_FWDONLY a menos que necesite un cursor desplazable.
+PDO::ATTR_DRIVER_NAME (string)
+Devuelve el nombre del controlador.
+Ejemplo #1 Uso de PDO::ATTR_DRIVER_NAME
+
+<?php
+if ($bd->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
+  echo "Ejecutándose sobre mysql; hacer algo específico de mysql aquí\n";
+}
+?>
+PDO::ATTR_ORACLE_NULLS (integer)
+Convertir string vacíos a valores NULL de SQL en la obtención de datos.
+PDO::ATTR_PERSISTENT (integer)
+Solicitar una conexión persistente, en vez de crear una nueva conexión. Véase Conexiones y su administración para obtener más información sobre este atributo.
+PDO::ATTR_STATEMENT_CLASS (integer)
+PDO::ATTR_FETCH_CATALOG_NAMES (integer)
+Anteponer el nombre del catálogo contenedor a cada nombre de columna devuelto en el conjunto de resultados. El nombre del catálogo y el nombre de columna están separados por un carácter punto (.). El soporte de este atributo es a nivel del controlador; podría no estar admitido por el controlador que se esté utilizando.
+PDO::ATTR_FETCH_TABLE_NAMES (integer)
+Anteponer el nombre de la tabla contenedora a cada nombre de columna devuelto en el conjunto de resultados. El nombre de la tabla y el nombre de columna están separados por un carácter punto (.). El soporte de este atributo es a nivel del controlador; podría no estar admitido por el controlador que se esté utilizando.
+PDO::ATTR_STRINGIFY_FETCHES (integer)
+PDO::ATTR_MAX_COLUMN_LEN (integer)
+PDO::ATTR_DEFAULT_FETCH_MODE (integer)
+Disponible desde PHP 5.2.0.
+PDO::ATTR_EMULATE_PREPARES (integer)
+Disponible desde PHP 5.1.3.
+PDO::ERRMODE_SILENT (integer)
+No emitir ningún error o excepción si ocurrieran. El desarrollador es responsable de comprobar explícitamente los errores. Este es el modo predeterminado. Véase Errores y su manejo para obtener más información sobre este atributo.
+PDO::ERRMODE_WARNING (integer)
+Emitir un mensaje E_WARNING de PHP si ocurre algún error. Véase Errores y su manejo para obtener más información sobre este atributo.
+PDO::ERRMODE_EXCEPTION (integer)
+Lanzar una PDOException si ocurre algún error. Véase Errores y su manejo para obtener más información sobre este atributo.
+PDO::CASE_NATURAL (integer)
+Dejar los nombres de las columnas tal como son devueltos por el controlador de la base de datos.
+PDO::CASE_LOWER (integer)
+Forzar los nombres de las columnas a minúsculas.
+PDO::CASE_UPPER (integer)
+Forzar los nombres de las columnas a mayúsculas.
+PDO::NULL_NATURAL (integer)
+PDO::NULL_EMPTY_STRING (integer)
+PDO::NULL_TO_STRING (integer)
+PDO::FETCH_ORI_NEXT (integer)
+Obtener la siguiente fila del conjunto de resultados. Únicamente válida para cursores desplazables.
+PDO::FETCH_ORI_PRIOR (integer)
+Obtener la fila anterior del conjunto de resultados. Únicamente válida para cursores desplazables.
+PDO::FETCH_ORI_FIRST (integer)
+Obtener la primera fila del conjunto de resultados. Únicamente válida para cursores desplazables.
+PDO::FETCH_ORI_LAST (integer)
+Obtener la última fila del conjunto de resultados. Únicamente válida para cursores desplazables.
+PDO::FETCH_ORI_ABS (integer)
+Obtener la fila solicitada del conjunto de resultados mediante el número de fila. Únicamente válida para cursores desplazables.
+PDO::FETCH_ORI_REL (integer)
+Obtener la fila solicitada del conjunto de resultados mediante la posición relativa de la posición actual del cursor. Únicamente válida para cursores desplazables.
+PDO::CURSOR_FWDONLY (integer)
+Crear un objeto PDOStatement con un cursor de sólo avance. Este es la elección del cursor predeterminada, ya que es el patrón de acceso a datos más rápido y común en PHP.
+PDO::CURSOR_SCROLL (integer)
+Crear un objeto PDOStatement con un cursor desplazable. De deben pasar las constantes PDO::FETCH_ORI_* para controlar las filas obtenidas del conjunto de resultados.
+PDO::ERR_NONE (string)
+Corresponde al SQLSTATE '00000', el cual significa que la sentencia SQL fue ejecutada con éxito, sin errores ni advertencias. Esta constante sirve para la comprobación de PDO::errorCode() o PDOStatement::errorCode() para determinar si ha ocurrido algún error. En cualquier caso, normalmente se sabrá si este es el caso examinando el código devuelto por el método que provocó la condición de error.
+PDO::PARAM_EVT_ALLOC (integer)
+Evento de asignación
+PDO::PARAM_EVT_FREE (integer)
+Evento de desasigncación
+PDO::PARAM_EVT_EXEC_PRE (integer)
+Evento provocado antes de la ejecución de una sentencia preparada.
+PDO::PARAM_EVT_EXEC_POST (integer)
+Evento provocado después de la ejecución de una sentencia preparada.
+PDO::PARAM_EVT_FETCH_PRE (integer)
+Evento provocado antes de la obtención de un resultado de un conjunto de resultados.
+PDO::PARAM_EVT_FETCH_POST (integer)
+Evento provocado después de la obtención de un resultado de un conjunto de resultados.
+PDO::PARAM_EVT_NORMALIZE (integer)
+Evento provocado durante el registro de un parámetro vinculado, permitiendo al controlador normalizar el nombre del parámetro.
+add a note add a not
+
+PDO CLASS
+------------------------------------------------
+
+PDO::beginTransaction — Inicia una transacción
+PDO::commit — Consigna una transacción
+PDO::__construct — Crea una instancia de PDO que representa una conexión a una base de datos
+PDO::errorCode — Obtiene un SQLSTATE asociado con la última operación en el manejador de la base de datos
+PDO::errorInfo — Obtiene información extendida del error asociado con la última operación del manejador de la base de datos
+PDO::exec — Ejecuta una sentencia SQL y devuelve el número de filas afectadas
+PDO::getAttribute — Devuelve un atributo de la conexión a la base de datos
+PDO::getAvailableDrivers — Devuelve un array con los controladores de PDO disponibles
+PDO::inTransaction — Comprueba si una transacción está activa
+PDO::lastInsertId — Devuelve el ID de la última fila o secuencia insertada
+PDO::prepare — Prepara una sentencia para su ejecución y devuelve un objeto sentencia
+PDO::query — Ejecuta una sentencia SQL, devolviendo un conjunto de resultados como un objeto PDOStatement
+PDO::quote — Entrecomilla una cadena de caracteres para usarla en una consulta
+PDO::rollBack — Revierte una transacción
+PDO::setAttribute — Establece un atributo
+
+Transacciones y autoconsigna ("auto-commit")
+------------------------------------------------
+Atomicidad, Consistencia, Aislamiento y Durabilidad 
+
+Pdo Errores
+------------------------------------------------
+
+	PDO::ERRMODE_SILENT
+	PDO::ERRMODE_WARNING
+	PDO::ERRMODE_EXCEPTION	
+	
+
+MySQL Functions
+------------------------------------------------
+
+mysql_​affected_​rows
+mysql_​client_​encoding
+mysql_​close
+mysql_​connect
+mysql_​create_​db
+mysql_​data_​seek
+mysql_​db_​name
+mysql_​db_​query
+mysql_​drop_​db
+mysql_​errno
+mysql_​error
+mysql_​escape_​string
+mysql_​fetch_​array
+mysql_​fetch_​assoc
+mysql_​fetch_​field
+mysql_​fetch_​lengths
+mysql_​fetch_​object
+mysql_​fetch_​row
+mysql_​field_​flags
+mysql_​field_​len
+mysql_​field_​name
+mysql_​field_​seek
+mysql_​field_​table
+mysql_​field_​type
+mysql_​free_​result
+mysql_​get_​client_​info
+mysql_​get_​host_​info
+mysql_​get_​proto_​info
+mysql_​get_​server_​info
+mysql_​info
+mysql_​insert_​id
+mysql_​list_​dbs
+mysql_​list_​fields
+mysql_​list_​processes
+mysql_​list_​tables
+mysql_​num_​fields
+mysql_​num_​rows
+mysql_​pconnect
+mysql_​ping
+mysql_​query
+mysql_​real_​escape_​string
+mysql_​result
+mysql_​select_​db
+mysql_​set_​charset
+mysql_​stat
+mysql_​tablename
+mysql_​thread_​id
+mysql_​unbuffered_​query
+	
+
+Funciones de red
+------------------------------------
+
+checkdnsrr
+closelog
+define_​syslog_​variables
+dns_​check_​record
+dns_​get_​mx
+dns_​get_​record
+fsockopen
+gethostbyaddr
+gethostbyname
+gethostbynamel
+gethostname
+getmxrr
+getprotobyname
+getprotobynumber
+getservbyname
+getservbyport
+header_​register_​callback
+header_​remove
+header
+headers_​list
+headers_​sent
+http_​response_​code
+inet_​ntop
+inet_​pton
+ip2long
+long2ip
+openlog
+pfsockopen
+setcookie
+setrawcookie
+socket_​get_​status
+socket_​set_​blocking
+socket_​set_​timeout
+syslog
+
+Funciones del Intérprete XML
+----------------------------------------
+
+utf8_​decode
+utf8_​encode
+xml_​error_​string
+xml_​get_​current_​byte_​index
+xml_​get_​current_​column_​number
+xml_​get_​current_​line_​number
+xml_​get_​error_​code
+xml_​parse_​into_​struct
+xml_​parse
+xml_​parser_​create_​ns
+xml_​parser_​create
+xml_​parser_​free
+xml_​parser_​get_​option
+xml_​parser_​set_​option
+xml_​set_​character_​data_​handler
+xml_​set_​default_​handler
+xml_​set_​element_​handler
+xml_​set_​end_​namespace_​decl_​handler
+xml_​set_​external_​entity_​ref_​handler
+xml_​set_​notation_​decl_​handler
+xml_​set_​object
+xml_​set_​processing_​instruction_​handler
+xml_​set_​start_​namespace_​decl_​handler
+xml_​set_​unparsed_​entity_​decl_​handler
+
+OPERADORES DE CONTROL DE ERRORES
+-----------------------------------
+@
+
+Objetos
+-------------------
+
+Magic methods (15)
+--------------------
+
+__construct
+__destruct
+__call
+__callStatic
+__get
+__set
+__isset
+__unset
+__sleep
+__wakeup
+__toString
+__invoke
+__set_state
+__clone
+__autoload
+
+Total (15)
+
+
+Palabras clave
+------------------
+chunk pedazos
+slice porcion
+
+PARA CAMIBAR VERSIONES DE PHP DENTRO DEL MISMO APACHE
+-------------------------------------------------------
+1.SOLAMENTE COPIAR PHP7TS.DLL AL DIRECTORIO BIN DE APACHE
+
+
+ERROR REPORTING
+-------------------------------------------------------
+01.- error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+02.- error_reporting(E_ERROR);
+03.- ini_set('display_errors',0);
+
+
+
+PORTALES DE CODIGO FUENTE
+-------------------------------------------------------
+01.- https://phppot.com/
+

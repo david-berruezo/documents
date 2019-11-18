@@ -1,0 +1,39 @@
+Funciones de red ¶
+
+Tabla de contenidos ¶
+
+checkdnsrr — Comprueba registros DNS correspondientes a un nombre de host de Internet dado o dirección IP
+closelog — Cerrar conexión al log del sistema
+define_syslog_variables — Inicializar todas las variables relacionadas con syslog
+dns_check_record — Alias de checkdnsrr
+dns_get_mx — Alias de getmxrr
+dns_get_record — Fetch DNS Resource Records associated with a hostname
+fsockopen — Abre una conexión vía sockets a Internet o a un dominio Unix
+gethostbyaddr — Obtener el nombre del host de Internet correspondiente a una dirección IP dada
+gethostbyname — Obtener la dirección IPv4 que corresponde a un nombre de host de Internet dado
+gethostbynamel — Obtener una lista de direcciones IPv4 que corresponde a un nombre de host de Internet dado
+gethostname — Obtiene el nombre de host
+getmxrr — Obtener lod registros MX correspondientes a un nombre de host de Internet
+getprotobyname — Obtener el número de protocolo asociado con el nombre de protocolo
+getprotobynumber — Obtiene el nombre de protocolo asociado con un número de protocolo
+getservbyname — Obtener el número de puerto asociado con un servicio y protocolo de Internet
+getservbyport — Obtener el servicio de Internet que corresponde con el puerto y protocolo
+header_register_callback — Llamar a una función de cabecera
+header_remove — Elimina encabezados previamente establecidos
+header — Enviar encabezado sin formato HTTP
+headers_list — Devuelve una lista de encabezados de respuesta enviados (o listos para enviar)
+headers_sent — Comprueba si o donde han enviado cabeceras
+http_response_code — Obtener u establecer el código de respuesta HTTP
+inet_ntop — Concertir una dirección de internet empaquetada en una representación legible por humanos
+inet_pton — Convertir una dirección IP legible por humanos a su representación in_addr empaquetada
+ip2long — Convierte una cadena que contiene una dirección con puntos del Protocolo de Internet (IPv4) en una dirección apropiada
+long2ip — Convierte una dirección de red (IPv4) en una cadena de texto en formato con puntos estándar de internet
+openlog — Open connection to system logger
+pfsockopen — Abre Internet persistente o conexión de socket de dominio Unix
+setcookie — Enviar una cookie
+setrawcookie — Enviar una cookie sin codificar su valor
+socket_get_status — Alias de stream_get_meta_data
+socket_set_blocking — Alias de stream_set_blocking
+socket_set_timeout — Alias de stream_set_timeout
+syslog — Genera un mensaje log de sistema
+add a note add a note

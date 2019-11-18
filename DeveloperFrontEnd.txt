@@ -1,0 +1,47 @@
+FRONTEND DEVELOPER
+----------------------------------------------------------
+
+JAVASCRIPT AND JAVASCRIPT AND JAVASCRIPT
+
+
+POPULAR PROGRAMMING LANGUAGES & THEIR WEB FRAMEWORKS
+----------------------------------------------------------
+1.- HTML
+	1.2.- PUG / JADE / TEMPLATES
+	 
+2.- CSS
+	2.1.- LESS / SASS /  
+	2.2.- RESPONSIVE DESIGN
+	2.3.- MEDIA QUERIES 
+	2.4.- BOOTSTRAP / FOUNDATION
+	2.5.- RESET / NORMALIZE
+
+3.- JAVASCRIPT
+	1.1.- NODE.JS
+	1.2.- EXPRESS 
+	1.3.- NPM
+	1.4.- GULP / WEBPACK
+
+4.- WORDPRESS
+
+
+DESIGN FRONT END DEVELOPER
+----------------------------------------------------------
+1.- PHOTOSHOP / ILLUSTRATOR
+2.- SKETCHAPP
+3.- BALSAMIQ  
+4.- FIGMA 
+
+
+EDITORS FRONTEND DEVELOPER
+----------------------------------------------------------
+1.- SUBLIME TEXT
+2.- ATOM
+3.- VISUAL STUDIO CODE
+ 
+
+FRAMEWORKS FRONTEND DEVELOPER
+----------------------------------------------------------
+1.- REACT
+2.- ANGULAR
+3.- VUE

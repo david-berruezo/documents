@@ -1,0 +1,4 @@
+jquery
+-----------------------------------------------
+1.- Diferencia entre $.each() y $(selector).each(),
+ 

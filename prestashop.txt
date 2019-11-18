@@ -1,0 +1,204 @@
+﻿----------------------------------------------------- VERSION BUENA ------------------------------------------------
+version 6.1.14
+----------------------------------------------------- System Variables -------------------------------------------------------------
+01 $base_dir { root folder of your shop }
+02 $base_dir_ssl { root folder of your shop using HTTPS protocol }
+03 $content_dir { root folder of your shop depending on the SSL settings }
+04 $img_ps_dir { root folder containing images "/img/" }
+05 $img_dir { images folder in your current theme directory }
+06 $css_dir { css folder inside the current theme folder }
+07 $js_dir { JavaScript inside the theme folder }
+08 $tpl_dir { theme root folder }
+09 $modules_dir { modules root folder }
+10 $mail_dir { mail templates root folder }
+11 $lang_iso { current language ISO code }
+12 $come_from { previous page address [absolute] }
+13 $shop_name { your specified shop name }
+14 $cart_qties { total number of products in the cart }
+15 $cart { shopping cart contents }
+16 $currencies { pulls available currencies }
+17 $id_currency_cookie { selected currency id [cookie dependent] }
+18 $currency { active currency }
+19 $cookie { active cookie }
+20 $languages { grabs available languages }
+21 $logged { checks whether users is logged in }
+22 $page_name { current page's name }
+23 $customerName { customer name [session dependent] }
+24 $priceDisplay { current price display settings [currency dependent] }
+
+
+Free Modules
+-------------------------------------------------------------------------
+
+Advertise & marketing
+
+Zopim Live Chat									------------------- 	https://www.prestashop.com/forums/topic/233362-module-zopim-chat-build-own-widget-for-free/		
+Banner manager / multiple advertising						-------------------	https://www.prestashop.com/forums/topic/96894-module-banner-manager-multiple-advertising/#entry93031
+Block advertising multiple							-------------------	https://www.prestashop.com/forums/topic/217702-module-block-advertising-multiple-v0101/#entry1074469
+Banner image and texts								-------------------	
+OfferChat - live chat								-------------------	https://www.prestashop.com/forums/topic/241274-module-free-livechat-offerchat/
+Minic mailchimp									-------------------	https://www.prestashop.com/forums/topic/239373-free-module-minic-mailchimp-for-ps-15/?p=1181355#entry1181355
+Minic promo									-------------------	https://www.prestashop.com/forums/topic/238543-free-module-minic-promo-for-ps-15/?p=1176720#entry1176720	
+Yotpo Social Reviews								-------------------	https://www.prestashop.com/forums/topic/217391-free-module-product-reviews-dramatically-increase-your-reviews/
+free optimizely module for A / B testing					-------------------	https://www.prestashop.com/forums/topic/301329-module-free-optimizely-module-for-a-b-testing-on-your-prestashop-store/
+clicktale heatmapping module							-------------------	https://www.prestashop.com/forums/topic/301788-module-free-clicktale-heatmapping-module/
+
+Tools
+
+Track all your shipments							-------------------	https://www.prestashop.com/forums/topic/274639-free-module-track-all-your-shipments-for-108-carriers/
+standalone newsletter tool							-------------------	https://www.prestashop.com/forums/topic/284818-free-module-standalone-version-newsletter-modul-emailer-for-prestashop-15-14/
+ninja developer tools								-------------------	https://www.prestashop.com/forums/topic/217943-free-module-ninja-tools-developer-tools/
+
+Catalog, Orders, Products etc. management in BO
+
+Module to export orders								-------------------	https://www.prestashop.com/forums/topic/8424-module-to-export-orders/#entry8182
+Order Edit, Category Edit, Product Edit						-------------------	https://www.prestashop.com/forums/topic/185401-free-script-prestools-suite-mass-edit-order-edit-and-much-more/#entry917572
+Product export module								-------------------	https://www.prestashop.com/forums/topic/37900-free-module-products-export-module-v253-updated-23032016/
+Delete orders from prestashop							-------------------	https://www.prestashop.com/forums/topic/191037-free-delete-orders-module/#entry944879
+Delete orders from prestashop another one					-------------------	https://www.prestashop.com/forums/topic/69593-module-delete-orders-v20-ps-1216/#entry66906
+
+Front office features
+
+Block News CMS									-------------------	https://www.prestashop.com/forums/topic/55273-module-block-news-cms/#entry53311
+Bottom sidebar banner - add hot info for customers				-------------------	https://www.prestashop.com/forums/topic/234144-module-hot-info-bottom-sidebar-banner/
+Product Reviews - Dramatically increase your reviews				-------------------	https://www.prestashop.com/forums/topic/217391-free-module-product-reviews-dramatically-increase-your-reviews/#entry1072838
+Recaptcha									-------------------	https://www.prestashop.com/forums/topic/130462-free-module-recaptcha/		
+Blog Module - A usefull PrestaShop Module					-------------------	https://www.prestashop.com/forums/topic/139638-module-free-blog-module-a-usefull-prestashop-module/#entry669210
+HTML BLOCK - insert content anywhere						-------------------	https://www.prestashop.com/forums/topic/189039-module-html-box-for-free/#entry934232
+display multilingual HTML texts everywhere					-------------------	https://www.prestashop.com/forums/topic/172429-free-module-display-multilingual-html-texts-everywhere/#entry845267
+Rating of Products in AJAX							-------------------	https://www.prestashop.com/forums/topic/19404-module-rating-of-products-in-ajax-092b/#entry19014
+homepage categories module							-------------------	https://www.prestashop.com/forums/topic/121735-free-module-homepage-categories-module/
+homecategories plus								-------------------	https://www.prestashop.com/forums/topic/210495-free-module-homecategoryplus-display-your-categories-and-subcategories-on-the-home/#entry1037912
+Slide captcha - add captcha to your forms					-------------------	https://www.prestashop.com/forums/topic/114958-module-slide-captcha-30-ps-1416-add-a-captcha-to-your-forms-support-iphoneipad/
+European Union Cookies Law							-------------------	https://www.prestashop.com/forums/topic/194946-free-module-module-to-seek-consent-on-eu-cookie-directive/
+European Union Cookie law block							-------------------	https://www.prestashop.com/forums/topic/200124-free-module-european-union-cookie-law-block-responsive/#entry991572
+Smart Tabs									-------------------	https://www.prestashop.com/forums/topic/190446-smart-tabs-for-ps-15/
+Floating viewed products block							-------------------	https://www.prestashop.com/forums/topic/154125-floating-viewed-products-block/#entry746566
+Random homefeatured								-------------------	https://www.prestashop.com/forums/topic/238176-module-random-homefeatured/
+Smoke background effect								-------------------	https://www.prestashop.com/forums/topic/244332-free-module-smoke-scrolling-background/
+CMS page content on homepage							-------------------	https://www.prestashop.com/forums/topic/245898-module-cms-page-content-on-homepage-free/
+Contact Slide module								-------------------	https://www.prestashop.com/forums/topic/245426-module-gratuit-slide-formulaire-de-contact/?fromsearch=1
+Adv Footer									-------------------	https://www.prestashop.com/forums/topic/246086-lof-advance-footer-free-module/?fromsearch=1
+Featured product carousel							-------------------	https://www.prestashop.com/forums/topic/247228-free-module-lof-featured-products-carousel/?fromsearch=1
+maintenance information for front office					-------------------	https://www.prestashop.com/forums/topic/262864-module-free-shop-maintenance-disabled-mode-helper-13-14-15/?p=1310493#entry1310493
+password strength bar widget							-------------------	https://www.prestashop.com/forums/topic/266085-module-password-widget-ps15-ps16/?fromsearch=1
+product accessories on the cart							-------------------	https://www.prestashop.com/forums/topic/273619-free-module-blockcartaccessories-display-product-accessories-on-the-cart/
+homefeatured + responsive + rich snippets					-------------------	https://www.prestashop.com/forums/topic/276903-fully-responsive-rich-snippets-home-featured-module/
+background switcher								-------------------	https://www.prestashop.com/forums/topic/286968-background-switcher-free/
+infinite scroll									-------------------	https://www.prestashop.com/forums/topic/292177-infinite-scroll-for-prestashop/
+elevate product zoom								-------------------	https://www.prestashop.com/forums/topic/301879-module-elevatezoom-for-prestashop-zoom-and-magnifier-effects-on-images/#entry1526266
+blog module									-------------------	https://www.prestashop.com/forums/topic/317230-prestashop-blog-module/
+
+Integrations
+
+Wordpress Bridge								-------------------	https://www.prestashop.com/forums/topic/135334-modulefree-wordpress-bridge/#entry649436
+shopmania integration free							-------------------	https://www.prestashop.com/forums/topic/239956-module-shopmania-integration-free/
+
+Payments
+			
+2checkout									-------------------	https://www.prestashop.com/forums/topic/214466-module-2checkout-payment-v11-ps-1316/
+
+Slideshows & carouselles
+
+Minic slider for PS 1.5.+							-------------------	https://www.prestashop.com/forums/topic/194690-free-module-minic-slider-for-ps-15/#entry965180
+Prestashop new product carousel							-------------------	https://www.prestashop.com/forums/topic/172556-free-module-prestashop-new-product-carousel/#entry845974
+Manufacturer carousel								-------------------	https://www.prestashop.com/forums/topic/203366-module-man-carousel-ps14-ps15-ps16-responsive/#entry1004612
+akila home slideshow								-------------------	https://www.prestashop.com/forums/topic/238963-akila-home-slideshow-gratuit/
+homeslider on TOP - modification of official module				-------------------	https://www.prestashop.com/forums/topic/256941-module-prestashop-homeslider-on-top-free-modification/?p=1279739#entry1279739
+sliders everywhere - responsive sliders						-------------------	https://www.prestashop.com/forums/topic/310597-free-module-sliders-everywhere-responsive-gallery-image-sliders-or-banners-now-3d/
+
+Social Networks
+
+Facebook Like Box free								-------------------	https://www.prestashop.com/forums/topic/196366-module-facebook-fanpage-like-box-plugin-for-free/
+Facebook Like Box								-------------------	https://www.prestashop.com/forums/topic/183345-free-module-facebook-like-box/#entry907157
+Facebook Comments								-------------------	https://www.prestashop.com/forums/topic/231590-module-facebook-comments-for-free/#entry1138584
+Addsharethis Social Count							-------------------	https://www.prestashop.com/forums/index.php?/topic/228602-module-addsharethis-social-count/?&view=findpost&p=1123205
+Addthis Block									-------------------	https://www.prestashop.com/forums/topic/52072-module-addthis-block/#entry50248
+Twitter widget - account timeline block						-------------------	https://www.prestashop.com/forums/topic/197289-free-module-twitter-widget-user-timeline/#entry978533
+Coolshare - bookmarks with styles						-------------------	https://www.prestashop.com/forums/topic/49728-module-cool-share-v26-bookmarks-with-style-ps-1216-compatible/?hl=coolshare
+Social Network animated buttons (twitter,facebook,google,youtube,rss)		-------------------	https://www.prestashop.com/forums/topic/250220-free-module-social-network-links-facebook-twitter-youtube-google-other/#entry1243427
+
+Stats
+
+Statstrackvisits See detail tracking of your vistors for period chosen		-------------------	https://www.prestashop.com/forums/topic/23733-module-statstrackvisits-see-detail-tracking-of-your-visitors-for-period-chosen/#entry23224
+
+Shop Admin Tools
+
+Mail alerts									-------------------	https://www.prestashop.com/forums/topic/134905-free-module-mail-alerts-23/#entry647209
+PDF Invoice plus								-------------------	https://www.prestashop.com/forums/topic/154981-free-module-pdf-invoice-plus/#entry751594
+Validate customer (accept accounts before activation)				-------------------	https://www.prestashop.com/forums/topic/219050-free-module-validate-customer/#entry1081375
+RawSQL query module								-------------------	https://www.prestashop.com/forums/topic/196882-raw-sql-query-module/
+File Explorer, manage your FTP files from back office				-------------------	https://www.prestashop.com/forums/topic/73866-module-file-explorer/
+Block IP address - ban any user you want					-------------------	https://www.prestashop.com/forums/topic/245300-module-free-ban-ip-address-block-any-user-you-want/
+Resizable PNG watermark module							-------------------	https://www.prestashop.com/forums/topic/260376-resizable-png-watermark-module-prestashop-15/?fromsearch=1
+PHP configuration info module							-------------------	https://www.prestashop.com/forums/topic/278164-free-module-display-php-environment-phpinfo-back-office/	
+order sound alert notify in back office						-------------------	https://www.prestashop.com/forums/topic/284580-module-new-order-alarm-ps-15/#entry1433956
+Hooks manager									-------------------	https://www.prestashop.com/forums/topic/299973-module-hook-manager/
+update elements module - display / hide products depending on stock		-------------------	https://www.prestashop.com/forums/topic/344050-free-update-elements-v24-display-only-active-products-categories/
+
+
+
+The following folder should have write permissions (CHMOD 0750 or 0755): Some hosters do not support 0755 and allow only 0750
+
+/cache
+/cache/cachefs
+/cache/smarty
+/cache/smarty/cache
+/cache/smarty/compile
+/cache/tcpdf
+/classes
+/config
+/config/xml/
+/controllers
+/css
+/docs
+/download
+/img
+/js
+/localization
+/log
+/mails
+/modules
+/override
+/pdf
+/themes/default/cache
+/themes/default/lang
+/themes/mein Thema/cache
+/themes/mein Thema/lang
+/translations
+/upload
+/webservices
+
+
+All other files  should have write permissions CHMOD 0640 or 0644  (exception for .htaccess, robots.txt and sitemap.xml - CHMOD 0664)
+
+REGLAS DEL CATÁLOGO (TIPOS DE DESCUENTO)(SE APLICAN A VARIOS PRODUCTOS)
+---------------------------------------------------------------------------
+1.- categoría, 
+2.- fabricante, 
+3.- proveedor, 
+4.- atributo 
+5.- característica
+
+PARA UN DESCUENTO DE UN PRODUCTO === PRECIO ESPECÍFICO
+
+
+EJEMPLO REGLA DEL CATÁLOGO (DESCUENTO)
+---------------------------------------------------------------------------
+Por ejemplo, puede establecer una regla que diga que los clientes españoles que pertenecen al grupo de "buenos clientes" obtengan un 10% de descuento en la categoría de Electrónica en todos los productos de Sony durante la primera semana de julio.
+
+
+
+CAMBIAR PASSWORD ADMINISTRADOR BY MYSQL
+---------------------------------------------------------------------------
+1.- VAMOS A SETTINGS.INC.PHP
+2.- COPIAMOS EL VALOR DE DEFINE COOKIE KEY
+3.- use prestashop15dosa;
+4.- 
+update ps_employee set passwd=md5('aYuOEydUsGbm6CawTu88mw6WnIJKUecycHwvK0JweACqnwE8oznCdi1S') where email='pedidos@2automocion.com'; 
+
+
+ERRORES PRESTASHOP 
+---------------------------------------------------------------------------
+1.- Fatal error: Uncaught Error: [] operator not supported for strings in C:\htdocs\ecommercebarcelona360\ecommercebarcelona360\hostalparisbcn\public_html\classes\db\DbQuery.php:70 Stack trace: #0 
+

@@ -1,0 +1,12 @@
+CREAR UN CERTIFICADO
+-----------------------------------------
+01.- IR A http://cloudflare.com
+02.- REGISTRARSE
+03.- user:davidberruezo@davidberruezo.com
+04.- Berruezin23$
+
+
+DNS ANTERIORES
+-----------------------------------------
+nsp22203.dns-privadas.es
+nss22203.dns-privadas.es

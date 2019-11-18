@@ -1,0 +1,23 @@
+HTML INLINE ELEMENTS
+-----------------------------
+01.- SMALL
+02.- STRONG
+03.- EM
+04.- CITE
+05.- DFN
+06.- CODE
+07.- DATA
+08.- BR
+09.- Q
+10.- ABBR
+11.- DEL
+12.- WBR
+13.- SPAN
+14.- I
+15.- B
+16.- U
+17.- SUP
+18.- SUB
+19.- TIME
+20.- MARK
+21.- A

@@ -1,0 +1,3 @@
+SHORTCUT
+---------------------------
+01.- ESCONDER VENTANA LATERAL CTRL+SHIFT+F12

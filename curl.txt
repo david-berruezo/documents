@@ -1,0 +1,36 @@
+INSTALACION CURL (.EXE) EJECUTABLE EN WINDOWS
+------------------------------------------------
+1.- https://curl.haxx.se/download.html
+2.- APRETAR Need help to select what to download? Use the curl Download Wizard!
+3.- APRETAR curl executable
+	3.1.- WIN64
+	3.2.- GENERIC
+	3.3.- X86_64
+	3.4.- Marc Hörsken EL ZIP DOWNLOAD
+
+
+CONFIGURAR CURLEN PHP (APACHE HAUS 2.4 VC14 && PHP 7.1 VC 14)
+------------------------------------------------
+1.- uncomment extension=php_curl.dll && extension=openssl
+2.- escribir curl.cainfo = c:\curl\cacert.pem y bajar de https://curl.haxx.se/docs/caextract.html
+3.- copiar de php a apache/bin
+	3.1.- libeay32.dll 
+	3.2.- ssleay32.dll 
+	3.3.- libssh2.dll 
+	3.4.- php7ts.dll
+4.- POSIBLE copiar de php a windows/system32
+  	4.1.- libeay32.dll 
+	4.2.- ssleay32.dll
+
+
+
+CONFIGURAR CURLEN PHP (APACHE LOUNGE 2.4 VC15 && PHP 7.2 VC 15)
+------------------------------------------------
+1.- uncomment extension=php_curl.dll && extension=openssl
+2.- escribir curl.cainfo = c:\curl\cacert.pem y bajar de https://curl.haxx.se/docs/caextract.html
+3.- copiar de php a apache/bin
+	3.1.- libssh2.dll 
+	3.2.- libssl.dll 
+	
+
+	

@@ -1,0 +1,14 @@
+
+SERVER VARIABLES
+-----------------------------------
+[HTTP_HOST] => localhost
+[HTTP_CONNECTION] => keep-alive
+[HTTP_CACHE_CONTROL] => max-age=0
+[HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+[HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+[HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+[HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+[HTTP_ACCEPT_LANGUAGE] => es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7,ca;q=0.6
+[HTTP_COOKIE] => PHPSESSID=o19b1k0rl7ncgivrst06rknr97
+
+CON HTTP .... (9)

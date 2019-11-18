@@ -1,0 +1,55 @@
+APUNTES DEL CODEIGNITER
+------------------------------------
+01.- REQUISITOS:
+	01.1.-PHP version 5.1.6 or newer.
+	01.2.-A Database is required for most web application programming. Current supported databases are MySQL (4.1+), MySQLi, MS SQL, Postgres, Oracle, SQLite, and ODBC.
+02.- CHANGE LOG 2.2.6 - Security
+	02.1.-Fixed an XSS attack vector in Security Library method xss_clean().
+	02.2.-Changed Config Library method base_url() to fallback to ``$_SERVER['SERVER_ADDR']`` in order to avoid Host header injections.
+	02.3.-Changed CAPTCHA Helper to try to use the operating system's PRNG first.
+03.- 
+
+
+APUNTES DEL PROYECTO
+------------------------------------
+01.- FICHERO CONFIG DEJAR EN BLANCO $config['index_page'] = '';
+02.- AÑADIR EN .HTACCESS LAS SIGUIENTES LINIAS
+	02.1.- RewriteEngine On
+	02.2.- RewriteCond %{REQUEST_FILENAME} !-f
+	02.3.- RewriteCond %{REQUEST_FILENAME} !-d
+	02.4.- RewriteRule ^(.*)$ index.php/$1 [L]
+
+03.- VERSIONES DEL SOFTWARE APLIACIONES 2 Y DAVIDBERRUEZO.COM VERSION 3
+04.- SIMPLICITY CARGA EL MY_LOADER Y EL MY_OUTPUT PARA PODER PRINTEAR LOS TEMPLATES
+
+
+FUNCIONES DEL DEL PROYECTO CMS
+------------------------------------
+1.-  DEFINICION DE LOS ROUTES
+	$route['default_controller'] = "home";
+	$route['404_override'] = "apartments/search";
+	
+	/* default */
+	$route['change-language']='LanguageSwitcher/switchLang';
+	$route['(:any)/change-language']='LanguageSwitcher/switchLang';
+
+2.- CONTROLLER HOME EXTENDS MY_CONTROLLER
+	2.1.- CARGAMOS AYUDANTES === 'form','url','security','mobiledetect'
+	2.2.- cogemos el lenguage con uri->segment(1) == /es o /en /it
+	2.3.- 
+
+3.- TIPOS DE CONSULTAS SQL
+	
+
+
+CODEIGNITER CMS
+------------------------------------
+01.- SIMPLICITY
+02.- GROCERY CRUD
+03.- IONIZE
+04.- FUEL CMS
+
+
+CODEIGNIER POTALES CODIGO FUENTE
+------------------------------------
+01.- phpflow

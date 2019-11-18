@@ -1,0 +1,7 @@
+npm
+-------------------------------------
+01.- https://www.npmjs.com/get-npm
+02.- npm init
+03.- npm install bootstrap
+04.- npm install http-serve --save--dev
+	 

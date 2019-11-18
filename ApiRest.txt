@@ -1,0 +1,48 @@
+sApi Rest
+-------------------
+1.- Arquitectura con la que vas a trabajar con tus servicios.
+2.- Són un montón de reglas para trabajar con estos servicios.
+3.- No tienen estados === REST ===  
+4.- Es como una capa de abstracción de bd == Conecta usuario y se envia el token repetidas veces para saber que los usuarios han entrado más veces
+5.- Api rest trabaja en json,xml el formato que queramos por http. Le especificamos en el content type el formato
+6.- El soap == Idea robusta == Implementación dolor de cabeza == 
+7.- Servicios web == 
+			1.- Url texto plano y que en el archivo tengas contenido
+			2.- Xml
+			3.- Rpc
+			4.- Json-Rpc
+			5.- Usuario.diagonal.obtenerUsuario.php === 1 servicio
+			6.- Usuario.diagonal.crearUsuario.php	=== 2 servicio
+			7.- Cada url tiene asignado un servicio por donde vas a entrar
+			8.- Con Rest, rpc u otros solo tienes un único punto de entrada 
+					8.1- tienes api.php o index.php === 
+								8.1.1.- Nombre del controlador que quieres utilizar
+								8.1.2.- Accion que quieres utilizar
+								8.1.3.- Datos que vas a utilizar
+								8.1.4.- Le manadas todos estos datos y el servidor los reconoce y los trata
+								8.1.5.- Soup es una nueva capa de abstración
+									8.1.5.1.- Tiene una definición de todos los servicios que tiene, definiciones y tipos
+									8.1.5.2.- En soap se utilizaban verbos 
+			9.- Rest provee un estandard y utiliza nombres Ejemplo user ===== get user    = get 
+											  create user = insert
+											  update user = update
+											  delete user = delete
+
+
+Aplicacion basada en rest
+---------------------------
+
+1.- Se define que recursos va a tener esa api 
+2.- Que cosas tiene que contestar
+3.- Nos basamos en la capa de abstracción que tiene nuestra base de datos
+
+1.- Rest son todos recursos 
+	1.1.- Una colección son todos los usuarios
+	1.2.- Un recurso es un usuario
+	1.3.- Definir bien los recursos
+	1.4.- Es una api que solo sabe de datos
+	1.5.- Mini servicios también hay
+	1.6.- Api rest puedes aplicarlo en cualquier tecnologia
+	1.7.- Seria como una vista modelo controlador pero sin vista simplemente le sacamos los datos
+							
+												 

@@ -1,0 +1,17 @@
+04.- ZEND FRAMEWORK BUSINESS
+------------------------------------------------
+01.- ECOMMERCEBARCELONA360
+	01.1.- ecommercebarcelona360zend.net	(TODO OK)(davidberruezo@davidberruezo.com|Berruezin23)
+	01.2.- fruteriasgaite.net		(TODO OK)(davidberruezo@davidberruezo.com|Berruezin23)
+	01.3.- todoparasupez.net		(TODO OK)(davidberruezo@davidberruezo.com|Berruezin23)
+	01.3.- todoparasupezbuscador.net 	(FALTA ARRREGLAR)
+02.- NOVES IDEES
+	02.1.- tedclothing			(FALTA BASE DE DATOS)
+	02.2.- make your suit			(PRODUCT CONTROLLER LLAMA A LOS FICHEROS DE LA FITXA DEL TRAJE)
+	02.3.- estadisticas			(FALTA MIRAR)
+	02.4.- template milano 			(FALTA MIRAR)
+	02.5.- es posible crear algun modulo	(FALTA MIRAR)
+02.- EMEXS DIGITAL
+	todo codeIgniter
+03.- CITRIC MULTIMEDIA
+04.- OFIPRIX

@@ -1,0 +1,2257 @@
+ORDENADOR DE CASA
+---------------------------------------------
+DISCO DURO 500 GB
+
+
+PREGUNTA PARA JORDI CASTRO
+---------------------------------------------
+Armarios ala-buck:Buc 3 cajones + CPU y hueco estante
+orden:8
+position:12
+
+PD04 == Armarios ala-buck:CPU + 2 huecos con estante
+PD05 == Armarios ala-buck:Buc cajón y archivo + CPU y hueco estante
+PD06 == Armarios ala-buck:Buc 3 cajones + CPU y hueco estante 
+
+
+REFERENCIAS
+----------------------------------------------
+01.- titulo:Alas y mesas auxiliares:Ala mesa
+02.- orden: 4
+
+
+REDES SOCIALES OFICHAIRS
+----------------------------------------------
+Facebook: https://www.facebook.com/ofichairs.es 
+Tiene que ser .es porque el .com debe estar ya registrado. La dirección de mail que he puesto es info@ofichairs.com, es correcto?
+Instagram: https://www.instagram.com/ofichairs/
+Twitter no hay
+Youtube https://www.youtube.com/channel/UCnMl7ViYOg2Ikeb-2dbD1_g
+Pinterest
+https://www.pinterest.es/ofichairs/
+
+
+REDES SOCIALES SILLAMANIA
+----------------------------------------------
+Facebook: https://www.facebook.com/ofichairs.es 
+Tiene que ser .es porque el .com debe estar ya registrado. La dirección de mail que he puesto es info@ofichairs.com, es correcto?
+Instagram: https://www.instagram.com/ofichairs/
+Twitter no hay
+Youtube https://www.youtube.com/channel/UCnMl7ViYOg2Ikeb-2dbD1_g
+Pinterest
+https://www.pinterest.es/ofichairs/
+
+
+
+COSAS A REALIZAR
+----------------------------------------------
+01.- really simple ssl			(OK)
+
+
+PASOS A REALIZAR
+----------------------------------------------
+01.- sitemap generator (https)
+02.- DESCARGAR EL SITEMAP.XML
+03.- IR A GOOGLE SEARCH CIO0NSOLE Y ACTUALIZAR EL XML
+
+
+2 imagenes 
+	del carrito no carga https
+	posible usuario 
+
+MAIL A RAUL
+----------------------------------------------
+Hola,
+hay un tema importante que se ha quedado en el tintero, yo no he hecho nada, pero sería bueno por SEGURIDAD del trabajo crear un repositorio para que toda persona que modifique el código fuente de una aplicación quede constancia de ello … un repositorio git como en todas las empresas sucede y que Francisco comentó al principio …
+Ya me diréis si queréis que se cree o no ..
+Un saludo a todos 
+Prosigo con el trabajo
+
+
+
+
+COMPROBACIONES
+----------------------------------------------
+01.- MOBILE CUANDO SE LE DA AL BOTON VOLVER DE MIS PEDIDOS EN EL DETALLE DEL PEDIDO HACE UN SCROLL TOP
+
+Por vuestra parte, @David Berruezo necesitaremos lo siguiente:
+•	Revisar el footer de la web en la versión "mobile" del sitio web incluyendo los datos de teléfono y email de contacto.
+•	Revisar el funcionamiento correcto del botón de "solicitar visita presencial" en el formulario de contacto: https://www.ofiprix.com/info/canal-de-venta-presencial
+•	Revisar funcionamiento del botón "solicitar catálogo": https://www.ofiprix.com/info/solicitar-catalogo
+
+Yo tengo acceso por ftp a la web de Ofiprix ya que Francisco me pidió alguna cosa para realizar … Quieres que me encargue de hacer lo anterior ¿?
+
+
+
+TEMAS PARA SOLVENTAR EL PROBLEMA DE LOS COLORES
+------------------------------------------------
+01.- vista_sin_colores caracteristicas color 
+02.- paginador de 80 en 80
+
+
+MEJORAS DE LA APLICACION
+------------------------------------------------
+01.- FILTROS
+	01.- BUSCAMOS POR RED == fp.id_feature_value = 1496
+		01.1- ONE RED 
+		01.2- SILLON SLIM RED
+01.- PAGINACIÓN
+
+
+MIRAR EL NUMERO DE PAGINAS 
+
+
+CONDICIONES CONSULTAS PRIMER SELECT
+--------------------------------------
+if ( count($caracteristicas ) > 0 && count($combinaciones ) > 0  ){
+}else if ( count($caracteristicas ) > 0 && count($combinaciones ) == 0 ){
+}else if ( count($caracteristicas ) == 0 && count($combinaciones ) > 0 ) {
+}else if( count($caracteristicas ) == 0 && count($combinaciones ) == 0 ) {
+
+
+VARIABLES DE ENTRADA Y SALIDA
+--------------------------------------
+$caracteristicas, $combinaciones, $feature, $categoria, $pagina, $tipo, $tipo_ajax,TRUE,$color,$precios
+
+
+TAG PRODUCTO VISTA SIN COLORES
+--------------------------------------
+class				col-xs-6 col-sm-4 col-md-4 producto activados
+id_auto				1
+precio				59
+id_producto			207567
+caracteristica_valor		RED,RED,RED,RED,RED,RED,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,1,1,1,1,1,1	
+caracteristica			material,material,material,material,material,material,tipo,tipo,tipo,tipo,tipo,tipo,top_ventas,top_ventas,top_ventas,top_ventas,top_ventas,top_ventas
+id_feature_value		1496,1496,1496,1496,1496,1496,1593,1593,1593,1593,1593,1593,4967,4967,4967,4967,4967,4967
+id_feature			51,51,51,51,51,51,54,54,54,54,54,54,80,80,80,80,80,80			
+grupo_combinations_id		2,3,6,1,4,5
+grupo_id			1
+grupo_combinations_valor	Color
+grupo_combinations		azul,gris,naranja,negro,rojo,verde
+
+
+TAG PRODUCTO VISTA CON COLORES
+--------------------------------------
+class				col-xs-6 col-sm-4 col-md-4 producto activados
+id_auto				1
+precio				59
+id_producto			207567
+caracteristica_valor		RED,RED,RED,RED,RED,RED,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,1,1,1,1,1,1	
+caracteristica			material,material,material,material,material,material,tipo,tipo,tipo,tipo,tipo,tipo,top_ventas,top_ventas,top_ventas,top_ventas,top_ventas,top_ventas
+id_feature_value		1496,1496,1496,1496,1496,1496,1593,1593,1593,1593,1593,1593,4967,4967,4967,4967,4967,4967
+id_feature			51,51,51,51,51,51,54,54,54,54,54,54,80,80,80,80,80,80			
+grupo_combinations_id		2
+grupo_id			1
+grupo_combinations_valor	Color
+grupo_combinations		azul
+
+
+TAG PRODUCTO VISTA MIXTA ONE RED AZUL
+--------------------------------------
+class				col-xs-6 col-sm-4 col-md-4 producto activados
+id_auto				1
+precio				59
+id_producto			207567
+caracteristica_valor		RED,RED,RED,RED,RED,RED,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,1,1,1,1,1,1	
+caracteristica			material,material,material,material,material,material,tipo,tipo,tipo,tipo,tipo,tipo,top_ventas,top_ventas,top_ventas,top_ventas,top_ventas,top_ventas
+id_feature_value		1496,1496,1496,1496,1496,1496,1593,1593,1593,1593,1593,1593,4967,4967,4967,4967,4967,4967
+id_feature			51,51,51,51,51,51,54,54,54,54,54,54,80,80,80,80,80,80			
+grupo_combinations_id		2
+grupo_id			1
+grupo_combinations_valor	Color
+grupo_combinations		azul
+
+
+TAG PRODUCTO VISTA MIXTA ONE RED GRIS
+--------------------------------------
+class				col-xs-6 col-sm-4 col-md-4 producto activados
+id_auto				1
+precio				59
+id_producto			207567
+caracteristica_valor		RED,RED,RED,RED,RED,RED,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,GIRATORIA,1,1,1,1,1,1	
+caracteristica			material,material,material,material,material,material,tipo,tipo,tipo,tipo,tipo,tipo,top_ventas,top_ventas,top_ventas,top_ventas,top_ventas,top_ventas
+id_feature_value		1496,1496,1496,1496,1496,1496,1593,1593,1593,1593,1593,1593,4967,4967,4967,4967,4967,4967
+id_feature			51,51,51,51,51,51,54,54,54,54,54,54,80,80,80,80,80,80			
+grupo_combinations_id		6
+grupo_id			1
+grupo_combinations_valor	Color
+grupo_combinations		azul,gris,naranja
+
+
+
+
+
+
+
+
+WORDPRESS USUARIO 34STUDIO
+--------------------------------------
+user:34studio
+correo:34studio@gmail.com
+password:34EstudioAgencia34
+nombre:34studio
+apellidos:agencia
+perfil:semanager
+
+PRESTASHOP USUARIO 34STUDIO
+--------------------------------------
+user:studio
+surname:tresycuatro
+correo:34studio@gmail.com
+password:34EstudioAgencia34
+perfil:studio34
+
+en .es
+perfil:lab...
+en.com
+perfil
+studio34
+
+
+FUNCIONES QUE UTILIZAMOS
+--------------------------------------
+01.- vista_sin_colores (shortcode)
+02.- vista_con_colores (shortcode)
+03.- vista_mixta (shortcode)
+03.- print_vista_sin_colores 
+04.- print_vista_sin_colores_ajax
+05.- print_vista_con_colores 
+06.- print_vista_con_colores_ajax
+05.- print_vista_mixta 
+06.- print_vista_mixta_ajax
+
+07.- consulta_vista_sin_colores_y_colores
+08.- contabilizar_registros_filtros
+
+
+global $parametro_ficticio
+
+
+PROBLEMAS A RESOLVER POR PRIORIDADES
+--------------------------------------
+01.- PAGINACION
+02.- FILTROS
+03.- VISTAS (NUEVA VISTA)
+04.- CRONES
+
+
+FUNCION consulta_vista_sin_colores_y_colores ($caracteristicas,$combinaciones,$feature,$categoria,$pagina,$tipo,$tipo_ajax)
+------------------------------------------------------------------------------------------------------------------------------
+
+DINAHOSTING
+--------------------------------------------------
+01.- EXPORTAR LA BASE DE DATOS SILLAMANIA.COM
+02.- SABER QUE VERSION ES LA DE MYSQL ==== MARIADB 10.1
+03.- CREAR LA BASE DE DATOS OFICHAIRS CON EL MISMO NOMBRE
+04.- IMPORTAR EL SQL DE SILLAMANIA.COM
+
+MERGE
+--------------------------------------------------
+01.- DIFFMERGE
+02.- WINMERGE
+03.- GIT
+
+
+01.- CUANDO ALBERTO ACTIVE LA MIGRACIÓN
+--------------------------------------------------
+01.- COLOCAR LA IP DEL SERVIDOR EN LOS 3 FICHEROS .HTACCESS, HEADER.PHP, CONTROLLER.PHP
+02.- CAMBIAR LOS ACCESOS AL FTP
+03.- CAMBIAR LOS ACCESOS A LA BASE DE DATOS
+
+
+02.- ARREGLAR EL FALLO DE VISTA CON COLORES
+--------------------------------------------------
+02.1- vista_con_colores
+	02.2.- contabilizar_registros_por_colores
+	03.3.- $feature,$attribute,$caracteristicas,$combinaciones,$paginador
+
+
+
+VISTA_CON_COLORES (DOS_FILTROS)
+--------------------------------------------------
+action: llamada_filtros
+objeto[0][caracteristicas]: 1496
+objeto[1][caracteristicas]: 1594
+feature: 51,54
+attribute: 
+feature_value: 
+attribute_value: 1594
+id_category: 4
+registros_por_pagina: 80
+numero_total_registros: 514
+numero_paginas: 7
+numero_pagina_actual: 1
+
+
+$feature,$attribute,$caracteristicas,$combinaciones,$paginador
+vector  , vector,     vector,          vector,       vector
+
+
+llamada_filtros
+ajax_paginador_todos
+
+
+filtros_todos_productos
+--------------------------
+vista_con_colores_todos($feature,$attribute,$caracteristicas,$combinaciones,$paginador);
+
+
+ajax_paginador_todos
+--------------------------
+vista_con_colores_todos($feature,$attribute,$feature_value,$attribute_value,$paginador);
+
+
+FUNCTION VISTA_CON_COLORES_PAGINADO_DOS
+--------------------------------------------------------------------------------------
+<input type="hidden" name="feature" id="feature" value="51,54">
+<input type="hidden" name="feature_value" id="feature_value" value="">
+<input type="hidden" name="attribute_value" id="attribute_value" value="">
+<input type="hidden" name="attribute" id="attribute" value="1">
+<input type="hidden" name="id_category" id="id_category" value="4">
+<input type="hidden" name="registros_por_pagina" id="registros_por_pagina" value="80">
+<input type="hidden" name="numero_total_registros" id="numero_total_registros" value="508">
+<input type="hidden" name="numero_paginas" id="numero_paginas" value="7">
+<input type="hidden" name="numero_pagina_actual" id="numero_pagina_actual" value="1">
+<input type="hidden" name="funcion" id="funcion" value="mostrar_por_colores">
+<input type="hidden" name="vector_combinaciones_identificadores_productos" id="vector_combinaciones_identificadores_productos" value="22,47,78,126,148,176,196">
+<input type="hidden" name="vector_combinaciones_identificadores_combinaciones" id="vector_combinaciones_identificadores_combinaciones" value="0,3,0,4,5,52,28">
+
+
+FUNCTION VISTA_CON_COLORES_PAGINADO_DOS DESPUES DE PAGINAR PRIMERA PAGINA
+---------------------------------------------------------------------------------------
+<input type="hidden" name="feature" id="feature" value="51,54">
+<input type="hidden" name="feature_value" id="feature_value" value="">
+<input type="hidden" name="attribute_value" id="attribute_value" value="">
+<input type="hidden" name="attribute" id="attribute" value="1">
+<input type="hidden" name="id_category" id="id_category" value="4">
+<input type="hidden" name="registros_por_pagina" id="registros_por_pagina" value="80">
+<input type="hidden" name="numero_total_registros" id="numero_total_registros" value="508">
+<input type="hidden" name="numero_paginas" id="numero_paginas" value="7">
+<input type="hidden" name="numero_pagina_actual" id="numero_pagina_actual" value="1">
+<input type="hidden" name="funcion" id="funcion" value="mostrar_por_colores">
+<input type="hidden" name="vector_combinaciones_identificadores_productos" id="vector_combinaciones_identificadores_productos" value="22,47,78,126,148,176,196">
+<input type="hidden" name="vector_combinaciones_identificadores_combinaciones" id="vector_combinaciones_identificadores_combinaciones" value="0,3,0,4,5,52,28">
+
+
+FUNCTION VISTA_CON_COLORES_PAGINADO_DOS APLICAMOS FILTRO
+--------------------------------------------------------------------------------------
+<input type="hidden" name="feature" id="feature" value="51,54">
+<input type="hidden" name="feature_value" id="feature_value" value="">
+<input type="hidden" name="attribute_value" id="attribute_value" value="">
+<input type="hidden" name="attribute" id="attribute" value="1">
+<input type="hidden" name="id_category" id="id_category" value="4">
+<input type="hidden" name="registros_por_pagina" id="registros_por_pagina" value="80">
+<input type="hidden" name="numero_total_registros" id="numero_total_registros" value="508">
+<input type="hidden" name="numero_paginas" id="numero_paginas" value="7">
+<input type="hidden" name="numero_pagina_actual" id="numero_pagina_actual" value="1">
+<input type="hidden" name="funcion" id="funcion" value="mostrar_por_colores">
+<input type="hidden" name="vector_combinaciones_identificadores_productos" id="vector_combinaciones_identificadores_productos" value="22,47,78,126,148,176,196">
+<input type="hidden" name="vector_combinaciones_identificadores_combinaciones" id="vector_combinaciones_identificadores_combinaciones" value="0,3,0,4,5,52,28">
+
+
+QUE SE NECESITA
+------------------------------------
+01.- VECTOR ATRIBUTOS VALUES
+02.- CONTADOR REGISTROS
+03.- NUMERO DE PAGINAS
+
+
+USUARIO EMPRESA
+------------------------------------
+password: bPlanoLabelgrup
+user: 	  bplano@labelgrup.com
+
+
+REVISION FILTROS
+-------------------------------------
+01.- PAGINACION FILTRO COLOR
+02.- PAGINACION FILTRO VISTA CON COLORES
+
+
+MAQUETACION MOVIL
+-------------------------------------
+01.- GUIA DE COMPRA
+
+
+MENU MOVIL
+-------------------------------------
+01.- MENU PARA MOVIL SE VE SI ESTAMOS EN MOVIL (MEDIA QUUERY)
+02.- MENU PARA MOVIL SE VE SI ESTAMOS EN PEDIDO (TPL).fila_steps
+
+
+ERRORES DE MAQUETACION MOVIL
+-------------------------------------
+01.-  
+02.- 
+
+
+RED PARA CONECTARME 
+-------------------------------------
+OFIRPRIXFREE 185.124.31.18
+
+ALBERTO 
+-------------------------------------------
+TESTER DE CABLEADO
+
+
+TESTING
+--------------------------------------------
+01.- PAGINACION VISTA_SIN_COLORES OK 
+02.- PAGINACION VISTA_CON_COLORES OK 
+
+
+
+FILTROS VISTA SIN COLORES
+action: llamada_filtros
+objeto[0][caracteristicas]: 1496
+feature: 51,52,89
+attribute: 
+feature_value: 
+attribute_value: 
+id_category: 7select * from di_mail;
+registros_por_pagina: 80
+numero_total_registros: 61
+numero_paginas: 1
+numero_pagina_actual: 1
+funcion: mostrar_sin_colores
+vector_combinaciones_identificadores_combinaciones: 
+vector_combinaciones_identificadores_productos: 
+precios: 0	
+
+
+FILTROS VISTA CON COLORES
+action: llamada_filtros
+objeto[0][caracteristicas]: 1496
+feature: 51,52,89
+attribute: 
+feature_value: 
+attribute_value: 
+id_category: 7
+registros_por_pagina: 80
+numero_total_registros: 152
+numero_paginas: 2
+numero_pagina_actual: 1
+funcion: mostrar_por_colores
+vector_combinaciones_identificadores_combinaciones: 8,72
+vector_combinaciones_identificadores_productos: 22,61
+precios: 0
+
+
+SQL PROBAR DE UTILIZAR 
+------------------------------------------------
+DECODE Y COUNT
+
+
+TESTEO DE LA APLCIACION
+------------------------------------------------
+01.- PAGINACION EN LAS DOS VISTAS
+02.- FILTROS EN LAS DOS VISTAS
+
+
+ERRORES
+------------------------------------------------
+01.- CONSULTAS LENTAS EN VISTA CON COLORES		(SOLO LA VISTA CON COLORES)
+02.- PAGINACION VISTA CON COLORES			(PAGINA 20 RESULTADOS COMO MUCHO)
+03.- FILTROS CERRAR FILTRO				()
+
+FUNCIONES
+------------------------------------------------
+01.- get_features_and_attributes_pagination
+		01.1- vista_sin_colores_paginado_dos 	3 sql === SQL_CALC_FOUND_ROWS, FEATURES, COMBINACIONES 
+		01.2- vista_con_colores_paginado_dos    3 sql === SQL_CALC_FOUND_ROWS, FEATURES, COMBINACIONES
+
+02.- ajax_paginador_todos
+		01.1- vista_sin_colores_todos  2 sql === FEATURES, COMBINACIONES 
+		01.2- vista_con_colores_todos 2 sql === FEATURES, COMBINACIONES
+
+03.- filtros_todos_productos
+		01.1- vista_sin_colores_todos  2 sql === FEATURES, COMBINACIONES 
+		01.2- vista_con_colores_todos 2 sql === FEATURES, COMBINACIONES-- 
+
+ 
+01.- vista_sin_colores_paginado_dos
+---------------------------------------------------------------------------------------
+<input type="hidden" name="feature" id="feature" value="51,54">
+<input type="hidden" name="feature_value" id="feature_value" value="">
+<input type="hidden" name="attribute_value" id="attribute_value" value="">
+<input type="hidden" name="attribute" id="attribute" value="1">
+<input type="hidden" name="id_category" id="id_category" value="4">
+<input type="hidden" name="registros_por_pagina" id="registros_por_pagina" value="80">
+<input type="hidden" name="numero_total_registros" id="numero_total_registros" value="159">
+<input type="hidden" name="numero_paginas" id="numero_paginas" value="2">
+<input type="hidden" name="numero_pagina_actual" id="numero_pagina_actual" value="2">
+<input type="hidden" name="funcion" id="funcion" value="mostrar_sin_colores">
+
+ 
+
+02.- vista_con_colores_paginado_dos
+---------------------------------------------------------------------------------------
+<input type="hidden" name="feature" id="feature" value="51,54">
+<input type="hidden" name="feature_value" id="feature_value" value="">
+<input type="hidden" name="attribute_value" id="attribute_value" value="">
+<input type="hidden" name="attribute" id="attribute" value="1">
+<input type="hidden" name="id_category" id="id_category" value="4">
+<input type="hidden" name="registros_por_pagina" id="registros_por_pagina" value="80">
+<input type="hidden" name="numero_total_registros" id="numero_total_registros" value="405">
+<input type="hidden" name="numero_paginas" id="numero_paginas" value="0">
+<input type="hidden" name="numero_pagina_actual" id="numero_pagina_actual" value="2">
+<input type="hidden" name="funcion" id="funcion" value="mostrar_por_colores">
+<input type="hidden" name="vector_combinaciones_identificadores_productos" id="vector_combinaciones_identificadores_productos" value="24,61,103,128,158,163">
+<input type="hidden" name="vector_combinaciones_identificadores_combinaciones" id="vector_combinaciones_identificadores_combinaciones" value="2,3,0,0,75,5">
+
+ 
+SELECT fp.id_product,psp.quantity,pspl.name,pspl.description,pspl.link_rewrite,psp.price,psp.wholesale_price,psp.reference,psp.available_date,cl.link_rewrite as cat_rewrite, pspl.link_rewrite,GROUP_CONCAT(fp.id_feature SEPARATOR ",") as id_feature,GROUP_CONCAT(fp.id_feature_value SEPARATOR ",") as id_feature_value, GROUP_CONCAT(fl.name SEPARATOR ",") as caracteristica,GROUP_CONCAT(fvl.value SEPARATOR ",") as caracteristica_valor FROM ps_feature_product as fp left join ps_feature_lang as fl on fl.id_feature = fp.id_feature left join ps_feature_value_lang as fvl on fvl.id_feature_value = fp.id_feature_value left join ps_category_product as cp on fp.id_product = cp.id_product left join ps_category_lang as cl on cl.id_category = cp.id_category left join ps_product_sort as pss on pss.id_product = fp.id_product left join ps_product as psp on psp.id_product = cp.id_product left join ps_product_lang as pspl on pspl.id_product = psp.id_product left join ps_product_attribute as pa on pa.id_product = psp.id_product left join ps_product_attribute_combination as pac on pac.id_product_attribute = pa.id_product_attribute where cp.id_category = 4 AND fp.id_feature = 51 AND psp.active = 1 AND pss.product_index IS NOT NULL or cp.id_category = 4 AND fp.id_feature = 54 AND psp.active = 1 AND pss.product_index IS NOT NULL or cp.id_category = 4 AND fp.id_feature = 80 AND psp.active = 1 AND pss.product_index IS NOT NULL GROUP BY fp.id_product ORDER BY pss.product_index ASC LIMIT 25,61
+ 
+
+03.- variables globales
+
+-----------------------------------------------------------------------------------------
+$_SESSION["registros_por_pagina"]   = 80;
+$_SESSION["numero_total_registros"] = 0;
+$_SESSION["numero_paginas"]                              = 1;
+$_SESSION["pagina_actual"]                                    = 1;
+$_SESSION["categoria_actual"]                               = 0;
+$_SESSION["id_category"]                                        = 0;
+$_SESSION["feature"]                                                                 = '';
+$_SESSION["attribute"]                                              = '';
+$_SESSION["feature_value"]          = '';
+$_SESSION["attribute_value"]                                 = '';
+$_SESSION["funcion"]                                                 = 'mostrar_sin_colores';
+$_SESSION["parametro_colores"]                         = "no";
+$_SESSION["mostrar_por_colores"]    = "no";
+// globals varaibles
+// paginador
+$registros_por_pagina    = 80;
+$numero_total_de_registros = 0;
+$numero_paginas                                             = 1;
+$pagina_actual                                   = 1;
+$categoria_actual                              = 0;
+$id_category                                       = 0;
+$feature                                                                = "";
+$attribute                                                             = "";
+$feature_value                                                  = "";
+$attribute_value           = "";
+$funcion                                                                = 'mostrar_sin_colores';
+
+// parametro ?parametro == vistas colores || empresas particulares
+
+$existe_parametro                           = FALSE;
+
+// Vectores combinaciones de productos | para el producto y para el nuumero de la combinación
+
+// Se irán poniendo por número de paginas
+
+$vector_combinaciones_identificadores_productos     = array();
+
+$vector_combinaciones_identificadores_combinaciones = array();
+
+// guardamos los atributos values de los filtros de los productos que lo tienen
+
+$vector_filtros_values                              = array();
+
+
+DATOS QUE NOS INTERESAN DE LOS FILTROS
+----------------------------------------------
+feature,attribute cuando cierra 
+
+feature_value,attribute_value (caracteristicas y combinaciones)
+
+
+sillamania.com
+sillamania.es
+
+
+primero filtramos 0,80 limit (aqui solo guardamos los valores de los vectores)
+luego ya paginamos
+
+
+FUNCIONES
+----------------------------------------------
+01.- WORDPRESS (get_features_and_attributes_pagination)
+	01.1.- vista_con_colores_paginado_dos
+	01.2.- vista_sin_colores_paginado_dos
+02.-PAGINADOR (ajax_paginador_todos)
+	01.1- vista_sin_colores_todos
+	01.2- vista_con_colores_todos
+03.-FILTROS (filtros_todos_productos)
+	01.1- vista_sin_colores_todos
+	01.2- vista_con_colores_todos
+	 
+
+01.- WORDPRESS (get_features_and_attributes_pagination)
+	<input type="hidden" name="feature" id="feature" value="51,54">
+	<input type="hidden" name="feature_value" id="feature_value" value="">
+	<input type="hidden" name="attribute_value" id="attribute_value" value="">
+	<input type="hidden" name="attribute" id="attribute" value="1">
+	<input type="hidden" name="id_category" id="id_category" value="4">
+	<input type="hidden" name="registros_por_pagina" id="registros_por_pagina" value="80">
+	<input type="hidden" name="numero_total_registros" id="numero_total_registros" value="159">
+	<input type="hidden" name="numero_paginas" id="numero_paginas" value="2">
+	<input type="hidden" name="numero_pagina_actual" id="numero_pagina_actual" value="2">
+	<input type="hidden" name="funcion" id="funcion" value="mostrar_sin_colores">
+
+
+
+03.- FILTROS (filtros_todos_productos)
+	<input type="hidden" name="feature" id="feature" value="">
+	<input type="hidden" name="feature_value" id="feature_value" value="1496">
+	<input type="hidden" name="attribute_value" id="attribute_value" value="">
+	<input type="hidden" name="attribute" id="attribute" value="">
+	<input type="hidden" name="id_category" id="id_category" value="4">
+	<input type="hidden" name="registros_por_pagina" id="registros_por_pagina" value="80"> 
+	<input type="hidden" name="numero_total_registros" id="numero_total_registros" value="42">
+	<input type="hidden" name="numero_paginas" id="numero_paginas" value="1">
+	<input type="hidden" name="numero_pagina_actual" id="numero_pagina_actual" value="2">
+	<input type="hidden" name="funcion" id="funcion" value="mostrar_sin_colores">
+
+
+
+
+04.- COLOR
+action: llamada_filtros
+objeto[0][combinaciones]: 4
+feature: 
+attribute: 4
+feature_value: 
+attribute_value: 4
+id_category: 4
+categoria_actual: 4
+registros_por_pagina: 80
+numero_total_registros: 0
+numero_paginas: 0
+numero_pagina_actual: 1
+funcion: mostrar_sin_colores
+vector_combinaciones_identificadores_productos: 
+vector_combinaciones_identificadores_combinaciones: 
+
+
+vista_sin_colores_todos($feature,$attribute,$caracteristicas,$combinaciones,$paginador);
+vista_sin_colores_todos(,4,,4,$paginador);
+
+FILTROS
+---------------------------------------------------------------------
+"action": 'llamada_filtros',
+                "objeto":orden_filtro_caracteristicas_combinaciones,
+                "feature": feature,
+                "attribute": attribute,
+                "feature_value": "",
+                "attribute_value": "",
+                "id_category": id_category,
+                "registros_por_pagina": registros_por_pagina,
+                "numero_total_registros": numero_total_registros,
+                "numero_paginas": numero_paginas,
+                "numero_pagina_actual": 1,
+                //"numero_pagina_actual": 0,
+                "funcion": funcion,
+                "vector_combinaciones_identificadores_productos":vector_combinaciones_identificadores_productos,
+                "vector_combinaciones_identificadores_combinaciones":vector_combinaciones_identificadores_combinaciones
+
+
+
+
+action: llamada_filtros
+feature: 
+attribute: 
+feature_value: 
+attribute_value: 
+id_category: 4
+registros_por_pagina: 20
+numero_total_registros: 42
+numero_paginas: 1
+numero_pagina_actual: 1
+funcion: mostrar_sin_colores
+
+
+
+
+RESOLVER EL PROBLEMA
+----------------------------------------------
+01.- CUANDO BORRAS 			       === CONSULTA AJAX Y RESULTADO VER QUE ES EL ID_PRODUCTO Y EL ID_COMBINACION Y GUARDAR EL MUMERO INICIAL
+02.- CAUNDO RESTAMOS UNO SI LLEGA A 0 LO MISMO === CONSULTA AJAX Y RESULTADO VER QUE ES EL ID_PRODUCTO Y EL ID_COMBINACION Y GUARDAR EL MUMERO INICIAL
+
+
+NOMBRE DE PAGINAS
+-----------------------------------------------
+01.- pagina order
+02.- paginaauthentication mirar por el parametro carrito
+
+col-menu
+imagen_offichairs
+columna-derecha
+
+
+
+PROBLEMAS A TENER EN CUENTA
+------------------------------------------------
+01.- CUANDO HAY IMAGEN 360 Y HAY VIDEO CSS PARA IMAGEN360,VIDEO,SCROLLLEFT
+02.- CUANDO HAY IMAGEN 360 	       CSS PARA IMAGEN360,SCROLLLEFT
+03.- CUANDO HAY VIIDEO 		       CSS PARA VIDEO,SCROLLLEFT	
+  
+
+activar_desactivar_360
+activar_desactivar_video
+
+
+https://codepen.io/arjunamgain/pen/YXBeLJ
+
+
+COMANDO SASS
+------------------------------------------------
+sass --watch ./css:./css
+
+[bloque_mas_vendidos subcategoria='4'][/bloque_mas_vendidos]
+
+https://ofiprix.wistia.com/projects/osw9l8vpqa
+
+EN EL FUTURO UN SEGUNDO IDIOMA
+------------------------------------------------
+
+ERRORES
+------------------------------------------------
+01.- MAQUETACIÓN CARRITO PRESTASHOP 						(FALTA)
+02.- MAQUETACIÓN MENU PRESTASHOP 						(FALTA)
+03.- CUANDO SE REGISTRA ALGUIEN LOS MARGINS EN LOS SELECT BOX			(FALTA)
+04.- ORDER CONFIRMATION BOTON VOLVER A LA TIENDA 				(FALTA) 
+05.- EN LA DIRECCIÓNES LA ALINEACIÓN DE LAS CAJAS ALGO TIENEN			(FALTA)
+06.- MIS FAVORITOS SALEN DE LA PANTALLA						(FALTA)
+07.- LA PESTAÑA DEL CARRITO APARECE EN INICIO-SESION Y CARRITO 			(FALTA)	
+
+
+
+PAGINACIÓN GUIA DE COMPRA
+------------------------------------------------
+01.- function resultados
+02.- contabilizar_registros_guia_de_compra($feature,$feature_value,$attribute,$min_precio,$max_precio);
+03.- vista_sin_colores_paginado_guia_de_compra($feature,$feature_value,$attribute,$min_precio,$max_precio,$tag);
+04.- $vector_filtros_values guardamos los filtros values
+
+
+NUEVOS FILTROS PARA LA GUIA DE COMPRA
+------------------------------------------------
+01.- MIN PRECIO Y MAX PRECIO 
+
+
+VISTA_SIN_COLORES
+------------------------------------------------
+$cadena.='<input type="hidden" name="feature" id="feature" value="'.$atts["feature"].'">';
+$cadena.='<input type="hidden" name="attribute" id="attribute" value="'.$atts["attribute"].'">';
+$cadena.='<input type="hidden" name="id_category" id="id_category" value="'.$atts["id_category"].'">';
+
+$cadena.='<input type="hidden" name="registros_por_pagina" id="registros_por_pagina" value="'.$registros_por_pagina.'">';
+$cadena.='<input type="hidden" name="numero_total_registros" id="numero_total_registros" value="'.$numero_total_de_registros.'">';
+$cadena.='<input type="hidden" name="numero_paginas" id="numero_paginas" value="'.$numero_paginas .'">';
+$cadena.='<input type="hidden" name="numero_pagina_actual" id="numero_pagina_actual" value="'.$numero_pagina_actual.'">';
+$cadena.='<input type="hidden" name="funcion" id="funcion" value="'.$funcion .'">';
+
+$cadena.='<input type="hidden" name="feature_value" id="feature_value" value="'.$_SESSION["feature_value"] .'">';
+$cadena.='<input type="hidden" name="attribute_value" id="attribute_value" value="'.$_SESSION["attribute_value"] .'">';
+
+
+=== FILTROS + PARAMETROS MIN Y MAX
+
+PASOS
+------------------------------------------------
+01.- PONER VARIABLES PARA LA PAGINACION
+02.- AGREGAR OTRA FUNCIÓN
+
+
+FUNCIONES PARA FILTROS SIN COLORES
+------------------------------------------------
+01.- llamada_filtros 
+02.- vista_sin_colores_todos  
+03.- PARAMETROS AJAX
+		    "action": 'llamada_filtros',
+                    "objeto": orden_filtro_caracteristicas_combinaciones,
+                    "feature": feature,
+                    "attribute": attribute,
+                    "feature_value": "",
+                    "attribute_value": "",
+                    "id_category": id_category,
+                    "registros_por_pagina": registros_por_pagina,
+                    "numero_total_registros": numero_total_registros,
+                    "numero_paginas": numero_paginas,
+                    "numero_pagina_actual": 1,
+                    "funcion": funcion,
+                    "vector_combinaciones_identificadores_combinaciones": vector_combinaciones_identificadores_combinaciones,
+                    "vector_combinaciones_identificadores_productos": vector_combinaciones_identificadores_productos,
+                    "precios":precios
+
+
+
+FUNCIONES PARA PAGINACION SIN COLORES 
+------------------------------------------------
+01.- ajax_paginador_todos
+02.- vista_sin_colores_todos
+03.- PARAMETROS AJAX
+		"action": 'ajax_paginador_todos',
+                "feature": feature,
+                "attribute": attribute,
+                "feature_value": feature_value,
+                "attribute_value": attribute_value,
+                "id_category": id_category,
+                "registros_por_pagina": registros_por_pagina,
+                "numero_total_registros": numero_total_registros,
+                "numero_paginas": numero_paginas,
+                "numero_pagina_actual": numero_pagina_actual,
+                "funcion": funcion,
+                "vector_combinaciones_identificadores_combinaciones":vector_combinaciones_identificadores_combinaciones,
+                "vector_combinaciones_identificadores_productos":vector_combinaciones_identificadores_productos,
+                "precios":precios   
+
+
+
+PORTFOLIO
+------------------------------------------------
+00.- SAYTEL
+01.- TOPEWEB
+02.- VYRTUCOM
+03.- HTTPCOMUNICACIO
+04.- ECOMMERCEBARCELONA360
+05.- EMEXS DIGITAL
+06.- CITRIC MULTIMEDIA
+07.- OFIPRIX 
+
+
+DATOS DE PAGINACION
+------------------------------------------------
+<input type="hidden" name="feature" id="feature" value="51,52,89">
+<input type="hidden" name="feature_value" id="feature_value" value="">
+<input type="hidden" name="attribute_value" id="attribute_value" value="">
+<input type="hidden" name="attribute" id="attribute" value="1">
+<input type="hidden" name="id_category" id="id_category" value="7">
+<input type="hidden" name="registros_por_pagina" id="registros_por_pagina" value="20">
+<input type="hidden" name="numero_total_registros" id="numero_total_registros" value="20">
+<input type="hidden" name="numero_paginas" id="numero_paginas" value="4">
+<input type="hidden" name="numero_pagina_actual" id="numero_pagina_actual" value="4">
+<input type="hidden" name="funcion" id="funcion" value="mostrar_sin_colores">
+
+
+
+TAREAS RAUL PROGRAMACIÓN
+------------------------------------------------
+01.- FALTA PONER EN MARCHA LAS VALIDACIONES							(OK)
+02.- FALTA PAGINACIÓN DE GUIA DE COMPRA								(FALTA)
+
+
+TAREAS RAUL MAQUETACIÓN
+------------------------------------------------
+01.- CARRITO DIRECCIONES FALTA QUITAR TITULOS COMO MAQUETA Y SELECT BOX 			(50%)
+02.- CARRITO DIRECCIONES FALTA PONER EL CARRITO							(OK) 
+03.- INTRANET FALTA SACAR EL TEXTO ENTRA AQUI							(FALTA)
+04.- INTRANET DIRECCIONES FALTA MAQUETAR ELIMINAR Y ACTUALIZAR BOTONES				(FALTA) 
+05.- 
+
+
+
+OJETIVOS
+------------------------------------------------
+01.- OPORTUNIDAD
+02.- ESTUDIO
+03.- VENTA
+04.- REUTILIZACION
+
+
+PRESTASHOP BLOGS
+------------------------------------------------
+01.- mypresta.eu
+02.- prestabrain.com
+03.- 
+
+ERRORES
+------------------------------------------------
+01.- SELECTORES
+
+
+
+VERIFICAR EL ERROR DE EL SELECTOR
+
+ESPIDIFEN 600
+
+
+
+CONFIRMACION DEL PEDIDO
+------------------------------------------------
+01.- NOMBRE DEL COMPRADOR
+02.- NUMERO DE PEIDDO
+
+ERROR CUANDO SE FILTRA POR PRECIO
+------------------------------------------------
+
+
+SEMANA BUENA PARA COGER VACACIONES
+------------------------------------------------
+SEMANA DEL 12 DE AGOSTO 
+
+
+51,52,50
+207567
+
+muestra
+50,51,52
+
+
+$vector_filtros_values
+
+VECTORES
+C
+
+mi_vector_combinaciones_identificadores_productos
+Array
+(
+    [0] => 5
+    [1] => 10
+    [2] => 17
+    [3] => 22
+    [4] => 31
+    [5] => 41
+    [6] => 56
+    [7] => 61
+)
+
+mi_vector_combinaciones_identificadores_combinaciones
+Array
+(
+    [0] => 5
+    [1] => 0
+    [2] => 4
+    [3] => 0
+    [4] => 5
+    [5] => 1
+    [6] => 8
+    [7] => 12
+)
+
+
+FILTROS PRIMERA PAGINA
+------------------------------------------------------------------------
+01.- RED
+02.- TAPIZADA
+07.- PIEL SINTETICA
+08.- TAPIZADO
+
+
+ 
+
+CONSTANTES DE RUTAS DE PESTASHOP
+------------------------------------------------------------------------
+01 $base_dir { root folder of your shop }
+02 $base_dir_ssl { root folder of your shop using HTTPS protocol }
+03 $content_dir { root folder of your shop depending on the SSL settings }
+04 $img_ps_dir { root folder containing images "/img/" }
+05 $img_dir { images folder in your current theme directory }
+06 $css_dir { css folder inside the current theme folder }
+07 $js_dir { JavaScript inside the theme folder }
+08 $tpl_dir { theme root folder }
+09 $modules_dir { modules root folder }
+10 $mail_dir { mail templates root folder }
+11 $lang_iso { current language ISO code }
+12 $come_from { previous page address [absolute] }
+13 $shop_name { your specified shop name }
+14 $cart_qties { total number of products in the cart }
+15 $cart { shopping cart contents }
+16 $currencies { pulls available currencies }
+17 $id_currency_cookie { selected currency id [cookie dependent] }
+18 $currency { active currency }
+19 $cookie { active cookie }
+20 $languages { grabs available languages }
+21 $logged { checks whether users is logged in }
+22 $page_name { current page's name }
+23 $customerName { customer name [session dependent] }
+24 $priceDisplay { current price display settings [currency dependent] }
+
+
+TAREAS
+------------------------------------------------------------------------
+01.- CUANDO SE CIERRA UN FILTRO NO LEE LO BASICO 
+
+AJAX SCROLL
+------------------------------------------------------------------------
+01.- https://www.thesoftwareguy.in/ajax-scroll-pagination-php-mysql/
+
+
+MEDIAMARKT
+------------------------------------------------------------------------
+Hola David, 
+Te informamos que tu pedido 62392855 ha salido de nuestros almacenes y en breve lo recibirás en la dirección de entrega que nos indicaste. 
+Si a partir de ahora quisieras cancelarlo, deberás rechazar la entrega o recepcionar el producto y devolverlo en alguna de nuestras tiendas. 
+Al recibir tu pedido comprueba que el embalaje se encuentra en perfecto estado.
+Si  detectas cualquier anomalía o se produce alguna incidencia durante el proceso de entrega, es importante que lo anotes en el albarán del transportista ya que es necesario para cualquier gestión posterior. Gracias por confiar en el equipo MediaMarkt
+
+
+MRW le informa:
+------------------------------------------------------------------------
+MEDIA SATURN MULTICHANNEL S.A. le ha remitido el envío con número de etiqueta 026783623005, que recibirá* el 22/05/2019.
+Si desea cambiar la fecha o punto de entrega o realizar la entrega a un vecino pulse el siguiente enlace
+Si desea puede consultar el estado del envío en nuestra página web
+Atentamente,
+MRW
+
+MRW ROGER DE LLURIA
+------------------------------------------------------------------------
+teléfono de delegación: (93) 457 88 66
+934578866 
+
+
+SEUR
+------------------------------------------------------------------------
+Tu envío nº SGES218336962 de DECATHLON BARCELONA será entregado el
+Miércoles 22 de Mayo
+La dirección de entrega es:
+CL CALLE VALLIRANA 19, 4RTO, SEGUNDA BARCELONA, BARCELONA, 08006
+
+
+BLOGS PRESTASHOP
+------------------------------------------------------------------------
+01.- VICTOR RODENAS
+
+UNICA DIFERENCIA ES 
+------------------------------------------------------------------------
+01.- GUARDAR DIRECCIÓN CON DATOS O SIN DATOS ==== LA DIRECCIÓN SE GUARDARA IGUAL ==== SOLAMENTE CAMBIA LOS DATOS QUE SE LA PASAN
+02.- 2 ALTERNATIVAS:
+	02.1.- INSERTAR
+	02.2.- ACTUALIZAR
+
+
+CASA
+------------------------------------------------------------------------
+01.- DISCOS DUROS EXTRAIBLES ARRIBA Y ABAJO
+02.- HUBS USB ARRIBA Y ABAJO
+03.- LIBROS ARRIBA Y ABAJO
+
+
+TIENDAS
+------------------------------------------------------------------------
+09:00 -- 21:00H		MEDIAMARKT	(3 pantallas + altavoces + impresora)
+09:00 -- 21:00H		DECATHLON	(barra dominadas y pesa de pies)
+10:00 -- 21:00H		IKEA		(tablero de madera)
+
+Dirección IKEA
+Pasos Medir mesa Barcelona
+
+VIDEO DIRECCION
+------------------------------------------------------------------------
+https://www.youtube.com/watch?v=tDGjL58SzHg&feature=youtu.be
+
+
+TAREAS
+-------------------------------------------------------------------------
+01.- SACAR LA CRUZ DEL CODIGO POSTAL
+02.- PHP/INFINITE_SCROLL CARPETA CONSULTAR EL LAZY LOAD
+
+
+EMAILS
+-------------------------------------------------------------------------
+La newsletter, hay 2 emails. Uno es el primero que recibes cuando te apuntas con el código de descuento, 
+el otro es el email que recibes si ya te habias suscrito antes pero después te borras. 
+Es el mismo email pero no hay código de descuento. Todo esto lo hemos copiado de zalando por si necesitas consultar algo
+
+
+PASOS A SEGUIR PARA CREAR UN PEDIDO DESDE DENTRO
+-------------------------------------------------------------------------
+01.- ADMINORDERS
+	01.1- ajax adminCustomers  ==== seleccionamos el cliente
+	01.2- ajax adminCarts	   ==== seleccionamos el carrito	
+	01.3- ajax adminOrders	   ==== ....
+
+01.- http://sillamania.com/tiendaonline/pedido?step=3&recover_cart=1509&token_cart=53955d4b19b157fd49811db47a9a2254
+02.- http://sillamania.com/tiendaonline/module/realexpaymentshpp/payment?recover_cart=1509&token_cart=53955d4b19b157fd49811db47a9a2254
+
+
+01.- http://sillamania.es/tiendaonline/pedido?step=3&recover_cart=1266&token_cart=62fd2bf71e203d3e900ce5b2c14b3da9
+02.- https://sillamania.es/tiendaonline/module/realexpaymentshpp/payment?recover_cart=1266&token_cart=62fd2bf71e203d3e900ce5b2c14b3da9 
+			
+http://sillamania.com/tiendaonline/pedido?step=3&recover_cart=1510&token_cart=3a5966b0de8c6b10b3e841d6d7947c0c
+
+CONSTRUYE LA URL SIGUIENTE
+-------------------------------------------------------------------------
+01.- http://sillamania.com/tiendaonline/order/?step=3&recover_cart=1509&token_cart
+
+
+FLOW DEL PROGRAMA DE FILTROS Y DE PAGINACION 
+-------------------------------------------------------------------------
+01.- FALTA REPASAR LOS FILTROS EXPLOTACION POR COLORES				(FALTA)
+01.- FALTA MIRAR PORQUE NO SE ABRE EL CUPON DESCUENTO Y LA NEWSLETTER		(FALTA) 
+03.- FALTA COGER LOS DATOS DE LA COLUMNA DE ALBERTO  N/S Y SI ES S:		(FALTA)
+	03.1.- CUANDO QUEDAN 2 UNIDADES QUE PONGA QUEDAN 2 UNIDADES		(FALTA)
+	03.2.- LUEGO NO PUEDA HACER PEDIDO DE MAS UNIDADES SI ESTA A 0		(FALTA)	
+	03.3.- LUEGO SI SE COGEN MAS UNIDADES DE LAS QUE QUEDAN NO DEJE		(FALTA)	
+04.- FALTA ORDENAR POR PRECIO
+
+
+TAREAS ACTUALES 08-05-2019 
+-------------------------------------------------------------------------
+01.- WP-ADMIN CUANDO SE GUARDA UNA PAGINA APARECE UN ERROR QUE NO VUELVA A LA PAGINA GUARDADA 			(FALTA)
+02.- DENEGAR PEDIDOS CUANDO QUEDEN LAS ULTIMAS UNIDADES LECTURA DE COLUMNA DE JORDI				(FALTA)
+03.- ENVIAR UN EMAIL CUANDO SE GENERA UN PEDIDO DESDE EL PROGRAMA DE MRW EXPLICANDO:
+	03.1.- QUE YA HA LLEGADO EL PEDIDO 
+	03.2.- EL CODIGO DE SEGUIMIENTO ES EL DE MRW
+
+
+
+
+ERRORES DE DESCUENTOS 
+-------------------------------------------------------------------------
+01.- DESCUENTO APLICA EN LAS PRESTASHOP Y WORDPRESS FALTA BORRAR DESCUENTO EN WORDPRESS     (FALTA)
+02.- CUANDO EL USUARIO NO ESTA LOGUINADO SACAR EL SEGUNDO CUADRO DE VALIDACION 		    (OK)
+
+
+TAREAS ACTUALES 29/04/2019
+-------------------------------------------------------------------------
+01.- ACABAR EL BUSCADOR POR COLORES							  (OK)
+02.- MAQUETAR EMAIL CUPÓN DESCUENTO						  	  (FALTA)
+03.- MAQUETAR EMAIL CUANDO UN USUARIO SE DA DE ALTA POR SEGUNDA VEZ			  (FALTA)
+04.- MAQUETAR PAGINA FOOTER CON MENSAJE DE REGISTRO A LA NEWSLETTER			  (FALTA)
+05.- MAQUETAR PAGINA HOME VERSIÓN MOBILE						  (FALTA)
+06.- MAQUETAR PAGINA CONTACTO							  	  (FALTA)
+07.- MAQUETAR QUIENES SOMOS							  	  (FALTA)
+08.- CUANDO VALIDAMOS DATOS EL SCROLL DEBE SUBIR A DIFERENTES ALTURAS DEL FORMULARIO	  (OK)
+09.- MOBILE MENU CUANDO ESTA DESPLEGADO GUARDAR EL NUEVO HEIGHT				  (FALTA)
+10.- CUANDO SE AGREGA UN PRODUCTO GUARDARLO CON EL COLOR				  (FALTA) 
+11.- GUARDAR LOS ERRRORES DE LOS DESCUENTOS						  (FALTA) 
+12.- MOVILE MENU SALE OTRO ICONO ARRIBA 						  (OK)
+13.- CAMBIAR LOS PASSWORDS DE LA INTRANET DE TODOS					  (OK)
+14.- COLOR TAPIZADO_NEGRO CONTROLAR LOS ESPACIOS EN COLORES				  (OK)
+15.- MENU RESPONSIVE 									  (OK)	
+16.- CREAR EMBUDO 									  (FALTA)
+17.- SILLAS GAMMING PARA PERSONAS ALTAS							  (50%)
+18.- EN ALGUN PRODUCTO NO SE ADJUNTO EL COLOR COMO PARAMETRO ERA TEMA ESPACIO		  (OK)
+19.- AGREGAR EL SCRIPT DE PINTEREST							  (FALTA)(PHPANDFRIENDS PRUEBAS OK CON GTAG)
+20.- CREAR EL BUSCADOR DE PRESTASHOP VISTA POR COLORES Y NORMAL 			  (OK)(FALTA CONTAR PRODUCTOS)(FALTARA NUEVO PAGINADOR) 
+21.- CREAR EL GUIA DE COMPRA VISTA CON COLORES Y NORMAL					  (FALTA)
+22.- MAQUETAR QUIENES SOMOS MAX-WIDTH A 1200PX						  (FALTA)
+23.- CONTACTAR CUANDO SE PINCHA SOBRE EL CHAT DEBE DE ABRIRSE EL CHAT			  (FALTA) 
+24.- CREAR UN MECANISMO PARA INSERTAR MÁS DATOS A LA TABLA NEWSLETTER			  (FALTA)
+25.- AMAZON SES PARA EL ENVIO DE NEWSLETTER						  (FALTA)
+26.- NEWSSILLAMANIA									  (FALTA)
+27.- EN LOS METAS CUANDO VAS SLACK APARECE EL LOGO DE PRESTASHOP Y NO SILLAMANIA	  (FALTA)
+28.- AMP PARA EL FUTURO									  (FALTA) 
+29.- MODIFICACION USUARIO REGISTRADO POR CULPA ERROR					  (FALTA)
+30.- COMPARAR FICHEROS ORDER-OPC-OFIPRIX 						  (FALTA)
+31.- COMPARAR REALEXPAYMENT ANALYTICS ORDER CON BANKWIRE ANALYTICS ORDER		  (OK)
+32.- PINTEREST  REPORTAR CATEGORIA							  (FALTA)
+33.- PINEREST   REPORTAR DETALLE DEL PRODUCTO						  (FALTA)	
+34.- PRINTEREST REPORTAR COMPRA								  (FALTA)			
+35.- COMPROBACION DE SCRIPT PINTEREST							  (OK)
+36.- COPIAR PINTEEREST SCRIPT EN HTTPS://SILLAMANIA.ES					  (OK)
+37.- RECUPERAR LA NEWSLETTER								  (OK)
+38.- ELIMINAR FRANJAS BLANCAS DEL FOOTER						  (FALTA)
+39.-
+
+
+EVENTOS DE PINTEREST
+-------------------------------------------------------------------------
+01.- Eventos de página vista
+02.- Eventos de categorías 
+03.- Eventos de vista de detalle del producto
+04.- Eventos de añadir al carrito
+05.- Eventos de transacción o compra
+
+
+REVISIONES SIEMPRE DIARIAS
+-------------------------------------------------------------------------
+01.- CONTROL DE STOCKS									   (OK)	
+02.- VIDEOS										   (FALTA)	
+03.- IMG 360										   (FALTA)
+04.- GOOGLE ANALYTICS (COMERCIO ELECTRÓNICO)						   (OK)	
+
+AUTOMATIZACION LISTADO DE CRON 03/04/2019
+-------------------------------------------------------------------------
+01.- CRON PARA ACTUALIZAR EL STOCK						(TODO OK)
+02.- CRON PARA ESCRIBIR LA TABLA VIDEOS PS_VIDEOS				(TODO OK)
+03.- CRON PARA COPIAR IMAGENES DE CARPETA SILLAMANIA.COM A SILLAMANIA.ES	(PREGUNTANDO A DINAHOSTING)
+04.- CRON PARA BORRAR CACHE							(TESTEANDO)
+05.- CRON CRON PARA AGREGAR PRODUCTOS AL BUSCADOR 				(FALTA)	
+06.- CRON PARA ORDENAR PRODUCTOS PS_PRODUCTS_SORT  				(FALTA)
+07.- CRON PARA COPIAR LAS IMAGENES DE UN DOMINIO A OTRO DOMINIO			(PREGUNTADO A DINAHOSTING)
+
+
+CAMBIOS DRASTICOS EN LA APLICACIÓN 03/04/2019
+--------------------------------------------------------------------------
+01.- FILTROS POR AJAX COMO EN PRESTASHOP DE SERIE											(FALTA)
+02.- MAQUETAR TOTALMENTE LA PAGINA DEL DETALLE DEL PRODUCTO SACANDO LAS VARIABLES DE SMARTY						(FALTA)
+03.- IMPLEMENTAR BOOTSTRAP 4 EN PRESTASHOP Y EN WORDPRESS										(FALTA)
+04.- IMPLEMENTACIÓN DE AMP PARA QUE LA PAGINA CARGUE MÁS RAPIDA										(FALTA)
+
+
+FALLOS EN IMAGENES 360 PORQUE NO PASA BIEN EL COLOR (BUSCAMOS POR LA PALABRA SILLA)
+--------------------------------------------------------------------------
+01.- SILLA CUBE PATIN  				| 202390
+02.- SILLA QUICK PATIN 				| 202395  
+03.- SILLA CUBE 4 PATAS C/BRAZOS CROMO		| 200062
+04.- SILLA CUBE 4 PATAS C/BRAZOS NEGRA		| 200068
+05.- SILLA CUBE GIRATORIA C/RUEDAS		| 200070
+06.- SILLA CUBE 4 PATAS CROMO			| 200290
+07.- SILLA CUBE MADERA				| 202387
+08.- SILLA CUBE PATIN				| 202390	
+09.- SILLA METALICA TEXT			| 54733
+
+
+
+TEXTO TRANSFERENCIA BANCARIA DATOS LEGALES
+------------------------------------------------------------------------
+Propietario de la cuenta: 
+DECO ONLINE SANT BOI S.L.
+
+Detalles: 
+Debe incluir su número de pedido, y los siguientes datos: nombre completo, DNI y domicilio.
+IMPORTANTE: Recuerde enviarnos el comprobante de su transferencia haciendo constar su numero de pedido a la dirección de correo info@sillamania.es. Su pedido no podrá ser enviado sin este comprobante. Para cualquier duda puede ponerse en contacto con nuestro departamento de entregas en el 937001144
+
+Dirección agencia bancaria:
+Debe abonar el importe total del pedido a: 
+Destinatario: DECO ONLINE SANT BOI, S.L. 
+Nº cuenta: ES36 2100 8607 41 0200030195.
+
+
+
+
+TEXTO PAGO POR TRANSFERENCIA BANCARIA
+-------------------------------------------------------------------------
+
+PAGO POR TRANSFERENCIA BANCARIA
+
+Ha elegido pagar por transferencia bancaria. Aquí tiene un resumen de su pedido:
+
+- El importe total de su pedido es 142,78 € (impuestos inc.)
+
+- Aceptamos las siguientes monedas para las transferencias bancarias: Euro
+- La información para realizar la transferencia bancaria aparecerá en la página siguiente. 
+- Por favor, confirme su pedido haciendo clic en "Confirmo mi pedido".
+
+
+exclusive button ajax_add_to_cart_button
+
+
+MIQUEL ANGEL
+-------------------------------------------------------------------------
+48.- CREAR SUBDOMINIO moodle.ofiprix.eu
+49.- INSTALAR UN MOODLE
+50.- ENTRAR A LA CARPETA DE DINAHOSTING DOMINIOS
+51.- MOODLE.OFIPRIX.EU
+52.- RESTRINGIDO POR HTTP
+53.- LLAMO A DINAHOSTING Y ME OFRECEN UN PLAN PROFESIONAL ENVÉS DE PERSONAL
+54.- ESTAN MIRANDO PORQUE NO SE CREA LOS SUBDOMINIOS 
+55.- INSTALAR MODDLE 
+
+
+LISTADO DE DOMINIOS DINAHOSTING
+-------------------------------------------------------------------------
+01.- sofaprix.com
+02.- sillamania.es
+03.- sillamania.com
+04.- promosofa.com
+05.- promosillas.com
+06.- promocolchon.com
+07.- ofiprix.net
+08.- ofiprix.info
+09.- ofiprix.eu
+10.- ofiprix.es
+11.- ofiprix.com
+12.- mykwala.com
+13.- mundoprix.com
+14.- mobeldepot.com
+15.- italycucine.com
+16.- dicoro.es
+17.- dicoro.com
+18.- buymobel.com
+19.- anagarciapineda.com
+
+
+advApiParam que es
+-------------------------------------------------------------------------
+1.- <button type="submit" id="SubmitLogin" name="SubmitLogin" data-adv-api="1" class="button btn btn-default button-medium"><span><i class="icon-lock left"></i>{l s='Sign in'}</span></button>
+2.- <button type="submit" name="submitAccount" id="submitAccount" data-adv-api="1" class="btn btn-default button button-medium"><span>{l s='Save'}<i class="icon-chevron-right right"></i></span></button>
+
+
+
+MODULOS DE PAGO
+-------------------------------------------------------------------------
+1.- PAYTPV
+2.- STRIPE
+
+
+STRIPE
+-------------------------------------------------------------------------
+1.- URL: https://dashboard.stripe.com
+2.- Username: demo+presta2017@stripe.com
+3.- Password: TX4ngAQos5OZ
+
+
+COMPETENCIA
+-------------------------------------------------------------------------
+01.- https://www.superestudio.com/
+02.- https://www.hjh-office.es/
+03.- https://www.bizchair.com/
+04.- https://kavehome.com/
+05.- https://www.vackart.es/ 		(conocidos)
+06.- https://www.ofisillas.es/
+07.- https://taskchairs.vitra.com/en-gb (vitra landing)(para mi gusto ejemplo a seguir)
+08.- https://www.vitra.com/es-es/home   (vitra tienda)(para mi gusto ejemplo a seguir) 
+09.- http://www.tantrachair.com/ 	(sillas temáticas)
+10.- https://align1solutions.com/	(espectaculares sillas)(U.S.A PEOPLE)	
+
+
+ACTUALMENTE CUANDO SE CREA UN PEDIDO SE ENVIA A
+-------------------------------------------------------------------------
+01.- cliente
+02.- administracion@sillamania.es
+03.- jgallart@ofiprix.com
+04.- dberruezo@ofiprix.com
+
+HANGOUT
+--------------------------------------------------------------------------
+1.- (lista not set) === https://support.google.com/analytics/answer/2820717?hl=es
+2.- link 	    === http://enhancedecommerce.appspot.com/
+
+
+SLACK
+--------------------------------------------------------------------------
+1.-url:      ofiprix.slack.com
+2.-mail:     dberruezo@ofiprix.com
+3.-password: Berruezin23 	
+
+TRELLO
+--------------------------------------------------------------------------
+01.-url:      https://trello.com/b/5lPa95Iu/desarrollo
+02.-user:     dberruezo@ofiprix.com
+03.-password: Berruezin23 
+
+
+APLICACIONES REALIZADAS EN OFIPRIX
+--------------------------------------------------------------------------
+01.- MODULOS PRESTASHOP
+02.- WORDPRESS PLUGINS
+03.- SUBIDA 3D IMAGENES
+04.- ACTUALIZACION DE STOCKS CON CRON
+05.- CODIGOS DE BARRAS DE MRW
+06.- GESTOR DE COMISIONES
+07.- LECTOR DE VIDEOS CON CRON
+08.- IMPORTACIÓN PRODUCTOS, CARACTERISTICAS, COMBINACIONES CON CONSULTAS ORACLE EXPOWIN
+09.- SISTEMA DE SUBIDA DE BASE DE DATOS Y FICHEROS
+10.- WORDPRESS WEB + WORDPRESS ADMIN
+11.- PRESTASHOP WEB + PRESTASHOP ADMIN
+
+PLUGINS DE SITEMAP
+---------------------------------
+01.- XML Sitemap & Google News
+02.- YOAST SEO
+03.- DINAHOSTING 
+
+PARA VER LAS QUERIES Y HOOKS DE WORDPRESS
+---------------------------------
+01.- Query Monitor
+02.- Simply Show Hooks
+
+
+DIFERENCIAS DE FICHEROS 
+--------------------------------
+1.- WP-CONFIG, HEADER.PHP
+2.- SETTINGS.INC.PHP, HEADER.TPL
+
+
+COSAS PARA EL FUTURO SE HA REGISTRADO UN CLIENTE Y HA ABANDONADO UN CARRITO
+---------------------------------------------------------------------------
+1.- NOMBRE DEL CIENTE
+2.- PRODUCTOS CARRITOS ABANDONADOS 
+3.- OTRAS INFORMACIONES INTERESANTES 
+ 
+
+EVENTOS FACEBOOK
+---------------------------------------------
+01.- PageView
+02.- ListProducts
+03.- DetailProducts
+04.- Purchase
+05.- TotalProducts_AddToCart
+06.- AddToCart
+07.- ViewContent
+
+FACEBOK
+---------------------------------------------
+user:social@dicoro.com
+password:Plastico123
+https://business.facebook.com/login/?next=https%3A%2F%2Fbusiness.facebook.com%2F
+
+SMARTLOOK
+--------------------------------------------
+correo:social@dicoro.com
+password:DicoOfiRoPrix2018S
+
+CAMBIAR PASSWORD WORDPRESS
+--------------------------------------------
+UPDATE `wp_users` SET `user_pass`= MD5('yourpassword') WHERE `user_login`='yourusername';
+
+GLOBAL PAYMENTS
+-------------------------------------------
+id:349109678
+user:sillamania
+password:Fr3kMb3M58
+password:Berruezin23
+https://admin.addonpayments.com/
+telefon: (93)330 57 19
+telefon: (91)435 30 28 
+telefon: 902 157 235
+Peticion de númerio de targeta de crédito de pruebas en entorno REAL 
+trabajador: Victor Cantera
+trabajador: Manuel 
+email:soporte@addonspayments.com
+Para hacer pruebas: Panel administracion transacciones aparecera pendiente y encima de pendiente anular Cobrado 	
+
+TARGETA CREDITO TEST FRANCISCO
+------------------------------------------------------------------------
+Número:5531 0801 3355 6885 
+Caducidad:02/24
+Seguridad:562
+
+
+TARGETA DE CREDITO ALICIA
+------------------------------------------------------------------------
+Número:5531 0800 8009 5010
+Caducidad 11/22
+Seguridad:032
+
+
+VISA TEST
+-----------------------------------
+4263 9700 0000 5262
+
+
+TELFONO OFIPRIX DESDE FUERA
+-------------------------------------------
+(93) 700 11 00 
+
+https://www.bizchair.com/
+
+
+URL EN WORDPRESS
+-------------------------------------------
+/%category%/%postname%/
+/%category%/%postname%/%prueba%/
+
+
+CARMEN LORENTE
+---------------------------------------------
+https://dashboard.zopim.com/
+Usuario: dicoro@dicoro.com
+Contraseña: Barcelona 34 
+4216
+
+CITM UPC EDU
+---------------------------------------------
+Marina Pinyol
+Tel. 93 112 03 67 
+info.citm@citm.upc.edu
+
+
+PASSWORD DE TIENDA ONLINE TPV
+----------------------------------------------
+Fr3kMb3M58
+
+LINK GOOGLE TAG MANANGER 
+----------------------------------------------
+https://www.youtube.com/watch?v=V9M1w2oN_mA
+
+TELEFONOS 
+---------------------------------------------
+RAUL GARCIA:		4215
+FRANCISCO GARCIA:	4213
+ESTER BENITEZ:		4267 
+JORDI GALLART:		4848
+ALBERTO AGUILAR		4270
+MIRIAM SALGUERO:	4222 
+CARMEN HELPDESK:	4216
+ALICIA PINEDA:		4229
+ESTHER			??
+XENIA NAVARRO		4233
+ANA MARIA 		4264
+
+
+$my_wpdb = $my_wpdb = new wpdb('sillamaniaes_com','WG2Wqoj5','sillamaniaes_com','localhost');
+$my_wpdb = $my_wpdb = new wpdb('sillamaniaes2com','Eq26aj8Q','sillamaniaes_dos_com','localhost');
+
+
+CONTRASEÑAS | PASSWORDS | SILLAMANIA.ES | SILLAMANIA.COM
+----------------------------------------------
+1.- ADMIN / TIENDAONLINE 				iBeKUwkMVk	
+2.- ADMIN / WORDPRESS					iBeKUwkMVk
+3.-  							mCTSEVC9	
+4.- proyectos_grafico@ofiprix.com			mCTSEVC9				
+3.- dberruezo@ofiprix.com / WORDPRESS 				
+4.- fgarcia@ofiprix.com / wordpress | prestashop 	IKetr64DNg
+
+GOOGLE RECAPTCHA
+----------------------------------------------
+Clave del sitio: 6LfLPIoUAAAAANgIf7jf5XBQ9Kqn1P1rPs35cx-c
+Clave secreta: 6LfLPIoUAAAAAH6KchIiDXZ87DCgFRCQ_9ZUZuja
+<script src='https://www.google.com/recaptcha/api.js?render=6LfLPIoUAAAAANgIf7jf5XBQ9Kqn1P1rPs35cx-c'></script>
+	
+
+UPC
+----------------------------------------------
+Carme Quesada
+Oriol Boira 
+David Sánchez Carreras
+
+
+JORDI GALLART SELECT PREUS PRODUCTES
+----------------------------------------------
+SELECT DISTINCT(psa.reference),ps.price + ps.price * 21 / 100 as precio_con_iva, ps.price as precio_sin_iva, ps.wholesale_price as precio_bruto
+FROM ps_product_attribute AS psa
+LEFT JOIN ps_product AS ps ON (ps.id_product = psa.id_product)
+GROUP BY psa.reference;
+
+SELECT DISTINCT(psa.reference),psl.name,ps.price+ps.price*21/100 as precio 
+
+FROM ps_product_attribute AS psa
+
+LEFT JOIN ps_product AS ps ON (ps.id_product = psa.id_product)
+
+LEFT JOIN ps_product_lang AS psl ON (psl.id_product = ps.id_product)
+
+WHERE ps.reference <> "" AND psa.reference <> ""
+ GROUP BY psa.reference;
+
+ 
+ZENDDESK
+----------------------------------------------
+ofiprix.zendesk
+https://ofiprix.zendesk.com/chat/agent#widget/getting_started
+https://ofiprixhelp.zendesk.com/access/unauthenticated?return_to=%2Fchat%3F
+
+REMPLAZAREMOS LA CADENA DE CONEXION
+----------------------------------------------
+$my_wpdb = $my_wpdb = new wpdb('sillamania0','Ofiprix2018','sillamaniaes_dos','localhost');
+
+
+SHORTCODE ANTERIORES
+------------------------------------
+[subcategorias_raiz subcategoria='4']
+[titulo_categoria subcategoria='4' titulo="Combinación perfecta"]
+Las sillas de Oficina de Sillamania tienen la perfecta combinación de calidad y precio. Nuestro objetivo es que disfrutes de tu silla en cualquier espacio y estilo, por lo que disponemos de modelos de oficina actuales y versátiles. Encontrarás una selección variada de sillas para uso intensivo, de una perfecta ergonomía ideal para personas exigentes. Sillas confidente, operativas, ergonómicas, para escuelas, taburetes o sillones. ¡Tú eliges!
+[/titulo_categoria]
+
+[subcategorias_raiz subcategoria='4']
+[xyz-ihs snippet="sillaOficina"]
+[titulo_categoria subcategoria='5' titulo="Espacios acogedores"]
+Tu hogar es un escenario ideal para que expreses personalidad y esencia. En Sillamania queremos ayudarte a construir un espacio acogedor, personal, cómodo y moderno con nuestra gran selección de sillas. Elige de entre nuestra variedad de estilos, preparados para los gustos más exigentes, tanto en diseños modernos o clásicos, como vintage, nórdicos o industriales. Somos especialistas en sillas, así que podrás completar con facilidad tu salón, comedor, cocina, zona de trabajo o de ocio con nuestra selección de modelos.
+[/titulo_categoria]
+
+[subcategorias_raiz subcategoria='5']
+[xyz-ihs snippet="sillaHogar"]
+[bloque_mas_vendidos subcategoria='4']
+[ofertas_destacadas subcategoria='4']
+[banner_tapiceria_home subcategoria='6' imagen_one='3578' imagen_two='3577' imagen_three='3576' titulo='Tu silla perfecta' descripcion='Ergonómicas, operativas, de escritorio, para bar y restaurante… Prepara cada ambiente con un toque único, y cubre todas tus necesidades con nuestras sillas.' url_imagenes='http://sillamania.es/tiendaonline/silla-de-oficina/200262-silla-spine-con-reposacabezas.html,http://sillamania.es/tiendaonline/silla-de-oficina/200262-silla-spine-con-reposacabezas.html,http://sillamania.es/tiendaonline/silla-de-oficina/200262-silla-spine-con-reposacabezas.html' url_titulo='http://sillamania.es/tiendaonline/silla-de-oficina/200262-silla-spine-con-reposacabezas.html' url_descripcion='http://sillamania.es/tiendaonline/silla-de-oficina/200262-silla-spine-con-reposacabezas.html']
+[espacios_acogedores titulo_izquierda="Espacios Acogedores" subcategoria='5' titulos="Descubre lo último de esta semana, Descubre lo último de esta mes ,Descubre lo último de esta año, Descubre lo último de este siglo" imagenes="3581, 3583, 3582" titulo_desc="Construye con Sillamania" desc="Pinta tu casa de colores. Crea un ambiente diáfano para tu negocio. Prepara un sistema de sonido para tu bar. Y, ahora, dale un toque único. Uno que vaya de la mano de tu idea. Que la complemente. ¿Ya lo visualizas? Ahora solo queda encontrarlo en Sillamania." ]
+[newsletter]
+[espacios_acogedores titulo_izquierda="Espacios Acogedores" subcategoria='5' titulos="Completa tu recepción con elegancia y personalidad gracias al sillón Barna de Sillamania" imagenes="3868, 3819, 3825" titulo_desc="Construye con Sillamania" desc="Pinta tu casa de colores. Crea un ambiente diáfano para tu negocio. Prepara un sistema de sonido para tu bar. Y, ahora, dale un toque único. Uno que vaya de la mano de tu idea. Que la complemente. ¿Ya lo visualizas? Ahora solo queda encontrarlo en Sillamania." url="https://sillamania.es/tiendaonline/sofas-y-butacas-recepcion/202406-sillon-barna.html"]
+
+
+ALBERTO TERMINAL SERVER
+------------------------------
+Servidor: OFIPRIXWEB
+Usuario:  OFIPRIXWEBcmd\adminphp
+Password: Ofiprixweb2011
+IP: 	  http://192.168.1.38/mrw/
+IP: 	  http://192.168.1.38/estadisticas/
+
+ALBERTO STOCK_SILLAMANIA
+------------------------------
+stock_silla
+
+
+ALBERTO CORREO ELECTRÓNICO
+------------------------------
+Cuenta Email: info@sillamania.es
+Nombre de usuario: informes@ofiprix.com
+Password: 1nf0rm3S
+Servidor: smtp.office365.com
+Puerto: 587
+Seguridad: STARTTLS
+
+
+CONFIGURACIÓN DE PRESTASHOP
+------------------------------
+nombre de dominio: sillamania.es
+servidor: localhost
+nombre usuario: info@sillamania.es
+contraseña la misma
+cifrado ninguno
+puerto 25
+
+BASES DE DATOS
+--------------------------------------
+01.- SILLAMANIA-ES
+	01.- sillamaniaes_dos (user:sillamania0)
+ 
+
+
+AUTOMATIZACIONES
+--------------------------------------
+01.- CONTROL DE STOCKS		
+	01.-1.- /home/ofichairs0/.bin/php /home/ofichairs0/www/stock_silla/index.php			ofichairs.es
+	01.-2.- /home/sillamania0/.bin/php /home/sillamania0/www/stock_silla/index.php			sillamania.es  
+ 	01.-3.- /home/sillamania/.bin/php /home/sillamania/www/stock_silla/index.php    		sillamania.com
+	01.-4.- /home/ofichairs/.bin/php /home/ofichairs/www/stock_silla/index.php			ofichairs.com	
+02.- VIDEOS
+	01.-1.- /home/ofichairs0/.bin/php /home/ofichairs0/www/videos/index.php	        		ofichairs.es
+	01.-2.- /home/sillamania0/.bin/php /home/sillamania0/www/videos/index.php			sillamania.es  
+ 	01.-3.- /home/sillamania/.bin/php /home/sillamania/www/videos/index.php         		sillamania.com
+	01.-4.- /home/ofichairs/.bin/php /home/ofichairs/www/videos/index.php         			ofichairs.com
+03.- ORDEN PRODUCTOS(RAUL)
+	01.-1.- /home/ofichairs0/.bin/php /home/ofichairs0/www/ordenar_productos/index.php		ofichairs.es
+	01.-2.- /home/sillamania0/.bin/php /home/sillamania0/www/ordenar_productos/index.php		sillamania.es  
+ 	01.-3.- /home/sillamania/.bin/php /home/sillamania/www/ordenar_productos/index.php      	sillamania.com
+	01.-4.- /home/ofichairs/.bin/php /home/ofichairs/www/ordenar_productos/index.php		ofichairs.com
+04.- FILTROS
+ 	01.-1.- /home/ofichairs0/.bin/php /home/ofichairs0/www/cron_features_values/index.php		ofichairs.es
+	01.-2.- /home/sillamania0/.bin/php /home/sillamania0/www/cron_features_values/index.php		sillamania.es  
+ 	01.-3.- /home/sillamania/.bin/php /home/sillamania/www/cron_features_values/index.php      	sillamania.com
+	01.-4.- /home/ofichairs/.bin/php /home/ofichairs/www/cron_features_values/index.php      	ofichairs.com
+05.- BORRADO DE CACHE
+	01.-1.- /home/ofichairs0/.bin/php /home/ofichairs0/www/tiendaonline/clear-cache/index.php	ofichairs.es
+	01.-2.- /home/sillamania0/.bin/php /home/sillamania0/www/tiendaonline/clear-cache/index.php	sillamania.es  
+ 	01.-3.- /home/sillamania/.bin/php /home/sillamania/www/tiendaonline/clear-cache/index.php      	sillamania.com
+	01.-4.- /home/ofichairs/.bin/php /home/ofichairs/www/tiendaonline/clear-cache/index.php      	ofichairs.com
+06.- COPIA CARPETAS 360
+	A continuación ...
+
+
+OFIPRIX (ftp)
+-------------------------------------------------
+Usuario: ofiprix_david
+Password: Barcelona34
+intranet:0f1pr1x
+ip:46.231.126.137
+
+OFIPRIX (intranet)
+-------------------------------------------------
+user:seo_ofiprix@ofiprix.com 
+password:Plastico123
+intranet:0f1pr1x
+ip:46.231.126.137
+
+PARA TODOS LOS DOMINIOS ANTIGUO SERVIDOR
+-------------------------------------------------
+URL: https://paneles.gestiondecuenta.com
+Usuario: vl19871.dinaserver.com
+Password: Barcelona34
+
+
+PARA TODOS LOS DOMINIOS NUEVO SERVIDOR
+-------------------------------------------------
+https://paneles.gestiondecuenta.com
+vl21875.dinaserver.com
+Barcelona34
+
+
+FTP OFICHAIRS.COM
+-------------------------------------------------	
+Usuario: ofichairs
+Password: 0f1ch41rs
+
+FTP OFICHAIRS.ES
+-------------------------------------------------	
+Usuario: ofichairs0
+Password: Ofichairs2019
+
+ftp sillamania.es
+------------------------------
+usuario:sillamania0
+password:Ofiprix2019
+
+ftp sillamania.com
+------------------------------
+usuario:sillamania
+password:Ofiprix2018
+
+
+OFICHAIRS.ES DINAHOSTING (panel de control)
+------------------------------
+https://paneles.gestiondecuenta.com
+Usuario: ofichairs0
+Contraseña: Ofichairs2019
+
+SILLAMANIA.ES DINAHOSTING (panel de control)
+------------------------------
+https://paneles.gestiondecuenta.com
+Usuario: sillamania0
+Contraseña: Ofiprix2018
+
+
+SILLAMANIA.ES BASE DE DATOS
+------------------------------
+base de datos:  sillamaniaes_dos
+usuario:	sillamania0		 	
+password: 	Ofiprix2018
+aplicacion:     prestashop
+
+base de datos:  sillamaniaes
+usuario: 	sillamaniaes
+password: 	Ofiprix2018
+aplicacion:     wordpress
+
+
+SILLAMANIA.COM DINAHOSTING (panel de control)
+------------------------------
+https://paneles.gestiondecuenta.com
+Usuario: sillamania
+Contraseña: Ofiprix2018
+
+Usuario: dnsmanagerofiprix
+Últimos tres dígitos de la contraseña: 019
+
+
+SILLAMANIA.COM BASE DE DATOS
+------------------------------
+base de datos:  sillamaniaes_com
+usuario: 	sillamaniaes_com
+password: 	WG2Wqoj5
+aplicacion:     prestashop
+
+base de datos:  sillamaniaes_dos_com
+usuario: 	sillamaniaes2com
+password: 	Eq26aj8Q
+aplicacion:     wordpress
+
+base de datos:  sillamania
+usuario: 	sillamania
+password: 	Ofiprix2018
+aplicacion:     prestashop + wordpress
+
+base de datos:   moodle_sillamania
+usuario:	 sillamania_mood
+password:	 Ofiprix2018
+aplicacion:	 moodle
+ip:		 82.98.179.138
+
+CONFIGURACION TEST
+----------------------------------------------
+01.- Mode:sandbox
+02.- enable logs no
+03.- Merchant ID: ofiprixtest
+04.- subaccount:internet
+05.- https://pay.realexpayments.com/pay
+06.- https://pay.sandbox.realexpayments.com/pay
+07.- Pay by Credit or Debit Card (payment choice description description)
+08.- custom language
+09.- transaction type: Auto settle
+
+Merchant ID	   ofiprixtest
+Shared Secret	   secret
+Subaccount	   internet
+Rebate  Password   rebate
+
+
+CONFIGURACION NORMAL SILLAMANIA.ES
+----------------------------------------------
+01.- Mode:live
+02.- enable logs no
+03.- Merchant ID: 349109678 | 349109678
+04.- subaccount:internet
+05.- https://pay.realexpayments.com/pay
+06.- https://pay.sandbox.realexpayments.com/pay
+07.- payment description: Pagar con tarjeta de crédito
+07.- Pay by Credit or Debit Card (payment choice description description)
+08.- http language customer language
+09.- transaction type: Auto settle
+10.- Delayed Settlement Status | payment accepted / waiting for settlement
+11.- iframe no 
+12.- iframe enabled embeded
+13.- card storage 	no
+14.- offer save card 	no 
+
+CREDENDTIALS
+----------------------------------------------
+Merchant ID	   349109678
+Shared Secret	   Fr3kMb3M58
+Subaccount	   internet
+Rebate  Password   Fr3kMb3M58
+
+DIFERENCIAS DE FICHEROS 
+--------------------------------
+1.- WP-CONFIG, HEADER.PHP
+2.- SETTINGS.INC.PHP, HEADER.TPL
+
+TRATAMIENTO PARA LA EXPORTACIÓN 
+----------------------------------------------
+01.- EXPORTACIÓN DE LA BASE DE DATOS .ES					(TOTAL)(PARCIAL SOLO LAS TABLAS DE A CONTINUACIÓN)
+02.- EXPORTACIÓN DE LA BASE DE DATOS .COM					(TOTAL)(PARCIAL TODAS EXCEPTO LAS TABLAS DE A CONTINUACIÓN)
+03.- CREACIÓN DE BASE DE DATOS NUEVA EN SILLAMANIA.ES				(VACIA)
+04.- INSERTAR TABLAS BASE DE DATOS.ES PARCIAL Y TABLAS BASE DE DATOS.COM  
+05.- CAMBIAR CAMPOS NUEVA BASE DE DATOS SHOP_URL PS_CONFIGURATION TAMBIÉN MIRAR INTRANET PRESTASHOP URLS AMIGABLES EL DOMINIO 
+06.- COPIA DE ARCHIVOS DE LA .COM A LA .ES EN LOCAL				(TOTAL)(CAMBIO DE DOMINIO COMO VARIABLE)
+07.- BAJADA DE TODAS IMAGENES 							(CARPETA IMG)(CARPETA THEMES/IMG/P)(CARPETA THEMES/IMG/C)
+08.- CAMBIAMOS LAS RUTAS DE HTTP://SILLAMANIA.COM POR HTTPS://SILLAMANIA.ES	
+09.- CAMBIAR LOS CONECTORES WP-CONFIG, SETTINGS_INC, FUNCTIONS POR LA NUEVA
+10.- CAMBIAMOS MANUALMENTE HEADER.PHP,HEADER.TPL POR LOS SCRIPTS
+
+10.- BORRAMOS TABLAS DE LA BASE DE DATOS .COM Y PEGAMOS PARICAL DE LA .ES	
+11.- NO WORDPRESS TABLAS DE MOMENTO
+12.- BORRAR TODAS LAS TABLAS DE LA .ES EXCEPTO LAS VISTAS DE EXPOWIN
+13.- COPIAR TODAS LAS TABLAS DE LA NUEVA BASE DE DATOS A BASE DE DATOS .ES
+14.- CAMBIAR LOS CONECTORES WP-CONFIG, SETTINGS_INC, FUNCTIONS POR LA .ES  
+15.- HAREMOS UN REPLACE EN LAS TABLAS DEL WORDPRESS POR SI EXISTE HTTP://SILLAMANIA.COM A HTTPS://SILLAMANIA.ES 
+
+nombre nueva base de datos: sillamaniaes_dos_dos
+user   nueva base de datos: sillamania0_dos
+
+EXPORTACIÓN DE LA BASE DE DATOS DE LA .ES A LA .COM
+----------------------------------------------
+1.- BLOQUE ADDRESS
+	1.1.- PS_ADDRESS 
+
+2.- BLOQUE  CART
+	2.01.- PS_CART 
+	2.02.- PS_CART_CART_RULE
+	2.03.- PS_CART_PRODUCT 
+	2.04.- PS_CART_RULE 
+	2.05.- PS_CART_RULE_CARRIER
+	2.06.- PS_CART_RULE_COMBINATION
+	2.07.- PS_CART_RULE_COUNTRY
+	2.08.- PS_CART_RULE_GROUP
+	2.09.- PS_CART_RULE_LANG
+	2.10.- PS_CART_RULE_PRODUCT_RULE
+	2.11.- PS_CART_RULE_PRODUCT_RULE_GROUP
+	2.12.- PS_CART_RULE_PRODUCT_RULE_VALUE
+	2.13.- PS_CART_RULE_SHOP	
+
+5.- BLOQUE CLIENTES
+	5.01.- PS_CONNECTIONS
+	5.02.- PS_CONNECTIONS_SOURCE
+	5.03.- PS_CONNECTIONS_PAGE	
+	5.04.- PS_CONTACT
+	5.05.- PS_CONTACT_LANG
+	5.06.- PS_CONTACT_SHOP
+	5.07.- PS_CUSTOMER
+	5.08.- PS_CUSTOMER_GROUP
+	5.09.- PS_CUSTOMER_MESSAGE
+	5.10.- PS_CUSTOMER_MESSAGE_SYNC_IMAP
+	5.11.- PS_CUSTOMER_THREAD
+	5.12.- PS_DATE_RANGE
+	5.13.- PS_GENDER
+	5.13.- PS_GENDER_LANG	
+	5.14.- PS_GUEST
+	5.15.- PS_OPERATING_SYSTEM
+	5.17.- PS_PAGE		
+	5.17.- PS_PAGE_NOT_FOUND		
+	5.18.- PS_PAGE_TYPE	
+	5.16.- PS_PAGE_VIEWED
+	5.19.- PS_WEB_BROWSER
+
+3.- BLOQUE MESSAGE
+	3.1.- PS_MESSAGE
+	3.2.- PS_MESSAGE_READED
+	
+4.- BLOQUE NEWSLETTER		
+	4.1.- PS_NEWSLETTER
+
+	
+6.- BLOQUE ORDERS
+	6.01.- PS_ORDERS
+	6.02.- PS_ORDER_CARRIER
+	6.03.- PS_ORDER_CART_RULE
+	6.05.- PS_ORDER_DETAIL	
+	6.05.- PS_ORDER_DETAIL_TAX
+	6.02.- PS_ORDER_HISTORY
+	6.02.- PS_ORDER_INVOICE
+	6.02.- PS_ORDER_INVOICE_PAYMENT
+	6.02.- PS_ORDER_INVOICE_TAX
+	6.13.- PS_ORDER_MESSGE
+	6.14.- PS_ORDER_MESSAGE_LANG	
+	6.14.- PS_ORDER_PAYMENT
+	6.11.- PS_ORDER_RETURN
+	6.12.- PS_ORDER_RETURN_DETAIL
+	6.09.- PS_ORDER_RETURN_STATE_LANG
+	6.10.- PS_ORDER_RETURN_STATE
+	6.07.- PS_ORDER_SLIP
+	6.08.- PS_ORDER_SLIP_DETAIL
+	6.08.- PS_ORDER_SLIP_DETAIL_TAX
+	6.03.- PS_ORDER_STATE
+	6.04.- PS_ORDER_STATE_LANG
+		
+5.- PS_SHOP_URL
+
+7.- PS_WISHLIST
+	7.1.- PS_WISHLIST 
+	7.2.- PS_WISHLIST_EMAIL
+	7.3.- PS_WISHLIST_PRODUCT
+	7.4.- PS_WISHLIST_PRODUCT_CART
+
+
+COSAS IMPORTANTES PARA LA SUBIDA
+------------------------------------------------------------
+1.- COPIAR CARPETA DE 360 ENTERA 
+2.- COPIAR TABLA DE VIDEOS
+3.- paymentmodule.php ENVIA UN CORREO A LA CUENTAS(jgallart@ofiprix.com, administracion@sillamania.es, dberruezo@ofiprix.com)
+4.- CARPETA PEDIDOS OJO CONSULTAS AJAX CONECTORES A LAS BASES DE DATOS
+
+
+DIRECTORIOS
+------------------------------------------------------------
+01.- WP-CONTENT/THEMES/GENESIS-SAMPLE (EXCEPTO EL HEADER.PHP)
+02.- TIENDAONLINE/MODULOS
+03.- TIENDAONLINE/THEMES/DEFAULT-BOOTSTRAP  (EXCEPTO EL HEADER.TPL)
+	2.1.- / CSS
+	2.2.- / JS
+04.- MAQUETAS/_/CSS
+05.- MAQUETAS/_/JS
+06.- MIRAR LAS CLASES Y CONTROLLERS A SUBIR TODOS EXCEPTO EL CONTROLLER.PHP 
+07.- 
+
+
+GOOGLE ANALYTICS
+------------------------------
+Webmaster Sillamania
+Usuario: webmaster@sillamania.es
+Password: Sillamania_Web_1
+codigo seguimiento: UA-128781821-2
+
+
+CODIGO DE SEGUIMIENTIO DE COMERCIO ELECTRONICO MEJORADO
+------------------------------------------------------------
+Este informe requiere que el seguimiento de comercio electrónico esté configurado para la vista.
+¿Qué es el seguimiento de comercio electrónico?
+Seguimiento de comercio electrónico es un fragmento de código que puede incluir en su sitio o aplicación para recoger datos de transacciones como ventas de productos, cantidades compradas o ubicaciones de facturación, por ejemplo, y relacionarlos con su cuenta de Google Analytics.
+¿Por qué se debe configurar el seguimiento de comercio electrónico?
+El seguimiento de comercio electrónico le ayudará a entender mejor el valor de su negocio digital. Utilice los informes de comercio electrónico para segmentar y analizar datos y para descubrir las relaciones existentes entre las campañas de marketing, la interacción de los usuarios y las transacciones.
+
+
+COMERCIO ELECTRONICO MEJORADO
+------------------------------------------------------------
+1.- Datos de impresión === impressionFieldObject === Representan la información sobre el producto que se ha visto
+2.- Datos de producto  === productFieldObject    === Los datos de producto representan los productos individuales que se han visto, que se han agregado al carrito
+3.- Datos de promoción === promoFieldObject	 === Representan la información sobre una promoción que se ha visto
+4.- Datos de acción    === actionFieldObject	 === Representan la información sobre una acción que se lleva a cabo relacionada con el comercio electrónico
+
+PARAMETROS DEL COMERCIO ELECTRONICO
+------------------------------------------------------------
+1.- categoria
+2.- accion
+3.- etiqueta
+4.- valor
+
+ 
+SEÑOR GARCIA POR PRIORIDADES
+------------------------------
+1.- BARRA NEGRA CON LOS TELÉFONOS  ok 
+2.- BOTON PARTICULAR Y PROFESIONAL PRECIOS PROFESIONAL NATURAL SIN DECIMALES (BRUTO Y NETO) | PRECIOS PARTICULAR CON 2 DECIMALES (BRUTO CON IVA Y NETO CON IVA)   ok
+3.- MIRAR BOTON GAMA DE COLOR Y MINUATURAS  
+
+
+http://sillamania.com/tiendaonline/sillas-de-oficina/179696-silla-air.html#/2-color-azul
+------------------------------
+1.- ASOCIAR A MATERIALES TODAS SUBCATEGORIAS   (OK)
+	1.1.- SILLAS DE MADERA		(16)
+	1.2.- SILLAS TAPIZADAS		(72)
+	1.3.- SILLAS DE METAL		(5)
+	1.4.- SILLAS DE PLÁSTICO	(85)
+2.- PONER IMAGEN PARMA CORRECTA 
+
+
+TAREAS PENDIENTES DE HOY
+------------------------------
+1.- TAREAS A REALIZAR
+---------------------------
+1.- NUEVA CATEGORIZACIÓN
+	1.1.- MATERIALES   === EJEMPLO MADERA, METALICO			 						(OK)
+	1.2.- PROMOCIONES  === EJEMPLO BLACK FRIDAY, PROMOCIONES, OTROS,						(OK) 	
+2.- MODULO COMENTARIO AHORA DESACTIVAR 	
+	2.1.- DESPUÉS PUNTUACIÓN ENVÉS DE 0 A 5 === DE 0% A 100% === MOSTRAR SOLO LAS MAYORES A 80%			(OK FALTA MAYORES QUE 80%)
+3.- NUEVO FILTRO WORDPRESS RESPECTO HAY STOCK O NO HAY STOCK, TAMBIÉN POR PRECIO DE MAYOR A MENOR O MAYOR A MENOR 	
+4.- NUEVO DISEÑO TIPO https://www.superestudio.com/ 
+	4.1.- 3 BANNERS PRINCIPALES
+		4.1.2.-EN RESPONSIVE SOLO VERTICAL LOS OTROS DEBAJO 	
+	4.2.- BOTON MOSTRAR COLORES (TENER PRESENTE TANTO TEMA MINUATURA IMAGENES COMO COLORES)
+
+
+TAREAS PENDIENTES
+---------------------------------------------------------------------
+1.- CATEGORIZAR BIEN TABURETES			(WEB) (OK)
+2.- PONER LOS GRADOS EN LOS COMENTNARIOS	(WEB) (OK)
+3.- COMPROBAR VERSION RESPONSIVE DE LA WEB	(WEB) (HABRÁ OTRA MAQUETA) 
+4.- COMPROBAR EL TIEMPO ESTIMADO POR PRODUCTO Y TAMBIEN PRECIOS Y CANTIDADES
+5.- PONER EL SOFTWARE DE CODIGO DE BARRAS EN PRODUCCIÓN Y PROBARLO 		(CODIGO BARRAS)
+6.- COMPROBAR QUE LAS REFERENCIAS Y LO CODIGOS DE EXPOWIN ESTAN CORRECTOS	(ORACLE)
+
+
+URLS A TENER EN CUENTA
+---------------------------------------------------------------------
+1.- https://www.hjh-office.es/ROYAL-PRO-Silla-Home-Office.html
+2.- https://kavehome.com/es/es/sillas?gclid=EAIaIQobChMIh9uVyoOJ3wIV9hXTCh3JYQd8EAAYASAAEgLVn_D_BwE&gclsrc=aw.ds
+3.- https://www.superestudio.com/?gclid=EAIaIQobChMI5NzE2oOJ3wIVA0TTCh0qpQTvEAAYASAAEgJ79_D_BwE
+
+
+PREGUNTAS DE HOY
+------------------------------
+Hola buenos días,
+Tenía alguna pregunta que hacer como las siguientes: 
+1.- La web va ir con comentarios y puntuaciones llenas ¿?
+2.- Los carruseles de la web tanto del listado como de productos relacionados han de mostrar 2 imágenes o hago que muestren más ¿?
+3.- Los productos relacionados ahora estar sin ninguna combinación, quiero decir, que no se muestran por colores, se muestra uno por defecto yo pienso que ya está bien para no cargar demasiadas consultas a la bd pero si queréis cambiarlo decídmelo.
+Luego estoy arreglando cosas ….
+
+
+
+
+PASARELA
+------------------------------
+CREDIT CARD NUMBER 	4263 9700 0000 5262
+CADUCIDAD 		12/19
+CODIGO SEGURIDAD 	633
+
+
+
+DESCUENTOS EMAIL
+-----------------------------------------------------------------------------------------
+Hola le envío este email para saber si su software expowin esta preparado para soportar los diferentes descuentos de prestashop como:
+
+1.- Reglas de Precios del catálogo
+	1.1.- descuentos por categoría, fabricante, proveedor, atributo o característica
+2.- Regla de compra
+	2.1.- Precios Específicos sobre un producto
+3.- Precio específico
+	3.1.- Precios Específicos sobre un producto
+
+Descuentos porcentuales y numéricos, sobre rango de fechas etc ...
+
+
+
+TAREAS PENDIENTES (PRIORIDAD 2)
+-----------------------------------------------------------------------------------------
+1.- MAQUETACIÓN WORDPRESS / PRESTASHOP
+2.- COMPROBACIÓN DE USUARIO REGISTRADO PARTE FRONT-END Y PARTE BACKEND ADMISIÓN DE COMENTARIO (MODULO COMENTARIOS)
+
+
+TAREAS QUE ESTOY REALIZANDO AHORA (PRIORIDAD 1)
+-----------------------------------------------------------------------------------------
+1.- IMPLEMENTACIÓN SINCRONIZACIÓN CRON DINAHOSTING E INSERCIÓN DE DATOS CSV ALBERTO
+2.- REALIZACIÓN 4 PLUGINS PARA SEO ... 2 CARRUSELES TIPO EL QUE TENEMOS + 2 BANNERS HOME
+....
+ 
+TAREAS REALIZADAS 
+-----------------------------------------------------------------------------------------
+1.- MAQUETACIÓN / PROGRAMACIÓN CARRO COMPRA ... TAMBIÉN ELIMINACIÓN ARTICULOS DESDE PRESTASHOP Y WORDPRESS
+2.- 
+
+
+2529
+
+CRON 
+------------------------------------------------------------------------------------------
+https://www.prestashop.com/forums/topic/476997-solved-automatic-stock-update-csv-solution/
+15:03
+
+
+carro compra mobile
+---------------------------------
+margin: 0 auto;
+float: right;
+/* width: 100%; */
+max-width: 20px;
+
+
+NO ENCONTRADA RAUL EN DAVID
+-------------------------------------------------------------------------------------------
+SILLA VICTORIA 				00009001000014
+SILLA VICTORIA SIMIL PIEL NEGRO 	00009001000012
+SILLA ARES CON ATRIL DERECHA  NEGRO     00026000000111
+SILLA ARES CON ATRIL DERECHA  GRIS 	00026000000813
+
+NO ENCONTRADA DAVID A RAUL
+-------------------------------------------------------------------------------------------
+SEVENTY ROJO 					00006008070000
+SILLA VICTORIA NEGRO 				00009001000000		191503
+SILLA VICTORIA GRIS PERLA			00009000000000		191503
+SILLA CUBE 4 PATAS CROMO GRIS			00026000000715		200290
+SILLA CUBE 4 PATAS CROMO ANTRACITA		00026000000699		200290
+SILLA CUBE 4 PATAS C/BRAZOS CROMO ANTRACITA	00026000000789		200062
+SILLA CUBE 4 PATAS C/BRAZOS NEGRA GRIS		00026000000708		200068
+SILLA CUBE 4 PATAS C/BRAZOS NEGRA ANTRACITA	00026000000702		200068
+SILLA CUBE GIRATORIA CROMO GRIS			00026000000733		200064	 
+SILLA CUBE GIRATORIA CROMO ANTRACITA		00026000000750		200064
+SILLA CUBE GIRATORIA C/RUEDAS GRIS		00026000000746		200070
+SILLA CUBE GIRATORIA C/RUEDAS ANTRACITA		00026000000752		200070
+SILLA CUBE 4 PATAS NEGRA GRIS			00026000000725		200071
+SILLA CUBE 4 PATAS NEGRA ANTRACITA		00026000000716		200071
+SILLA CUBE GIRATORIA NEGRA GRIS			00026000000748		202386
+SILLA CUBE GIRATORIA NEGRA ANTRACITA		00026000000755		202386
+SILLA CUBE MADERA GRIS				00026000000717		202387		
+SILLA CUBE MADERA ANTRACITA 			00026000000731		202387
+SILLA CUBE PATIN GRIS				00026000000764		202390
+SILLA CUBE PATIN ANTRACITA			00026000000765		202390
+
+INTENTAR OCULTAR LOS PRODUCTOS DE ARRIBA CON LOS COLORES PERTINENTES Y EL IDENTIFICADOR Y COLOR
+-------------------------------------------------------------------------------------------
+rojo  	  == 4
+negro 	  == 1		#color_1
+gris  	  == 3
+antracita == 13
+
+ESTER
+-------------------------------------------------------------------------------------------
+select pspl.name as nombre,COUNT(psp.id_product) as imagenes
+from ps_product as psp
+LEFT JOIN ps_product_lang as pspl on (pspl.id_product = psp.id_product)
+LEFT JOIN ps_image as psi on (psi.id_product = psp.id_product)
+GROUP BY psp.id_product;
+
+
+FUNCION ORACLE JORDI ALBARANS
+-------------------------------------------------------------------------------------------
+ES LA ENCARGADA DE ENVIAR LOS DATOS:
+	1.- PESO
+	2.- NUMERO DE PAQUETES
+	3.- DIRECCIÓN
+	4.- TELEFONO
+	5.- CIUDAD  
+
+
+HACEMOS LOS SIGUIENTES CAMBIOS
+-------------------------------------------------------------------------------------------
+1.- Silla victoria color gris 00009000000000 x 00009001000014 en la combinacion esta igual 
+2.- Silla victoria color negro 00009001000002 x 00009001000012 en la combinacion esta igual
+3.- 
+
+
+
+CLASES
+-------------------------------------------------------------------------------------------
+cart  = shopping_cart > cart_block
+boton = exclusive added
+
+
+
+
+COLORES
+--------------------------------------------------------------------------------------------
+rojo = #ED0917
+rosa = #EC0776
+
+LAS QUE NO VAN BIEN
+--------------------------------------------------------------------------------------------
+
+
+FILTROS
+--------------------------------------------------------------------------------------------
+material	51
+tipo		54
+mecanismo	52
+peso		53
+nºhoras		50
+COLECCION
+	
+
+PRODUCTOS SIN COMBINACION
+--------------------------------------------------------------------------------------------
+01.- MIRKO 				(NO COMBINACION | EXCEL)(SI IMAGENES)
+02.- SEVENTY 				(NO COMBINACION | EXCEL)(SI IMAGENES)
+03.- SILLON BUBBLE
+04.- TAURO
+05.- SILLA PLEASE
+06.- JULIA PATCHWORK
+07.- LOUNGE VILLAGE
+08.- SILLA MATCH
+09.- SILLA ZENIT
+10.- TABURETE BAJO EASY
+11.- TABURETE DE APOYO LEGO
+12.- SILLON SLIM
+13.- SILLA MISS CON ATRIL
+14.- SILLON PRESIDENT
+15.- SILLON CROMA BAJO
+16.- SILLON CHESTERFIELD BAJO
+17.- SILLON MASTER
+18.- SILLA AIR BLANCA 
+19.- SILLON CROMA PATIN 
+20.- SILLA ERGOMAX TAPIZADA CON REPOSACABEZAS   (NO COMBINACION | EXCEL)(SI IMAGENES)
+21.- SILLA WIND RESPALDO BAJO TEJIDO CON BRAZOS (NO COMBINACION | EXCEL)(SI IMAGENES)
+22.- SILLA WIND CROMO CON BRAZOS		(NO COMBINACION | EXCEL)(SI IMAGENES)
+23.- SILLA KEYSTONE PIEL CON REPSACABEZAS 	(NO COMBINACION | EXCEL)(SI IMAGENES)
+24.- SILLA SPINE CON REPSACABEZAS 		(NO COMBINACION | EXCEL)(SI IMAGENES)
+25.- SILLA KEYSTONE CON REPSACABEZAS 		(NO COMBINACION | EXCEL)(SI IMAGENES)
+26.- TABURETE DE TRABAJO ATLAS
+27.- TABURETE DE TRABAJO ERGOS
+
+
+FRANCISCO
+--------------------------------------------------------------------------------------------
+1.- EL BARCO ESTA A MEDIO CAMINO
+2.- PRECIO BRUTO COMO PRECIO FINAL SIN APLICARLE EL IVA 
+3.- PRECIO NETO CON DESCUENTO 
+4.- PAGINA DE CONFIRMACION 
+ 
+144
+
+
+FALLO DE IMAGENES DE CATEGORIAS
+--------------------------------------------------------------------------------------------
+1.- 
+
+
+FALLO DEFAULT ON
+--------------------------------------------------------------------------------------------
+https://www.prestashop.com/forums/topic/466734-no-puedo-crear-combinaciones-de-productos/
+
+id no permite combinaciones 191488
+id permite combinaciones
+
+
+ME HE QUEDADO EN SILLA SILLA MARLENE
+
+
+Lunes dia 24 OFIPRIX Entrevista
+------------------------------------------------
+01.- HORA 09:30h 
+02.- DIA Dia 24
+03.- DIRECCION: carretera barcelona 34-40 barbera valles 
+04.- PREGUNTAR POR: Francisco Garcia Pineda
+05.- LLEVAR: curriculum
+06.- REQUERIMENTOS PRESTASHOP Y WORDPRESS, API TERCEROS TWITTER, FACEBOOK, GOOGLE, INSTAGRAM, CSS, RESPONSIVE, MOBILE FIRST,   
+07.- TELEFONO: 93 937001100
+08.- Dimecres que ve començem 03/10/2018
+
+ESTRUCTURA PERSONALIZDA
+------------------------------------------------
+http://localhost/ofiprix/sillamania.es  
+/%category%/%postname%/
+
+Etiquetas disponibles:
+%year% %monthnum% %day% %hour% %minute% %second% %post_id% %postname% %category% %author%
+
+
+1.- ASOCIADAS DE PRODUCTOS 
+------------------
+
+
+
+
+NO PRIORIDADES
+--------------
+1.- MIRAR PARAMETROS DE BUSQUEDA PRESTASHOP Y/O WORDPRESS
+
+
+PRODUCTO CON COMBINACIÓN CORRECTA
+--------------------------------------
+identificador 191516
+
+
+TAREAS A REALIZAR HOY
+--------------------------------------
+1.- SUBIR STOCK 50% !!
+2.- PROGRAMACIÓN DETALLE DEL PROEDUCTO PASANDOLE EL COLOR OK !!
+3.- PROGRAMACIÓN DEL CARRO DE LA COMPRA OK !!!
+4.- PROGRAMACIÓN DE LA PLANTILLA DE LA BUSQUEDA DE PRODUCTOS PRESTASHOP LISTADO 
+5.- PROGRAMACIÓN DE LA MINUATURAS DE LA PAGINA DEL DETALLE
+6.- PROGRAMACIÓN DEL WEBSERVICE PARA AGREGAR EL NUMERO DE TIENDA Y TAMBIÉN EL NUMERO DE SEGUIMIENTO
+7.- PROGRAMACIÓN DE LAS CONSULTAS AL ORACLE PARA EL CODIGO DE BARRAS LA DESCRIPCION Y EL CODIGO AUTONUMERICO
+
+
+la url que toca con #/2-color-azul
+grupo_combinations_id ==== 2
+grupo_combinations === 2 
+
+total combinaciones
+NEGRO | AZUL | GRIS | ROJO | VERDE | NARANJA
+
+
+
+[espacios_acogedores titulo_izquierda="Espacios Acogedores" subcategoria='5' titulos="Completa tu recepción con elegancia y personalidad gracias al sillón Barna de Sillamania" imagenes="3868, 3819, 3825" titulo_desc="Construye con Sillamania" desc="Pinta tu casa de colores. Crea un ambiente diáfano para tu negocio. Prepara un sistema de sonido para tu bar. Y, ahora, dale un toque único. Uno que vaya de la mano de tu idea. Que la complemente. ¿Ya lo visualizas? Ahora solo queda encontrarlo en Sillamania." url="http://sillamania.com/tiendaonline/sofas-y-butacas-recepcion/202406-sillon-barna.html"]
+

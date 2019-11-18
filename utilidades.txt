@@ -1,0 +1,242 @@
+SAGRADA FAMILIA
+----------------------------
+BCN EIX.Sagrada Família-Fons especial:  Famílies
+
+
+RECADOS
+----------------------------
+01.- BIBLIOTECA 
+06.- CORTAR EL PELO
+07.- DESCARGAR WINDOWS 2008 SERVER O WINDOWS 2008 SERVER FOUNDATION
+08.- COMPRAR MOUSE BLUETOOTH 	 
+
+
+COMPRAS NUEVAS
+----------------------------
+01.- COMPRAR MUEBLE PARA EL APARTAMENTO
+02.- COMPRAR MULTIMETRO
+03.- COMPRAR ANELLA DE LA CARTERA
+04.- COMPRAR LAPIZ ELECTRICO
+
+
+
+
+RESUMEN DEL FICHERO
+----------------------------
+01.- WIFI
+02.- VIDEOS 
+03.- CURRICULUM
+04.- CITM UPC
+05.- CREACION DE LA WEB
+06.- 
+
+
+01.- WIFI 
+----------------------------
+7C3F3768FDC794CBDE61
+
+02.- WIFI 
+----------------------------
+KqwJqKXHhyF4FXFfNy3B
+
+
+
+02.- VIDEOS
+----------------------------
+http://www.pasion.com/transexuales-travestis-en-catalunya/malgrat-mar.htm
+https://www.youtrannytube.com/nice-looking-ts-riding-weenie-raw-42006.html
+
+
+03.- CURRICULUM
+----------------------------
+
+CSS
+---------------------------
+1.- LESS (variables | mixins | funciones | compilacion)
+2.- SASS (variables | mixins | funciones | compilacion)
+3.- Mobile first | Diseno responsive | Media queries | Orientacion de dispositivos
+4.- Cross Browser varios browsers
+5.- CSS 3D (cube, pyramid, cylinder, sphere)
+
+
+JAVASCRIPT
+---------------------------
+1.- Touch and Swipe
+2.- JavaScript (cube, pyramid, cylinder, sphere)
+
+
+APACHE
+---------------------------
+1.- Reescrituras
+
+
+PHP
+---------------------------
+01.- Php nativo (Crear Pequeno framework)
+02.- Inclusion librerias estandard
+03.- CodeIgniter, Zend Framework 2 , Laravel		(PRIORIDAD 3)
+	3.1.- Laravel
+		
+04.- Wordpress pluguins(yoast seo, formulario) 		(PRIORIDAD 1)
+05.- PrestaShop, ultimas versiones, creacion modulos	(PRIORIDAD 2)
+
+
+MYSQL
+---------------------------
+01.- Creacion de indices
+02.- Creacion de queries
+
+
+GOOGLE
+---------------------------
+01..- Google Captcha, Google Maps, principales scripts
+02.- Analytics
+03.- Search Console
+04.- Google APIS
+
+
+SOCIAL NETWORKS
+---------------------------
+1.- Facebook,Twitter,Instagram
+
+
+FLUJO DE TRABAJO
+---------------------------
+1.- GITHUB, BITBUCKET
+2.- GIT
+
+
+EDITORES (CODIFICACION RAPIDA)
+----------------------------
+1.- PHPSTORM
+2.- NETBEANS
+
+
+PROYECTOS PERSONALES
+----------------------------
+1.- BLOG
+2.- PORTFOLIO DAVIDBERRUEZO.COM
+
+
+
+CURRICULUM PORTFOLIO CITRIC
+----------------------------
+01.- DEFICIT DE HIERRO  http://www.deficitdehierro.com/
+02.- NATURAACTIVA	https://natura-activa.com/?gclid=EAIaIQobChMIif3R9NrI3AIVVzPTCh3dyQ_0EAAYASAAEgJxa_D_BwE
+03.- SNACKISSIMO 	http://snackissimo.com/
+04.- KARIZOO		http://www.karizoo.com/	
+05.- SOFTLANDING 	https://www.softlanding.es/
+06.- CITRIC.WS 		http://citric.ws/
+07.- MotiveDesign	http://www.motivedisseny.com/ 
+08.- Trades		http://www.trades-sa.com/
+09.- Edifici Nec	http://www.edificinec.com/	
+
+
+COSAS CITRIC QUIZAS INTERESANTES
+----------------------------
+1.- HOMESITE (VIRTUALIZACION ENTORNOS DE PROGRAMACION)
+2.- BRIEW (MAC OS)
+3.- PHOTOSHOP HERRAMIENTAS AUTOMATIZADAS, PROCESADOR IMAGENESM, ACCIONES
+
+
+BLOG PARA LARAVEL
+-------------------------------------------------------------
+https://scotch.io/tutorials/simple-laravel-layouts-using-blade  (CHRIS SEVILLEJA)
+
+
+04.- MAMA DNI 
+-------------------------------------------------------------
+DNI:38530880S
+PASSWORD:Berruezo
+
+
+PARA GRABAR EN YOUTUBE
+-------------------------------
+1.- EPIDEMIC LIVE
+
+
+OSCAR GAITE
+----------------------------
+1.- CUANDO ENTRA UNA TIENDA HACE LA NOTA
+2.- CUANDO GARDAN LA NOTA CADA TIENDA TIENDA LES PONE NO SE ENCUENTRA LA PAGINA EN EL SERVIDOR
+3.- LA NOTA LA HACEN PERFECTAMENTE 
+4.- MAMA DNI 
+
+
+INVERSION APARTAMENTO
+-------------------------------------------------------------
+01.- 3 PANTALLAS 					129 * 3 = 387
+02.- HP LaserJet Pro MFP M28A					  119 
+03.- PLUGABLE UD-3900					          116.95
+04.- Logitech Z200						   36.99
+05.- TABLERO ORDENADOR 					  	   18
+06.- BARRA DOMINADAS						   25.99
+07.- PESAS KETTLEBELL 16 KG					   39.99
+08.- TONER IMPRESORA SAMSUNG M2020 COMPATIBLE			   45.00
+09.- HP PSC 1400 NEGRO COMPATIBLE				   13.00
+10.- HP PSC 1400 COLOR COMPATIBLE				   16.00
+11.- DESCUENTO DE 3 EUROS TINTEA				   -3.00								
+						------------------------------
+								  814.92 euros
+
+INVERSION APARTAMENTO
+-------------------------------------------------------------
+01.- MUEBLE IMPRESORA 				33.99euros		
+
+
+REPARACION TECLADO
+-------------------------------------------------------------
+01.- TESTER PARA LA CORRIENTE				
+02.- ROTULADOR ELÉCTRICO				
+
+
+
+FALTA POR COMPRAR
+-------------------------------------------------------------
+01.- TONER IMPRESORA SAMSUNG M2020			100 EUROS
+02.- CARTUCHO TINTA COLOR HP PSC 1410			 30 EUROS	
+02.- CARTUCHO TINTA BLANCO NEGRO HP PSC 1410		 30 EUROS
+03.- PLUGABLE UD-3900				     116.95 EUROS
+					------------------------------	
+						     276.95 EUROS	
+
+EXTRA INVERSION
+-------------------------------------------------------------
+01.- SOPORTE TECLADO 					47.52
+02.- DISCO DURO 1TB SAMSUNG SSD				129 * 2 = 260
+
+
+
+
+
+CITM UPC EDU
+-------------------------------------------------------------
+01.- INTERACCIO HUMA COMPUTADORA
+	01.1.- EVALUACIO 	==== TEST 15%, 2 EXAMENS PARCIALS 15% Y 15% == 30%, 2 PRACTIQUES 10% Y 10% === 20%, EXAMEN FINAL === 25%, ACTITUD 10%
+	01.2.- BIBLIOGRAFIA  	==== HUMAN COMPUTER INTERACTION
+				==== THE UX UX BOOK: PROCESS AND GUIDELINES FOR ENSURING A QUALITY USER EXPERIENCE
+				==== A HCI AND USER-EXPERIENCE DESIGN
+02.- ANIMACIO 3D
+	02.1.- EVALUACIO       ==== 40% EXAMEN FINAL Y PARCIAL, 20% LLIURAMENT,QUESTIONARIS PROVES, 30% EXERCICIS FORA AULA, 10% PARTICIPACIO A L'AULA
+	02.2.- BIBLIOGRAFIA    ==== THE ART OF 3D COMPUTER ANIMATION AND IMAGING
+			       ==== EL GRAN LIBRO DE 3DSMAX 2012
+			       ==== CREACION DIGITAL DE PERSONAJES ANIMADOS
+			       ==== EFECTOS ESPECIALES CON 3DSMAX R3
+			       ==== INSIDE 3D STUDIO MAX 2
+			       ==== TECNICAS DE ILUMINACION Y RENDER
+	02.3.- ALTRES RECURSOS
+			       ==== HTTP://3DBUZZ.COM
+			       ==== HTTP://CGCHANNEL.COM
+			       ==== HTTP://3DLINKS.COM
+			       ==== HTTP://3DYANIMACION.COM
+			       ==== HTTP://WICKEIDO.COM
+			       ==== HTTP://VISUALFXTUTS.COM
+
+03.- GESTIO DE COLOR I SISTEMES IMPRESSIO
+	03.1.- EVALUACIO       ==== PRACTIQUES 35%, 2 EXAMENS PARCIALS 15% Y 15%, EXAMEN FINAL 25%, PARTICIPACIO 10%
+	03.2.- BIBLIOGRAFIA    ==== DIGIPRIX3 COMPENDIUM FOR DIGITAL PHOTOGRAPHY
+			       ==== AIDO, INSTITUTO TECNOLOGICO DE OPTICA COLOR E IMAGEN
+			       ==== BERNS, ROY S. BILLMEYER AND SALTZMAN PRINCIPLES OF COLOR TECHNOLOGY
+			       ==== SEEING THE LIGHT: OPTICS IN NATURE,PHOTOGRAPHY COLOR VISION AND HOLOGRAPHY
+			       ==== INTERNATIONAL COLOR CONSORTIUM MAKING COLOR SEAMLESS BETWEEN DEVICES AND DOCUMENTS
+			       ==== KOREN NORMAN COLOR MANAGEMENT	 			 						 

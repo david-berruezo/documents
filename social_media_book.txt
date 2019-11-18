@@ -1,0 +1,3 @@
+LIBRO SOCIAL MEDIA BIBLIOTECA
+-----------------------------------
+mashup === aplicación que interactua y obtiene datos de otras

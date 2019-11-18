@@ -1,0 +1,238 @@
+[*.]elperiodico.com
+
+CURRICULUM AGENCIAS
+-----------------------------------------
+01.- LINKEDIN		======	(OK)			
+02.- INFOJOBS		======	(OK)
+03.- TECNOEMPLEO	======	(OK)	
+04.- DOMESTIKA		======	(30%)
+
+
+CURRICULUM WEB + BLOG + CODE
+-----------------------------------------
+01.- PORTFOLIO WEB 			======	(FALTA)
+02.- PORTFOLIO GITHUB			======	(FALTA)
+03.- PORTFOLIO CODEPEN			======	(FALTA)
+04.- POSICIONAR MARCA PERSONAL SEO	======	(FALTA)		
+
+
+LUNES WORDPRESS
+-----------------------------------------
+
+TAREAS WORDPRESS LIBROS
+-----------------------------------------
+01.- CREAR CUENTA GMAIL ASOCIADA A LIBROS
+03.- CREAR CUENTA FACEBOOK ASOCIADA A LIBROS
+04.- CREAR CUENTA TWITTER ASOCIADA A LIBROS
+05.- CREAR CUENTA GOOGLE PLUS ASOCIADA A LIBROS
+06.- CREAR CUENTA INSTAGRAM ASOCIADA A LIBROS
+07.- CREAR CUENTA INSTAGRAM ASOCIADA A LIBROS
+08.- CREAR CUENTA INSTAGRAM ASOCIADA A LIBROS
+09.- CREAR PUBLICIDAD GOOGLE ADS
+10.- MENU AGREGAR CATEGORIAS BUSQUEDA SANDIR CATEGORIAS DISCO DURO
+11.- 
+
+
+WORDPRESS APLICACIONES
+-----------------------------------------
+01.- 
+
+
+WORDPRESS SUBIR A REPOSITORIO
+-----------------------------------------
+01.- TEMPLATES AND CHILD TEMPLATES
+02.- PLUGINS
+
+
+
+
+ITERATOR
+-----------------------------------------
+https://www.startutorial.com/articles/view/modern-php-developer-iterator
+
+
+REPOSITORIO
+-----------------------------------------
+repositoriogithub@davidberruezo.com
+
+
+remote.origin.url=https://github.com/dberruezogmail/curriculum.git
+
+PHP Version 7.1.19
+------------------------------------------
+--with-pdo-oci=c:\php-snap-build\deps_aux\oracle\x86\instantclient_12_1\sdk,shared
+--with-oci8-12c=c:\php-snap-build\deps_aux\oracle\x86\instantclient_12_1\sdk
+
+PHP Version 7.0.30
+------------------------------------------
+
+--with-pdo-oci=c:\php-sdk\oracle\x86\instantclient_12_1\sdk,shared
+--with-oci8-12c=c:\php-sdk\oracle\x86\instantclient_12_1\sdk
+OCI8 Version	2.1.8
+
+
+ERRORES PHP VERSION 7.2.6
+------------------------------------------
+
+Warning: PHP Startup: Unable to load dynamic library 'gd2' (tried: C:\xampp\php\ext\gd2 (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_gd2.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'gettext' (tried: C:\xampp\php\ext\gettext (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_gettext.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'gettext' (tried: C:\xampp\php\ext\gettext (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_gettext.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: C:\xampp\php\ext\mbstring (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_mbstring.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'mbstring' (tried: C:\xampp\php\ext\mbstring (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_mbstring.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'exif' (tried: C:\xampp\php\ext\exif (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_exif.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'exif' (tried: C:\xampp\php\ext\exif (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_exif.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:\xampp\php\ext\mysqli (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_mysqli.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:\xampp\php\ext\mysqli (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_mysqli.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_oci8.dll' (tried: C:\xampp\php\ext\php_oci8.dll (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_php_oci8.dll.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'php_oci8.dll' (tried: C:\xampp\php\ext\php_oci8.dll (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_php_oci8.dll.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'odbc' (tried: C:\xampp\php\ext\odbc (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_odbc.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'odbc' (tried: C:\xampp\php\ext\odbc (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_odbc.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:\xampp\php\ext\pdo_mysql (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_pdo_mysql.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:\xampp\php\ext\pdo_mysql (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_pdo_mysql.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\xampp\php\ext\pdo_sqlite (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_pdo_sqlite.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\xampp\php\ext\pdo_sqlite (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_pdo_sqlite.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'soap' (tried: C:\xampp\php\ext\soap (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_soap.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'soap' (tried: C:\xampp\php\ext\soap (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_soap.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\xampp\php\ext\php_openssl.dll (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_php_openssl.dll.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\xampp\php\ext\php_openssl.dll (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_php_openssl.dll.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:\xampp\php\ext\php_ftp.dll (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_php_ftp.dll.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:\xampp\php\ext\php_ftp.dll (No se puede encontrar el m¾dulo especificado.), C:\xampp\php\ext\php_php_ftp.dll.dll (No se puede encontrar el m¾dulo especificado.)) in Unknown on line 0
+PHP Warning:  Cannot open 'C:\xampp\php\extras\browscap.ini' for reading in Unknown on line 0
+
+Warning: Cannot open 'C:\xampp\php\extras\browscap.ini' for reading in Unknown on line 0
+
+
+
+
+TAREAS HOY
+------------------------------------------
+01.- DEPORTE PISCINA 07:30				(OK) 
+02.- GESTIÓN INEM					(OK)
+03.- INGRESO BANCO					(OK)
+04.- VENTA PLATOS					(OK)
+05.- CURRICULUM BIBLIOTECA 
+	05.1.- REVISIÓN BLOG
+	05.2.- REVISIÓN WEB
+	05.3.- REVISIÓN GITHUB	
+
+
+PORTFOLIO Prestashop + Wordpress + Php
+------------------------------------------
+01.- PRESTASHOP AND PHP
+	01.01.- Prestashop Csv Import Categories | Products | Combinations | Images | All Prestashop
+	01.02.- Prestashop Php crud (create,read,update,delete) excel producs, combinations and images by PhpSpreadsheet (old PHPExcel) to Prestashop by csv 
+	01.03.- Prestashop Cron update stock products and availavility dates, update videos, update 360 images, order list products and cache update to refresh memcached cahe
+	01.04.- Prestashop create admin modules and front end modules
+	01.05.- Prestashop modules as gogle tag manager, google shooping, advanced search
+	01.06.- Prestashop use native webservice
+	01.07.- Prestashop installation templates and creation templates
+	01.08.- Prestashop smarty templates
+	01.09.- Prestashop show products (by colors, not colors, mixed) from Wordpress queries by shortcodes
+	01.10.- Prestashop show products (attributes and features filters) from Wordpress queries by shortcodes
+
+02.- WORDPRESS AND PHP
+	02.1.- Wordpress creation plugins
+	02.2.- Wordpress genesis framework
+	02.3.- 		 
+
+03.- PHP NATIVE CODE
+	03.1.- Oracle Queries | Instant client | Php Oci8  
+	03.2.- Webservice Mrw Soap eCommerce source code and Prestashop module 		
+
+04.- CSS 
+	04.1.- Sass preprocessor (css) to update front end colors and backend colors
+	04.2.- Bootstrap version 3 (css3) and 4 (sass | rewrite it), flexbox
+
+04.- GOOGLE
+	04.1.- Google Tracking enhanced ecommerce with google tag manager (datalayer)
+	04.2.- Google search console (old webmaster tools), google recaptcha
+	04.3.- Google analytics and google apis
+
+05.- FACEBOOK PIXEL
+	05.1.- Facebook pixel to track social products promotions
+
+06.- APACHE SERVER
+	06.1.- Apache web server, rewrite module, virtual hosts and apache setup	
+
+06.- REPOSITORY
+	06.1.- Git and bitbucket repository
+	
+
+TAREAS APLICACIÓN ESTADÍSTICAS
+------------------------------------------
+01.- COMPARATIVAS VENTAS
+	01.1.- COMPARATIVAS VENTAS DIARIAS
+	01.2.- COMPARATIVAS VENTAS MENSUALES
+02.- CONFIGURADOR ESTADISTICAS
+03.- SISTEMA ROLES 
+
+
+$ventas_anuales                     = array();
+
+$vector_anuales_dinamica            = array();
+		
+
+VARIABLES
+------------------------------------------
+VENTA DIAS ANOS
+
+
+
+$comerciales_anuales                = array();
+$comerciales_no_encontrados_anuales = array();
+$pedidos_no_encontrados_anuales     = array();
+$descripcion_no_encontrada_anual    = array();
+$total_ventas_anuales               = 0;
+
+
+
+TAREAS APLICACIÓN ESTADÍSTICAS
+------------------------------------------
+01.- MENU MOBILE
+02.- SCROLL DIV
+03.- COMPARATIVA ESTADISTICAS
+04.- MEJORA DE GRAFICAS
+05.- PAGINA HOME
+
+
+01 MENU MOBILE
+------------------------------------------
+linia 1273
+body.mini-navbar .profile-element,
+body.mini-navbar .nav-label,
+body.mini-navbar .navbar-default .nav li a span {
+  /*display: none;*/
+}
+
+
+1270
+body.mini-navbar .navbar-static-side {
+    width: 100%;
+}
+
+
+1140
+.mini-navbar .nav .nav-second-level {
+    /* position: absolute; */
+    /* left: 70px; */
+    /* top: 0; */
+    /* background-color: #2f4050; */
+    /* padding: 10px 10px 10px 10px; */
+    /* font-size: 12px; */
+}
+
+
+02 SCROLL DIV
+------------------------------------------
+01.- BUSQUEDA CODEPEN SCROLLBAR OVERLAY

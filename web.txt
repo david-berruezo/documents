@@ -1,0 +1,18 @@
+Web dinamica
+------------------------------------------
+
+1.- Home 
+   1.1 - Números (Titulo and span)
+   1.2 - Descripciones de los números
+
+2.- Desde el blog
+   2.1 - Titulo Principal
+   2.2 - Imagen Principal
+   2.3 - Dia Principal
+   2.4 - Descripción Principal
+   2.5 - Titulo Post
+   2.6 - Imagen Post
+   2.7 - Dia Post
+   2.8 - Descripción Post				
+   2.9 - Autor Post
+   3.0 - Número de comentarios	

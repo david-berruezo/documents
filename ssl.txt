@@ -1,0 +1,73 @@
+
+CERTIFICADO SSL
+-------------------------------------------------
+1.- DESCARGAR CERTIFICADO EN PAGINA
+	1.1.- https://slproweb.com/products/Win32OpenSSL.html
+2.- DESCARGAR CERTIFICADO
+	2.1.- download Win32 OpenSSL v1.0.2p Light
+3.- VAMOS HACIA LA CARPETA DE OPEN SSL POR CONSOLA Y CON PRIVILEGIOS ADMINITRADOR
+	3.1.- cd C:\OpenSSL-Win32\bin
+4.- CREACION DE LA LLAVE	
+	4.1.- openssl genrsa -aes256 -out c:\xampp_5.6.36\apache\conf\certificado\certificado.key 2048
+5.- CREAMOS EL CERTIFICADO
+	5.1.- openssl req -new -key c:\xampp_5.6.36\apache\conf\certificado\certificado.key -config "c:\xampp_5.6.36\apache\conf\certificado\certificado.cfg" -out c:\xampp_5.6.36\apache\conf\certificado\certificado.csr
+6.- VERFICIAMOS EL CERTIFICADO	
+	6.1.- openssl -req-text-noout -in c:\xampp_5.6.36\apache\conf\certificado\certificado.csr
+7.- CREAMOS LA FIRMA DIGITAL
+	7.1.- openssl x509 -req-days 365 -in c:\xampp_5.6.36\apache\conf\certificado\certificado.csr -signkey c:\xampp_5.6.36\apache\conf\certificado\certificado.key -out c:\xampp_5.6.36\apache\conf\certificado\certificado.crt 
+
+
+SEGUNDA PARTE (BUENO)
+-------------------------------------------------
+1.- DESCARGAR CERTIFICADO EN PAGINA
+	1.1.- https://slproweb.com/products/Win32OpenSSL.html
+2.- DESCARGAR CERTIFICADO
+	2.1.- download Win32 OpenSSL v1.0.2p Light
+3.- VAMOS HACIA LA CARPETA DE OPEN SSL POR CONSOLA Y CON PRIVILEGIOS ADMINITRADOR
+	3.1.- cd C:\OpenSSL-Win32\bin
+4.- CREACION DE LA LLAVE	
+	4.1.- openssl genrsa -des3 -out LlaveRSA.key 2048
+5.- CREAMOS EL CERTIFICADO
+	5.1.- openssl req -new -key LlaveRSA.key -out Certificado.csr -config openssl.cfg -extensions v3_req
+6.- VERFICIAMOS EL CERTIFICADO	
+	6.1.- openssl req -text -noout -in Certificado.csr
+7.- CREAMOS LA FIRMA DIGITAL
+	7.1.- openssl x509 -req -days 365 -in Certificado.csr -signkey LlaveRSA.key -out firmaCERTIFICADO.crt
+
+8.- VAMOS A LA CARPETA C:\OpenSSL-Win32\bin Y COPIAMOS 3 FICHEROS A C:\xampp_5.6.36\apache\bin
+	8.1.- Certificado.csr
+	8.2.- firmaCERTIFICADO	
+	8.3.- llaveRSA.key
+9.- VAMOS A EDITAR EL FICHERO httpd.conf C:\xampp_5.6.36\apache\conf
+	9.1.-  Editamos el fichero httpd.conf
+	9.2.-  Activamos el modulo mod_ssl.so
+	9.3.-  Escribimos:
+	9.3.1- listen 0.0.0.0:80
+	9.3.2- listen [::0]:80
+	9.3.2- listen 80
+	9.3.3- listen 443
+	9.3.4- <VirtualHost *:80>
+    
+			ServerAdmin davidberruezo@davidberruezo.com
+    
+			DocumentRoot "c:/htdocs/css/codigo/web_laravel/public"
+    
+			ServerName www.proyectoscss.net
+    
+			<Directory "c:/htdocs/css/codigo/web_laravel/public">
+		
+				Options Indexes FollowSymLinks
+		
+				AllowOverride All
+		
+				Require all granted
+	
+			</Directory>
+     
+			#ErrorLog "c:/htdocs/casa/intranet/error.log"
+     
+			#CustomLog "logs/dummy-host.example.com-access.log" common
+
+		</VirtualHost>		
+
+

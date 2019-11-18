@@ -1,0 +1,180 @@
+Video número 6
+Tren rodalies 7:35
+setTemplate ---- para colocar un solo template
+
+4 patrones
+
+Mvc
+Service Locator   ----- Almacenar objetos dentro de un contenedor ligero creados en tiempo real
+Table Gateway     ----- Por cada tabla de la bd permite comunicar funcionalidades crud 
+Front Controller  ----- Manegar los procesos de las peticiones
+
+Componentes Zend/MVC
+
+1.- Zend\ServiceManager
+Zend\EventManager
+Zend\Http
+Zend\DispachableInterface
+
+1.- 
+Conjunto de servicios para ser usados zendMvcService. Encargado 
+de crear las factorias
+
+2.- 
+Manejar los listeners que estan esperando las interacciones del usuario
+
+3.-
+Gestionar Request y Response. (Front Controller trabaja con http)
+
+4.-
+Controladores trabajarlos como instancias dispatchables. Pueda ser llamado
+desde la vista, pueda comunicarse con modelos etc. 
+
+
+
+
+
+Subcomponentes
+
+1.- Zend\Mvc\Router
+
+vssh
+trello
+
+
+
+
+c/Ortigosa cerca de urquinaona
+
+
+Tiendas fuera
+
+
+// Categorias que no estan
+ACUARIOFILIA
+ACUARIOFILIA
+TERRARIOFILIA
+
+9c1f6d
+
+
+ssh -v 
+
+
+------------------------------------------------ comandos git ------------------------------------------
+trabajar con git y github
+
+git -version
+------------------------------ Métodos para crear el repositorio son 2 uno comando init y el otro clonando el proyecto que esta online ----------------------------
+ls -a ~/.ssh
+
+git init   // Para crear el repositorio
+
+git status // Nos dirá si hay ficheros en el stay in area
+
+git add
+
+git config --global
+
+git commit -m "hola de nuevo"
+
+git pul
+
+git log 
+
+git config crlf false
+
+Cuando creamos nuevos ficheros el git los ve si hacemos un git status.
+
+git add *.c
+git add -A
+git add LICENSE
+git commit -m 'initial project version'
+
+
+------------------------------------------------ Putty -----------------------------------------------------
+
+1.- Primer paso PuttyGen y cambiar number of bits generated 
+
+
+------------------------------------------------ Bitbucket -------------------------------------------------
+
+57:96:20:fc:fc:67:60:38:3c:3e:b9:cd:6a:6b:ee:5c David@DAVID02
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEwG/j1RkQYq8VqFxx7kwggJLzzRnHr1sYA9jyFHgCc7mJQ9kS7ZUAPtDPgnee4sETJwN/fAvksLNSjH0
+PzE9dROIIhm62pcfnr49fwkZtO4Se6zasUS6g9VyxuYkKBl4OLDGSeTmQOoeW3F3+cM7CHXAwLAmY+vTWSWPrjVh81LDGp39kORFu3lNXJijluaRd79lMQC
+9qG2c/ICwNPhj2wAD3A6/dI4smKOX12+hXOS9j5znXBjXmJKK/pJBdx7LX18clVN4r+XPZP1wJVb6ZZ605HG4y0BSphGEO2N+UyoG8+hlksKMceog1s2Mn1
+SFm5erqRtueOwTnj9WpHtOx David@DAVID02
+
+
+
+tablas
+configurtion_lang
+PS_SHOP_DOMAIN: localhost:90
+PS_SHOP_DOMAIN_SSL:localhost:90
+
+ps_shop_url 
+localhost:90
+localhost:90
+/prestashop16013/
+
+
+	
+
+<ul>
+<li><a></li>
+<div class="dropdown_4columns"><!-- Begin 4 columns container -->
+         
+            <div class="col_4">
+                <h2>This is a heading title</h2>
+            </div>
+             
+            <div class="col_1">
+             
+                <h3>Some Links</h3>
+                <ul>
+                    <li><a href="#">ThemeForest</a></li>
+		</ul> 
+	   </div>	
+</div>	
+
+
+Competencia Peces -----------------------------------------------
+
+ZendSkeletonApplication
+
+
+----------------------------------------------------------- Videoconferencia ---------------------------------------------------------
+
+1.- Puesta en escena Servidor y listado de domininios:
+
+ davidberruezo.com 	 20-01-2016 
+ phpandfriends.com 	 20-01-2016 
+ 2automocion.com 	 16-04-2016 
+ hostalparisbcn.com 	 17-04-2016 
+ yourspanishwine.com 	 20-04-2016 
+ berruezomoda.com 	 30-06-2016 
+ ecommercebarcelona360.com 	 26-08-2016 
+ soloaves.com 	 15-10-2016 
+ todoparasupez.com 	 09-11-2016 
+ espaiclinic.es 	 11-11-2016 
+ 
+ 	  
+2.- Web eCommerceBarcelona (Definir servicios y asociación)
+3.- Conocer equipo
+4.- Establecer bases comerciales
+5.- Establecer bases de programación
+6.- Saber si hace falta una persona más
+
+
+Servicio vender el propio servidor
+460€
+
+
+
+
+
+promoción de software libre
+s

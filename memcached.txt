@@ -1,0 +1,28 @@
+Instalación
+---------------
+c:\memcached\memcached.exe -d install
+
+Options
+--------------
+memcached -h
+
+Start / Stop
+---------------
+c:\memcached\memcached.exe -d start
+c:\memcached\memcached.exe -d stop
+
+
+
+INSTALACIÓN MEMCACHED SEGUNDA VERSIÓN
+-----------------------------
+01.- FICHEROS COPIADOS EN EL DISCO G CARPETA MEMCACHED
+02.- IR A LA CARPETA C:\MEMCACHED\ Y ESCRIBIR MEMCACHED.EXE -VV 
+03.- SE INCIARA UN SERVICIO PUERTO 11211
+
+
+INSTALACIÓN MEMCACHE 
+-----------------------------
+01.- BAJAR DE PECL memcache 3.0.8 for Windows
+02.- COPIAR DLL EN EXT CARPETA
+03.- EDITAR PHP INI C:\MEMCACHE.DLL
+ 

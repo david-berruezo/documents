@@ -1,0 +1,10 @@
+Comandos DLL
+CREATE	Utilizado para crear nuevas tablas, stored procedures e índices
+DROP	Empleado para eliminar tablas, stored procedures e índices
+ALTER	Utilizado para modificar las tablas agregando campos o cambiando la definición de los campos
+
+Comandos DML
+SELECT	Utilizado para consultar registros de la base de datos que satisfagan un criterio determinado.
+INSERT	Utilizado para cargar lotes de datos en la base de datos en una única operación.
+DELETE	Utilizado para modificar los valores de los campos y registros especificados.
+UPDATE	Utilizado para eliminar registros de una tabla de una base de datos.

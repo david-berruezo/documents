@@ -1,0 +1,3 @@
+FORAMTEAR TEXTO HTML
+------------------------------------
+1.- ctrl + shift + f.

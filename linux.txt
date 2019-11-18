@@ -1,0 +1,41 @@
+Instrucciones para cambios de permisos
+---------------------------------------------------------------------------------
+cp -a /source/. /dest/
+
+find blog -type d -exec chmod 755 {} \
+
+find . -type d -exec chmod 755 {} \;
+find . -type f -exec chmod 644 {} \;
+(Encuentra archivos tipo dirctories y tipo )
+
+find . -name \*\.php -exec chmod 644 {} \;
+(Encuentra archivos que terminan en php y les pone el permiso 644)
+
+
+Tipos de permisos LINUX
+----------------------------------------------------------------------------------
+drwxr-xr-x
+
+
+Configuración de permisos
+--------------------------
+				Propietario | Grupo | Otros Usuarios
+Permiso de lectura		r	      ----     ----
+Permiso de escritura		rw	      w	       ---- 	
+Permiso de ejecución		rwx	      x	       ---x
+  
+
+
+Permisos
+----------------------------------------------------------------------------------
+DECIMAL    	BINARIA		SIGNIFICADO 
+0		000		---			
+1		001		--X
+2		010		-W-
+3		011		-WX
+4		100		R--
+5		101		R-X
+6		110		RW-
+7		111		RWX
+
+

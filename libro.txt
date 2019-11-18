@@ -1,0 +1,70 @@
+DesignPatternsPHP
+--------------------------------------------------
+
+Build Status Documentation Status Donate
+
+Read the Docs of DesignPatternsPHP or Download as PDF/Epub
+
+This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a small list of examples.
+
+I think the problem with patterns is that often people do know them but don't know when to apply which.
+
+Installation
+You should look at and run the tests to see what happens in the example. To do this, you should install dependencies with Composer first:
+
+$ composer install
+Read more about how to install and use Composer on your local machine here.
+
+To run the tests use phpunit:
+
+$ ./vendor/bin/phpunit
+using Docker (optional)
+You can optionally build and browse the documentation using Docker for Mac, Windows or Linux.
+
+Just run:
+
+$ docker-compose up --build
+Go to http://localhost:8080/README.html to read the generated documentation.
+
+Patterns
+The patterns can be structured in roughly three different categories. Please click on the ?? for a full explanation of the pattern on Wikipedia.
+
+Creational
+AbstractFactory ??
+Builder ??
+FactoryMethod ??
+Multiton (is considered an anti-pattern! ??)
+Pool ??
+Prototype ??
+SimpleFactory
+Singleton ?? (is considered an anti-pattern! ??)
+StaticFactory
+Structural
+Adapter ??
+Bridge ??
+Composite ??
+DataMapper ??
+Decorator ??
+DependencyInjection ??
+Facade ??
+FluentInterface ??
+Flyweight ??
+Proxy ??
+Registry ??
+Behavioral
+ChainOfResponsibilities ??
+Command ??
+Iterator ??
+Mediator ??
+Memento ??
+NullObject ??
+Observer ??
+Specification ??
+State ??
+Strategy ??
+TemplateMethod ??
+Visitor ??
+More
+EAV ??
+Repository
+ServiceLocator ?? (is considered an anti-pattern! ??)

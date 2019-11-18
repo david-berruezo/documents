@@ -1,0 +1,49 @@
+Windows borrar un servicio por consola
+-----------------------------------------------------------------------
+sc delete ServiceName 
+
+
+Mostrar todos los servicios activados por consola
+-----------------------------------------------------------------------
+net start
+
+Mostrar todos los servicios activados y no activados con nomre corto
+-----------------------------------------------------------------------
+wmic service get name
+
+Mostrar todos los servicios con mucha información
+-----------------------------------------------------------------------
+sc query
+
+
+Iniciar un servicio
+-----------------------------------------------------------------------
+net start spooler
+sc start spooler
+
+
+inciar servicios desde consola
+---------------------------------
+services.msc
+
+
+
+iniciar administrador de dispositivos desde consola
+----------------------------------------------------
+devmgmt.msc
+
+
+
+Aqui estan los servicios
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+
+
+Deshabilitar servicios windows
+------------------------------------------
+Deberás ir al menú Inicio/Ejecutar. Escribe en la ventana que se abrirá msconfig y haz clic en Aceptar. 
+En la ventana Utilidad de configuración del sistema, ve a la pestaña Inicio y desmarca las casillas de los programas que ya no deseas 
+que se inicien automáticamente al comenzar Windows. Pulsa el botón Aceptar y reincia el sistema: 
+
+
+3198 * 1800 
+4 imagenes

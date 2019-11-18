@@ -1,0 +1,336 @@
+PROYECTOS
+---------------------------------
+2 VISTAS
+	2.1.- TODOS LOS PROYECTOS
+	2.2.- DETALLE DEL PROYECTO
+
+
+
+IMPORTANTE !!!!
+---------------------------------
+FALTA QUE CUANDO SE RENOMBRE EL NOMBRE DE LA GALERIA DEL PROYECTO EL PROGRAMA DEBE 
+	1.- COPIAR TODOS LOS FICHEROS ANTIGUOS DE LA ANTIGUA CARPETA O MOVER
+	2.- CREAR NUEVA CARPETA
+	3.- GUARDAR TODOS LOS FICHEROS
+	4.- HACER TODOS LOS UPDATES NECESARIOS EN LA BD EN LAS CUALES LAS RUTAS DE LAS IMAGENES APUNTEN A LA ANTIGUA RUTA
+
+
+tener multiples galerias
+	1.1.- Galeria Proyectos
+	1.2.- Galeria Paginas
+
+
+Pantallazos de proyectos
+--------------------------------
+https://web-capture.net/convert.php
+
+Url de proyectos
+---------------------------------
+1.- TopeWeb
+---------------------------------
+1.1.- Calcristi
+http://www.topeweb.com/calcristi/index.html
+http://www.topeweb.com/calcristi/ustrell/cat/habitatges/principal.html
+http://www.topeweb.com/calcristi/ustrell/cat/habitatges/1_caracteristiques.html
+http://www.topeweb.com/calcristi/ustrell/cat/habitatges/1_vista_aeria.html
+http://www.topeweb.com/calcristi/ustrell/cat/habitatges/1_alcats.html
+http://www.topeweb.com/calcristi/ustrell/cat/habitatges/1_seccio.html
+http://www.topeweb.com/calcristi/ustrell/cat/habitatges/1_nivell1.html
+http://www.topeweb.com/calcristi/ustrell/cat/habitatges/1_nivell0.html
+http://www.topeweb.com/calcristi/ustrell/cat/habitatges/1_nivell-1.html
+http://www.topeweb.com/calcristi/ustrell/cat/habitatges/dibuix_1.html
+http://www.topeweb.com/calcristi/ustrell/cat/habitatges/fotos.html
+http://www.topeweb.com/calcristi/ustrell/cat/ubica/inferior.html
+http://www.topeweb.com/calcristi/ustrell/cat/entorn/inferior.html
+http://www.topeweb.com/calcristi/ustrell/cat/contactar/inferior.html
+
+1.2.- Personal Shopper
+http://www.topeweb.com/shopper/index.html
+http://www.topeweb.com/shopper/inmobiliaria/index.html
+http://www.topeweb.com/shopper/inmobiliaria/compravenda.html
+http://www.topeweb.com/shopper/inmobiliaria/lloguer.html
+http://www.topeweb.com/shopper/inmobiliaria/rehabilitacio.html
+http://www.topeweb.com/shopper/inmobiliaria/decoracio.html
+http://www.topeweb.com/shopper/inmobiliaria/collaboradors.html
+http://www.topeweb.com/shopper/on/index.html
+
+1.3.- Gesven 
+http://www.topeweb.com/gesven/index.html
+http://www.topeweb.com/gesven/qui/index.html
+http://www.topeweb.com/gesven/on/index.html
+
+1.4.- Can Sarda
+http://www.cansarda.com/index.html
+http://cansarda.com/ca/visio-360
+aqui lo he dejado
+http://cansarda.com/ca/fes-el-teu-menu
+http://cansarda.com/ca/galeria/els-nostres-plats
+http://cansarda.com/ca/galeria/installacions
+http://cansarda.com/ca/noticies
+http://cansarda.com/ca/contacte
+http://cansarda.com/ca/reserves
+
+
+1.5.- Equipa tu hotel
+http://equipatuhotel.com/index.php
+http://equipatuhotel.com/services/financiacion-reforma-hotel-mobiliario-equipamiento-hotelero/
+http://equipatuhotel.com/services/proyecto-hotelero-consultoria-planificacion/
+http://equipatuhotel.com/services/interiorismo-para-hoteles/
+http://equipatuhotel.com/services/equipamiento-hotelero/
+http://equipatuhotel.com/proyectos-hoteleros/
+http://equipatuhotel.com/contacto-equipamiento-hotelero/
+
+1.6.- Casa Sayas
+http://casasayas.net/index.html
+http://casasayas.net/cat/productes/index.html
+http://casasayas.net/cat/empresa/index.html
+http://casasayas.net/cat/historia/index.html
+
+1.7.- Llobregat
+http://www.llobregat.com/index.php
+http://www.llobregat.com/empresa-presentacion.php
+http://www.llobregat.com/empresa-organizacion.php
+http://www.llobregat.com/empresa-montaje.php
+http://www.llobregat.com/empresa-asesoramiento.php
+http://www.llobregat.com/calendari-de-fires.php
+http://www.llobregat.com/proyectos.php
+
+1.8.- La Trona
+http://www.latrona.com/index.html
+http://www.latrona.com/cat/presentacio/index.html
+http://www.latrona.com/cat/ant_esport/index.html
+http://www.latrona.com/cat/colleccio/index.html
+http://www.latrona.com/cat/contactar/index.html
+
+
+1.9.- Can Borrell
+https://www.can-borrell.com/
+https://www.can-borrell.com/menus/carta-alergogens/
+https://www.can-borrell.com/horari-general-de-cuina/
+https://www.can-borrell.com/historia-3/
+https://www.can-borrell.com/excursions/
+https://www.can-borrell.com/premsa/
+
+1.10.- Mercantic
+http://www.mercantic.com/
+http://www.mercantic.com/mercantic-vintage-village/
+http://www.mercantic.com/comerciants/
+http://www.mercantic.com/espai-creatiu/
+http://www.mercantic.com/menjar/
+
+1.11.-- Fast Components
+http://fast-components.com/
+http://fast-components.com/about-us/who-we-are/
+http://fast-components.com/about-us/history/
+http://fast-components.com/about-us/our-certifications/
+http://fast-components.com/products-and-services/all-in-one-distributor/
+http://fast-components.com/products-and-services/aviation-parts/
+
+1100*1396
+382*486
+
+Math.sin(angle)*Math.cos(angle)
+
+MHAPARTMENTS.COM
+----------------------------------
+admin
+Emexs:2511
+
+
+davidberruezo.net (PORTFOLIO)
+---------------------------------
+1.- Llenar proyectos base de datos
+2.- Bajar y guardar imágenes de proyectos realizados
+3.- Organizar con empresas realizados
+
+Instalar Sass y Compass
+---------------------------------
+1.- Ejectuar la consola start Command Prompt with Ruby
+2.- gem install sass
+3.- gem install compass
+4.- sass --watch style.scss:style.css
+
+Aplicación libros
+---------------------------------
+1.- Leer Carpetas === Categorias 
+2.- Leer Ficheros ==== Libros
+
+https://github.com/mozilla/pdf.js
+
+MICROSOFT OFFICE
+---------------------------
+http://getintopc.com/softwares/office-tools/office-2016-professional-plus-32-64-bit-iso-free-download/
+
+
+VERSION PHP Y APACHE
+-----------------------
+1.- VC14 x64 Thread Safe (2017-Nov-23 18:29:12)
+2.-  
+	
+2.- Apache 2.4.29 Win64
+2.- [Apache VC15 Binary] httpd-2.4.29-Win64-VC15.zip                             
+2.- 04 Nov '17 15.570K
+2.- PGP Signature (Public PGP key), SHA1-SHA512 Checksums
+
+
+PAGINA
+----------------------
+1.- Curriculum
+2.- Projects
+3.- Blog
+ 
+
+FALOS
+----------------------
+1.- SACAR LA ALMOADILLA DEL LOCATION
+
+
+IMAGENES
+----------------------
+Resolución === 2511 * 1620
+  	       2511 * 1489
+	       6400 * 1800		
+
+
+CURSO
+---------------------
+1.- Mongo, node , express
+2.- Mysql, php, javascript
+3.- Css 
+
+
+https://www.sepe.es/contenidos/personas/formacion/certificados_de_profesionalidad/informatica_comunicaciones.html
+
+http://bdadam.com/blog/panning-and-scrolling-background-images-using-the-canvas-element.html
+
+http://norgram.co/
+
+https://codepen.io/sdras/pen/RZGqxR
+
+https://httpd.apache.org/docs/2.4/upgrading.html
+
+REPOSITORIO
+---------------------------------------------------------
+https://resources.oreilly.com/examples/
+
+http://www.mattkruse.com/javascript/mktree/source.html
+
+http://web.mit.edu/rhel-doc/3/rhel-rg-es-3/s1-apache-config.html
+
+Licencia para PhpStorm
+--------------------------
+http://idea.imsxm.com/
+
+Apache
+--------------------------
+httpd.exe -k install -n "Apache2.4"
+httpd.exe -k uninstall -n "Apache2.4"
+
+BORRAR UN SERVICIO POR SU NOMBRE
+--------------------------
+1.- Abrir cmd con permisos administrador
+2.- sc delete MYSQL80
+
+
+
+Crear grupo
+--------------------------
+eF7rZ8f3xf
+
+Javascript
+--------------------------
+
+
+Php
+--------------------------
+1.- Crear Intranet
+	1.1.- Libros
+	1.2.- Proyectos (WEB)
+	1.3.- Telefonos
+	1.4.- Software
+	1.5.- Dominios
+
+1.- Crear Blog
+	1.1.- Wordpress 	
+
+
+DESINSTALAR DEL ARRANQUE CHECKDISK
+-----------------------------------
+1.- HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager
+
+Antes habia autocheck autochk /k:C *
+
+
+WINDOWS cURL
+----------------------------------
+libeay32.dlL
+ssleay32.dll	
+http://indy.fulgan.com/SSL/
+
+
+NPM for WINDOWS
+----------------------------------
+
+
+PROYECTOS EMEXS
+----------------------------------
+01.- HG HOTELES
+02.- EMEXS
+03.- UNIVERSAL HOLLIDAYS
+04.- FEELATHOMEAPARTMENTS
+05.- MHAPARTMENTS
+06.- YURBBANTRAFALGAR
+07.- YURBBAN.COM
+08.- YURBBANPASSAGE.COM
+09.- HOMII.COM
+10.- MILES.COM ??
+11.- VILLAEMILIA.COM
+12.- AESTRASTEROS
+
+
+Librerias CSS
+-----------------------------------
+<!-- Bootstrap -->
+<link href="<?php echo base_url() . THEME_PATH; ?>css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo base_url() . THEME_PATH; ?>css/jasny-bootstrap.min.css" rel="stylesheet">
+
+<!-- Datepicker -->
+<link rel="stylesheet" href="<?php echo base_url() . THEME_PATH; ?>css/jquery-ui.min.css">
+<link rel="stylesheet" href="<?php echo base_url() . THEME_PATH; ?>css/jquery-ui.theme.min.css">
+<link rel="stylesheet" href="<?php echo base_url() . THEME_PATH; ?>css/jquery-ui.structure.min.css">
+
+<!-- Slider Range -->
+<link rel="stylesheet" href="<?php echo base_url() . THEME_PATH; ?>css/bootstrap-slider.min.css">
+
+
+<!-- CSS Personalizado -->
+<link href="<?php echo base_url() . THEME_PATH; ?>css/style-icon.min.css" rel="stylesheet">
+<link href="<?php echo base_url() . THEME_PATH; ?>css/cs-select.min.css" rel="stylesheet">
+<link href="<?php echo base_url() . THEME_PATH; ?>css/custom.min.css" rel="stylesheet">
+
+<!-- Other elements form pages -->
+<link href="<?php echo $alternate['canonical'];?>" rel="canonical" />
+<link href="<?php echo $alternate['canonical'];?>" hreflang="<?php echo $this->session->userdata('locale_lang'); ?>" rel="alternate" />
+<?php foreach($alternate['alternate'] as $language_alternate=>$url_alternate) { ?>
+<link href="<?php echo $url_alternate;?>" hreflang="<?php echo $language_alternate;?>" rel="alternate" />
+<?php } ?>
+
+
+Librerias jQuery 
+-----------------------------------
+<!-- Script Librerias -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Recaptcha -->
+<script src="//www.google.com/recaptcha/api.js?hl=<?php echo $this->session->userdata('locale_lang');?>" async defer>
+</script>
+<!-- Waypoint -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+
+
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+<!-- Google Maps -->
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyAHeVO2ga1-Vmh9veAgAg9a61aItSfpcI4"></script>

@@ -1,0 +1,15 @@
+Software open source
+------------------------
+
+Contabilidad casera -  
+------------------------
+
+Nombre ========= TEMS 		 - Time and Expense Management System
+Web    ========= TEMS 		 - http://www.temsonline.com/
+Nombre ========= DAYBOOKACCOUNTS - Simple Accounting System
+Web    ========= DAYBOOKACCOUNTS - https://sourceforge.net/projects/daybookaccounts/
+
+
+
+
+			

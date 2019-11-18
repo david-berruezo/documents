@@ -1,0 +1,474 @@
+MODO EDICION / INSERCION
+-------------------------
+esc + i 
+
+VERIFICAR CLAVES BITBUCKET
+---------------------------------------------
+ssh -Tv git@bitbucket.org
+
+MODO GUARDAR
+-------------------------
+esc + : + wq
+
+
+ERRORES AL HACER PUSH QUE SALE FETCH
+------------------------------------
+git push -f
+
+
+PASOS GIT LOCAL
+-----------------------------------------
+ssh-add c:\users\David\.ssh\todoparasupez\id_rsa
+copiar claves en directorio raiz .ssh
+git config --global user.name
+git config --global user.email
+git remote -v 
+git push / pull
+
+
+PASOS GIT SERVIDOR
+-----------------------------------------
+ssh-agent
+ssh-agent -c
+ssh-add c:\users\David\.ssh\todoparasupez\id_rsa
+copiar claves en directorio raiz .ssh
+chmod 600 id_rsa
+chmod 600 id_rsa.pub
+config --global user.name
+config --global user.email
+git remote -v 
+git push / pull
+
+UNMERGED FILES
+-------------------------------------------
+git reset app/models/disclosure_even.rb
+
+
+Windows
+------------------------------------------
+SFC /SCANNOW
+
+Desarrollo web
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+git version
+
+1.- Empiezo a trabajar en local 
+2.- Creo usuario github
+3.- Desde el repositorio local vinculo al repositorio remoto en github
+4.- Voy a local y hago un git clone
+5.- git add, commit .... push origin master
+
+RENOMBRAR REMOTO
+----------------------------------------------------------------------------------------------------------------------------------------------------
+git remote rename origin github
+
+Github multiple keys
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+1.- keygen
+2.- $ ssh-add ~/.ssh/id_rsa_activehacker
+3.- Clean all cached before $ ssh-add -D
+4.- check your keys $ ssh-add -l
+
+Instrucciones
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Repositorio remoto es una copia de un repositorio que comparten una serie de personas: Ejemplo:
+
+	1.- GitHub
+	2.- Koke
+
+git remote -v Nos muestra los repositorios remotos que tenemos
+Para crear un remote se usa la opción 
+
+git remote add shortname url
+
+3 tipos de url:
+	1.- Tipo git
+	2.- Tipo ssh
+	3.- Tipo https
+
+Ejemplo:
+	
+	git remote add pepito git://github.com/pepe/planet.git
+
+Opciones:
+
+	1.- Inspeccionar detalles de un remote: git remote show[nombre_del_remote]
+	2.- Renombrar un remote: rename nombre_viejo nombre_nuevo
+	3.- Borrar un remote: git remote rm nombre_remote
+	4.- Actualizar un remote: git remote update
+	5.- Borrar ramas de un remote que ya no existe: git remote prune 
+
+Ramas remotes Branch
+
+	1.- Una rama remota es un puntero a un commit
+	2.- Indica cual era la posición de una rama en un repositorio remoto la última vez que nos conectamos a él
+	3.- Se nombra como <remote>/<rama>
+	4.- Las ramas se pueden mover cuando actualizamos nuestro repositorio
+
+Tracking Branch
+
+	1.- Rama local emparejada con una rama remota para que estén sincronizadas
+	2.- Al hacer push se suben los cambios locales y se actualiza la rama remota emparejada.
+	3.- Al hacer pull se actualiza la rama local con los cambios existentes en la rama remota
+	
+
+Para listar las tracking branches existentes:
+	
+	1.- git branch -vv
+	2.- git remote show <remote_name> 
+
+La rama master es un tracking branches de origin/master y se crea al clonar un repositorio
+
+Metodologia 
+	
+	1.- git push (En local)
+	2.- git pull (En servidor)
+ 
+Para crear un tracking branches ejecutaremos lo siguiente:
+
+	1.- git checkout -b <branchname><remotename>/<branchname> Se crea una rama local que se sincroniza con la rama remota indicada. Los nombres pueden ser distintos.
+	2.- git checkout --track <remotename>/<branchname> Lo mismo pero usando el mismo nombre
+	 
+Como descargar datos de un remote
+
+	1.- git fetch[nombre_remote[refspec]]
+	2.- refspec
+		2.1- Indica la rama local y remota entre las que se haría la bajada de datos.	
+		2.2- Puede ser un nombre de rama tanto local como remota
+		2.3- Sino se especifica se bajan todas las ramas locales que existen en el remoto
+	
+	3.- Este comando actualiza el repositorio con los datos existentes en el remote pero no modifica los ficheros del directorio de trabajo.
+	    La operaciones de mege las deberíamos de invocar explicitamente
+	
+	4.- git fetch origin Bajarse los datos que aún no tengo del repositorio del que me cloné.
+	
+	5.- Ahora mezclo mi rama actual con la rama demo de origin
+	git merge origin/demo 		
+
+
+
+pasos
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1.-
+mkdir proyecto.git
+mkdir proyecto.git
+(se crea en el servidor y en local)
+
+2.-
+git init (En local)
+
+3.-
+git --bare init
+(En el servidor)
+
+4.-
+git remote add origin parece direccion servidor....
+(En local)
+
+5.- git add,commit, git push origin master 
+(En local)
+
+6.-
+git clone
+
+
+git server
+https://www.youtube.com/watch?v=w3eRlEhzAZk
+
+(buscando git server windows you tube)
+
+Comandos Básicos de Git
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Coger el remoto:
+git remote add origin https://github.com/repositorio2automocion/2automocion.git
+
+git config --global user.email "<repositorio@davidberruezo.com>"
+git config --global user.name "davidberruezobernad"
+git status
+git add -A
+git commit -m "primer commit"
+	
+cd ~/.ssh
+cat ~/.ssh/id_rsa.pub
+ls -a ~/.ssh  (validar que tengamos la carpeta ssh)
+ssh -v
+ssh -T git@bitbucket.org
+ssh -Tv git@bitbucket.org
+ssh -Tv hg@bitbucket.org
+ssh -T -o "VerifyHostKeyDNS yes" git@github.com
+http://gitignore.io
+rm archivo (borra archivo stayin index)
+git commit (elimina el archivo)
+git remote add 
+ssh-keygen
+ssh-keygen -t rsa -b 2048 -C "davidberruezo" -N  "Berruezin23" -f davidberruezo
+ssh -T -vv git@bitbucket.org (Para ver las claves del servidor)
+git log (para ver usuarios)
+git remote -v (para ver todos los repositorios)
+git push origin master
+
+Parametros de ssh
+-t Specify type of key to create.  Por ejemplo: rsa
+-b Número de bits 
+-C Nuevo Comentario
+-N Phrase: Berruezin23
+-f Nombre del fichero ejemplo davidberruezo
+
+ssh-keygen -t rsa -b 2048 -f bitbucketclave
+
+------------------------- BUENA ----------------------------
+ssh-keygen -t rsa -b 4096 -C "servidor"
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+The options are as follows:
+
+-b bits
+Specifies the number of bits in the key to create. Minimum is 512 bits. Generally 1024 bits is considered sufficient, and key sizes above that no longer improve security but make things slower. The default is 1024 bits.
+-c
+Requests changing the comment in the private and public key files. This operation is only supported for RSA1 keys. The program will prompt for the file containing the private keys, for the passphrase if the key has one, and for the new comment.
+-e
+This option will read a private or public OpenSSH key file and print the key in a `SECSH Public Key File Format' to stdout. This option allows exporting keys for use by several commercial SSH implementations.
+-f filename
+Specifies the filename of the key file.
+-i
+This option will read an unencrypted private (or public) key file in SSH2-compatible format and print an OpenSSH compatible private (or public) key to stdout. ssh-keygen also reads the `SECSH Public Key File Format' This option allows importing keys from several commercial SSH implementations.
+-l
+Show fingerprint of specified public key file. Private RSA1 keys are also supported. For RSA and DSA keys ssh-keygen tries to find the matching public key file and prints its fingerprint.
+-p
+Requests changing the passphrase of a private key file instead of creating a new private key. The program will prompt for the file containing the private key, for the old passphrase, and twice for the new passphrase.
+-q
+Silence ssh-keygen Used by /etc/rc when creating a new key.
+-y
+This option will read a private OpenSSH format file and print an OpenSSH public key to stdout.
+-t type
+Specifies the type of the key to create. The possible values are ``rsa1'' for protocol version 1 and ``rsa'' or ``dsa'' for protocol version 2.
+-B
+Show the bubblebabble digest of specified private or public key file.
+-C comment
+Provides the new comment.
+-D reader
+Download the RSA public key stored in the smartcard in reader
+-N new_passphrase
+Provides the new passphrase.
+-P passphrase
+Provides the (old) passphrase.
+-U reader
+Upload an existing RSA private key into the smartcard in reader
+
+Problemas con clonación
+del .git\index
+git reset
+
+Para ver el email y el usuario
+git config user.name
+git config user.email
+
+bi
+---------------------------------------------------------------
+esc + i
+es : wu
+
+LINUX
+---------------------------------------------------------------
+Adicionalmente deberemos verificar que el directorio y el fichero de claves autorizadas sólo están accesibles para el usuario, 
+ya que el ssh puede ignorar el fichero si no tiene los permisos adecuados:
+
+user@server:~$ chmod 0700 $HOME/.ssh/
+user@server:~$ chmod 0600 $HOME/.ssh/authorized_keys
+user@server:~$ exit
+
+
+Para poder acceder al servidor sin contraseña deberemos añadir la clave pública al fichero ~/.ssh/authorized_keys del usuario remoto:
+
+boo:~$ scp $HOME/sshids/idrsa-1.pub user@server:
+user@server's password:
+id_rsa-1.pub         
+user@server:~$ test -d $HOME/.ssh || mkdir $HOME/.ssh
+user@server:~$ cat $HOME/idrsa-1.pub >> $HOME/.ssh/authorized_keys
+user@server:~$ rm $HOME/idrsa-1.pub
+
+
+
+-------------------------------------------------------------------- Comandos git -----------------------------------------------------------------------
+whoami
+
+Fuente: http://jonas.nitro.dk/git/quick-reference.html
+a) Buscando Ayuda:
+1. git help comando ó git comando --help
+    Muestra la ayuda para ese comando
+b) Creación de un repositorio:
+2. git init
+    Crea un repositorio en el directorio actual
+3. git clone url
+    Clona un repositorio remoto dentro de un directorio
+c) Operaciones sobre Archivos:
+4. git add path
+    Adiciona un archivo o un directorio de manera recursiva
+5. git rm ruta
+    Remueve un archivo o directorio del árbol de trabajo
+      -f : Fuerza la eliminación de un archivo del repositorio
+6. git mv origen destino
+    Mueve el archivo o directorio a una nueva ruta
+      -f : Sobre-escribe los archivos existentes en la ruta destino
+7. git checkout [rev] archivo
+    Recupera un archivo desde la rama o revisión actual
+      -f : Sobre-escribe los cambios locales no guardados
+d) Trabajando sobre el código:
+8. git status
+    Imprime un reporte del estado actual del árbol de trabajo local
+9. git diff [ruta]
+    Muestra la diferencia entre los cambios en el árbol de trabajo local
+10. git diff HEAD ruta
+    Muestra las diferencias entre los cambios registrados y los no registrados
+11. git add path
+    Selecciona el archivo para que sea incluido en el próximo commit
+12. git reset HEAD ruta
+    Marca el archivo para que no sea incluido en el próximo commit
+13. git commit
+    Realiza el commit de los archivos que han sido registrados (con git-add)
+      -a : Automáticamente registra todos los archivos modificados
+14. git reset --soft HEAD^
+    Deshace commit & conserva los cambios en el árbol de trabajo local
+15. git reset --hard HEAD^
+    Restablece el árbol de trabajo local a la versión del ultimo commit
+16. git clean
+    Elimina archivos desconocidos del árbol de trabajo local
+e) Examinando el histórico:
+17. git log [ruta]
+    Muestra el log del commit, opcionalmente de la ruta especifica
+18. git log [desde [..hasta]]
+    Muestra el log del commit para un rango de revisiones dado
+      --stat : Lista el reporte de diferencias de cada revisión
+      -S'pattern' : Busca el historial de cambios que concuerden con el patrón de búsqueda
+19. git blame [archivo]
+    Muestra el archivo relacionado con las modificaciones realizadas
+f) Repositorios remotos:
+20. git fetch [remote]
+    Trae los cambios desde un repositorio remoto
+21. git pull [remote]
+    Descarga y guarda los cambios realizados desde un repositorio remoto
+22. git push [remote]
+    Guarda los cambios en un repositorio remoto
+23. git remote
+    Lista los repositorios remotos
+24. git remote add remote url
+    Añade un repositorio remoto a la lista de repositorios registrados
+g) Ramas:
+25. git checkout rama
+    Cambia el árbol de trabajo local a la rama indicada
+      -b rama : Crea la rama antes de cambiar el árbol de trabajo local a dicha rama
+26. git branch
+    Lista las ramas locales
+27. git branch -f rama rev
+    Sobre-escribe la rama existente y comienza desde la revisión
+28. git merge rama
+    Guarda los cambios desde la rama
+h) Exportando e importando:
+29. git apply - < archivo
+    Aplica el parche desde consola (stdin)
+30. git format-patch desde [..hasta]
+    Formatea un parche con un mensaje de log y un reporte de diferencias (diffstat)
+31. git archive rev > archivo
+    Exporta resumen de la revisión (snapshot) a un archivo
+      --prefix=dir/ : Anida todos los archivos del snapshot en el directorio
+      --format=[tar|zip] : Especifica el formato de archivo a utilizar: tar or zip
+i) Etiquetas:
+32. git tag name [revision]
+    Crea una etiqueta para la revisión referida
+      -s : Firma la etiqueta con su llave privada usando GPG
+not smo      -l [patrón] : Imprime etiquetas y opcionalmente los registros que concuerden con el patrón de busqueda
+j) Banderas de Estado de los Archivos:
+M (modified) : El archivo ha sido modificado
+C (copy-edit) : El archivo ha sido copiado y modificado
+R (rename-edit) : El archivo ha sido renombrado y modificado
+A (added) : El archivo ha sido añadido
+D (deleted) : El archivo ha sido eliminado
+U (unmerged) : El archivo presenta conflictos después de ser guardado en el servidor (merge)
+
+------------------------------------------------------------ Comandos Linux --------------------------------------------------------------
+cat /etc/ssh/ssh_config (para ver el fichero ssh_config)
+nano .ssh/config
+pwd saber la ruta
+mkdir crear un directorio
+
+a] rmdir command - Deletes the specified empty directories.
+
+b] rm command - Delete the file including sub-directories.
+
+Syntax- rmdir command
+
+The rmdir command remove the DIRECTORY(ies), if they are empty. The syntax is:
+
+rmdir directory-name
+rmdir [option] directory-name
+
+mv mover
+
+rm -rf .git (eliminar)
+
+IdentifyConfigFile
+----------------------------------------------------------------------------------------------------------------------------------------------
+Bitbucket
+
+nano .ssh/config
+
+Host 2automocion
+HostName bitbucket.org
+IdentityFile ~/.ssh/final
+
+Host 2automocion
+HostName bitbucket.org
+IdentityFile ~/.ssh/final
+
+Host 2automocion
+HostName bitbucket.org
+IndentityFile ~/.ssh/authorized_keys
+
+Host 2automocion
+HostName bitbucket.org
+IndentityFile ~/.ssh/authorized_keys2
+
+Host 2automocion
+HostName bitbucket.org
+IndentityFile ~/.ssh/final.pub
+
+
+drwx------  2 automoci automoci 4096 Nov 22 14:34 ./
+
+
+drwx--x--x 18 automoci automoci 4096 Nov 21 22:06 ../
+-rw-r--r--  1 automoci automoci  414 Nov 21 23:41 authorized_keys
+-rw-r--r--  1 automoci automoci  414 Nov 21 23:41 authorized_keys2
+-rw-------  1 automoci automoci   67 Nov 22 13:43 config
+-rw-------  1 automoci automoci    0 Nov 22 13:40 confignano.save
+-rw-------  1 automoci automoci   67 Nov 22 13:40 confignano.save.1
+-rw-------  1 automoci automoci 1743 Nov 21 23:35 final
+-rw-------  1 automoci automoci  414 Nov 21 23:41 final.pub
+-rw-r--r--  1 automoci automoci  410 Nov 21 21:15 known_hosts
+-rw-rw-r--  1 automoci automoci   66 Nov 22 14:35 sshd_config
+
+
+ERRORES
+----------------------------------------------------------------------------------------------------------------------------------------------
+1.- error: failed to push some refs to
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+	1.1.- Solution
+		1.1.1.- git pull --rebase
+		1.1.2.- git push 
+
+https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/latest
+
+GIT LOG
+----------------------------------------------------------------------------------------------------------------------------------------------
+1.- git log --oneline --decorate --all --graph
+
+GIT MERGE
+----------------------------------------------------------------------------------------------------------------------------------------------
+1.- git merge origin/master
+
+EJEMPLOS
+----------------------------------------------------------------------------------------------------------------------------------------------
+

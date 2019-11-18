@@ -1,0 +1,59 @@
+
+CURRICULUM (ahora el perfin el php)
+--------------------------------------------------------------------------------------------------------
+
+PROGRAMACIÓN
+------------
+1.- Html, css, javascript (ejemplos).
+2.- Framework zend framework
+3.- CMS (prestashop,wordpress,joomla)
+
+MANERAS DE TRABAJAR
+------------------
+1.- Git
+2.- APACHE
+3.- MYSQL
+
+
+EJEMPLOS
+-------------------
+PRESTASHOP
+-------------------
+1.- 2AUTOMOCION.COM (PRESTASHOP)
+2.- YOURSPANISHWINE.COM (PRESTASHOP)
+3.- HOSTALPARISBCN.COM(PRESTASHOP)
+4.- TODOPARASUPEZ(TIENDA PRESTASHOP)
+5.- BERRUEZOMODA(TIENDA PRESTASHOP)
+
+WORDPRESS
+-------------------
+1.- DAVIDBERRUEZO
+2.- ECOMMERCEBARCELONA BLOG
+3.- PHPANDFRIENDS
+4.-  
+
+ZEND FRAMEWORK
+--------------------
+1.- ECOMMERCEBARCELONA WEB
+2.- TODOPARASUPEZ(ANUNCIOS)
+3.- SOLOAVES(ANUNCIOS)
+
+
+3 dominios no contratados
+-------------------------
+berruezoshop.com
+ellrmotorsport.net
+espaiclinic.com
+
+ACCESO A SHELL
+-------------------------
+2AUTOMOCION
+ECOMMERCEBARCELONA360
+
+OFERTAS TRABAJO
+-------------------------
+
+DRUPAL(1)
+CVS,SVN,GIT
+SQL,AJAX
+

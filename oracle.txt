@@ -1,0 +1,22 @@
+INSTALACION INSTANT CLIENT ORACLE
+-------------------------------------------------
+1.- DESCARGAR EL INSTANT CLIENT ORACLE SIEMPRE 32 BITS PARA FUNCIONAR CON PHP
+2.- TAMBIEN DESCARGAR SDK
+3.- DESCARGAR OCI8 EN PECL
+	3.1.- PARA 5.6 INSTALAR EN PHP.INI php_oci8_12c.dll
+	3.2.- PARA 7.0 INSTALAR EN PHP.INI php_oci8.dll
+4.- PONER EN ENVIROMNENT VARIABLES WINDOWS LA RUTA DEL CLIENT ORACLE
+
+
+ORACLE DATABASE 
+-------------------------------------------------
+name:orcl
+password:Berruezin23
+
+
+DE MOMENTO DESACTIVO QUE NO SE INICIEN LOS SIGUIENTES SERVICIOS
+-------------------------------------------------
+01.- OracleDBConsoleorcl 		===== paso de automatico a manual
+02.- OracleOraDb11g_home2TNSListener 	===== paso de automatico a manual
+03.- OracleServiceORCL			===== paso de automatico a manual
+

@@ -1,0 +1,69 @@
+HTML Tags Ordered by Category
+--------------------------------------------------------------------------------
+
+
+1.- Basic HTML
+--------------------------------------------------------------------------------
+    
+    1.01.- Tag	Description
+    1.02.- <!DOCTYPE> 	Defines the document type
+    1.03.- <html>	Defines an HTML document
+    1.04.- <head>	Defines information about the document
+    1.05.- <title>	Defines a title for the document
+    1.06.- <body>	Defines the document's body
+    1.07.- <h1> to <h6>	Defines HTML headings
+    1.08.- <p>	Defines a paragraph
+    1.09.- <br>	Inserts a single line break
+    1.10.- <hr>	Defines a thematic change in the content
+    1.11.- <!--...-->	Defines a comment
+
+
+2.- Formatting
+--------------------------------------------------------------------------------
+
+    2.01.-Tag Description
+    2.02.-<acronym>	Not supported in HTML5. Use <abbr> instead.
+    2.03.-Defines an acronym
+    2.04.-<abbr>	Defines an abbreviation or an acronym
+    2.05.-<address>	Defines contact information for the author/owner of a document/article
+    2.06.-<b>	Defines bold text
+    2.07.-<bdi>	Isolates a part of text that might be formatted in a different direction from other text outside it
+    2.08.-<bdo>	Overrides the current text direction
+    2.09.-<big>	Not supported in HTML5. Use CSS instead.
+    2.10.-Defines big text
+    2.11.-<blockquote>	Defines a section that is quoted from another source
+    2.12.-<center>	Not supported in HTML5. Use CSS instead.
+    2.13.-Defines centered text
+    2.14.-<cite>	Defines the title of a work
+    2.15.-<code>	Defines a piece of computer code
+    2.16.-<del>	Defines text that has been deleted from a document
+    2.17.-<dfn>	Represents the defining instance of a term
+    2.18.-<em>	Defines emphasized text 
+    2.01.-<font>	Not supported in HTML5. Use CSS instead.
+    2.01.-Defines font, color, and size for text
+    2.01.-<i>	Defines a part of text in an alternate voice or mood
+    2.01.-<ins>	Defines a text that has been inserted into a document
+    2.01.-<kbd>	Defines keyboard input
+    2.01.-<mark>	Defines marked/highlighted text
+    2.01.-<meter>	Defines a scalar measurement within a known range (a gauge)
+    2.01.-<pre>	Defines preformatted text
+    2.01.-<progress>	Represents the progress of a task
+    2.01.-<q>	Defines a short quotation
+    2.01.-<rp>	Defines what to show in browsers that do not support ruby annotations
+    2.01.-<rt>	Defines an explanation/pronunciation of characters (for East Asian typography)
+    2.01.-<ruby>	Defines a ruby annotation (for East Asian typography)
+    2.01.-<s>	Defines text that is no longer correct
+    2.01.-<samp>	Defines sample output from a computer program
+    2.01.-<small>	Defines smaller text
+    2.01.-<strike>	Not supported in HTML5. Use <del> or <s> instead.
+    2.01.-Defines strikethrough text
+    2.01.-<strong>	Defines important text
+    2.01.-<sub>	Defines subscripted text
+    2.01.-<sup>	Defines superscripted text
+    2.01.-<template>	Defines a template
+    2.01.-<time>	Defines a date/time
+    2.01.-<tt>	Not supported in HTML5. Use CSS instead.
+    2.01.-Defines teletype text
+    2.01.-<u>	Defines text that should be stylistically different from normal text
+    2.01.-<var>	Defines a variable
+    2.01.-<wbr>	Defines a possible line-break

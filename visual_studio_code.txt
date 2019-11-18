@@ -1,0 +1,12 @@
+VISUAL STUDIO CODE SHORCUTS
+-----------------------------------------
+1.- CTRL+D para ir seleccionando palabras repetidias === CTRL+D ==== 1 ===== CTRL+D ==== 2 Y CAMBIAR LA PALABRA LUEGO APRETAR ESC 
+2.- ZOOM IN / OUT === CTRL + OR CTRL -
+3.- PARA SELECCIONAR TODA LA COLUMNA CTRL+SHIFT+ALT+DOWN OR UP 
+4.- PARA COMENTARIO TIPO CSS, JAVASCRIPT, PHP SHIFT + ALT+ A
+
+
+VISUAL STUDIO CODE PLUGINS
+-----------------------------------------
+
+

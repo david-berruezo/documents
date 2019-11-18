@@ -1,0 +1,11 @@
+APUNTES PAGINA PORTFOLIO
+--------------------------------
+1.- ASSETS SE CREAN VARIOS DIV
+	1.- Assets.CONTENT_LAYER  		= document.createElement("div"),
+	2.- Assets.SCROLL_LAYER   		= document.createElement("div"),
+	3.- Assets.LAYER_BOT 	  		= document.createElement("div"),
+	4.- Assets.LAYER_MID 	  		= document.createElement("div"),
+	5.- Assets.LAYER_TOP 	  		= document.createElement("div"),	
+	6.- Assets.LAYER_TEMPLATE 	 	= document.createElement("div"),
+	7.- Assets.LAYER_TEMPLATE_OFFSET 	= document.createElement("div"),
+	8.- Assets.LAYER_TEMPLATE_PHYCHO_OFFSET = document.createElement("div"),

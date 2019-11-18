@@ -1,0 +1,4 @@
+ENVES DE FLOAT
+----------------------------------------------
+1.- display:inline-block
+2.- vertocal align
