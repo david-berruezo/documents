@@ -10,3 +10,20 @@ CREAR UNA APLICACIÓN VACIA O OTRA APLICACIÓN DEMO
 -------------------------------------------------------------------------
 01.- composer create-project symfony/website-skeleton my_project_name  
 02.- composer create-project symfony/symfony-demo my_project
+
+
+SYMFONY MAKER BUNDLE
+-------------------------------------------------------------------------
+01.- composer require doctrine maker
+	01.01.- php bin/console make ....
+	01.02.- make:command
+	01.03.- make:controller
+	01.04.- make:entity
+	01.05.- make:form
+	01.06.- make:functional-test
+	01.07.- make:subscriber
+	01.08.- make:twig-extension
+	01.09.- make:unit-test
+	01.10.- make:validator
+	01.11.- make:voter
+	
