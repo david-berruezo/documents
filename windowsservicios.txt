@@ -33,6 +33,10 @@ iniciar administrador de dispositivos desde consola
 devmgmt.msc
 
 
+iniciar eventos
+----------------------------------------------------
+eventvwr.msc
+
 
 Aqui estan los servicios
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services

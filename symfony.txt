@@ -1,0 +1,12 @@
+Symfony
+-------------------------------------------------------------------------
+01.- INSTALAR EL INSTALADOR
+	01.1.- https://github.com/symfony/symfony-installer
+	01.2.- php -r "file_put_contents('symfony', file_get_contents('https://symfony.com/installer'));"
+02.- COMPOSER INIT
+
+
+CREAR UNA APLICACIÓN VACIA O OTRA APLICACIÓN DEMO
+-------------------------------------------------------------------------
+01.- composer create-project symfony/website-skeleton my_project_name  
+02.- composer create-project symfony/symfony-demo my_project
