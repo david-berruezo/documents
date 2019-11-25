@@ -1,0 +1,6 @@
+INSTALAR RUBY
+---------------------------------
+01.- https://rubyinstaller.org/downloads/
+02.- instalar
+03.- primera opción y segunda opción
+04.- consola gem install sass
