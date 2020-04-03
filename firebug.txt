@@ -1,2 +1,0 @@
-about:config
-extensions.firebug.console.logLimit

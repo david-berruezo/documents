@@ -1,1 +1,0 @@
-git config --system http.sslcainfo "C:\Program Files (x86)\git\bin\curl-ca-bundle.crt"
