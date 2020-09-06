@@ -10,6 +10,13 @@ CREAR UNA APLICACIÓN VACIA O OTRA APLICACIÓN DEMO
 -------------------------------------------------------------------------
 01.- composer create-project symfony/website-skeleton my_project_name  
 02.- composer create-project symfony/symfony-demo my_project
+03.- composer require symfony/apache-pack
+
+
+LO PRIMERO CONFIGURAR ROUTES
+-------------------------------------------------------------------------
+01.- composer require annotations
+
 
 
 SYMFONY MAKER BUNDLE
@@ -26,4 +33,23 @@ SYMFONY MAKER BUNDLE
 	01.09.- make:unit-test
 	01.10.- make:validator
 	01.11.- make:voter
-	
+
+
+PROBLEMA
+-----------------------------------------------------------------------
+1.- ESTADOS
+	1.1.- SOLICITUD RECOGIDA
+	1.2.- EN TALLER
+	1.3.- REPARADO
+ 
+3 ROLES 
+	1.- CLIENTE
+	2.- ADMINISTRADOR
+
+
+PIZZA HUT
+-----------------------------------------------------------------------
+1.- TE DAN TODAS LA MOTOS QUE TIENE
+2.-
+
+ 	
