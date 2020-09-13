@@ -1,3 +1,31 @@
-Google Keyword Tool
-Webmaster Tools
-El propio buscador
+TIPOS DE BÚSQUEDAS
+--------------------------------------------
+01.- por el nombre o marca del producto:
+	01.1.- iphone
+	01.2.- canon HG10
+	01.3.- w2
+	01.4.- Kindle
+	01.4.- iPad
+02.- por la categoría del producto: 
+	02.1.- reproductor de blu-ray
+	02.2.- televisores de pantalla curva
+	02.3.- videojuegos de estrategia
+03.- por las características del destinatario
+	03.1.- regalo para el dia del padre
+	03.2.- juguetes para una niña de 6 años
+	03.3.- reclamos publicitarios para empresas	
+04.- a partir de una característica
+	04.1.- coche diesel de segunda mano
+	04.2.- viajes en crucero
+	04.3.- alquileres vacacionales
+
+CONOCIMIENTO DE LAS BÚSQUEDAS EMPLEADAS
+--------------------------------------------
+01.- Google Keyword planner
+02.- Google Trends
+03.- Google Zeitgeist
+
+ANÁLISIS EN GENERAL
+--------------------------------------------
+01.- Google search console
+02.- Google Analytics
