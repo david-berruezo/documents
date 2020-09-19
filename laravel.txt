@@ -2,3 +2,19 @@ CREACION DE UN PROYECTO EN LARAVEL
 ----------------------------------------
 01.- composer require laravel/installer
 02.- composer create-project laravel/laravel proyecto
+
+
+COMANDOS AGREGAR BASE DE DATOS
+----------------------------------------
+01.- php artisan route:cache 
+02.- php artisan route:clear 
+03.- php artisan config:cache 
+04.- php artisan config:clear 
+05.- php artisan optimize  
+
+
+COMANDOS ARTISAN
+----------------------------------------
+01.- php artisan list  
+
+

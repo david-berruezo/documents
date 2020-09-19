@@ -11,26 +11,41 @@ COMANDOS DOCTRINE
 	
 	04.1.- use Doctrine\ORM\Mapping as ORM; 
 	
-	04.2.- use Doctrine\ORM\Mapping as ORM;
-	       use Doctrine\ORM\Mapping\Entity;
-	       use Doctrine\ORM\Mapping\Table;
-	       use Doctrine\ORM\Mapping\Id;
-	       use Doctrine\ORM\Mapping\Column;
-	       use Doctrine\ORM\Mapping\GeneratedValue;
+	04.2.- 
+use Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Mapping\Entity;
+use Doctrine\ORM\Mapping\Table;
+use Doctrine\ORM\Mapping\Id;
+use Doctrine\ORM\Mapping\Column;
+use Doctrine\ORM\Mapping\GeneratedValue;
+
+
+
+DOCTRINE
+-------------------------------------------------
+This means there is no difference between a bidirectional one-to-many and a bidirectional many-to-one.
+
 
 
 
 07.- CODEIGNITER + DOCTRINE
 	
-	07.01.- https://github.com/kenjis/codeigniter-doctrine							(DOCTRINE)
-	07.02.- https://forum.codeigniter.com/thread-74863-page-2.html						(DOCTRINE COMMAND LINE)
+07.01.- https://github.com/kenjis/codeigniter-doctrine							(DOCTRINE)
+07.02.- https://forum.codeigniter.com/thread-74863-page-2.html						(DOCTRINE COMMAND LINE)
 
-	07.03.- php cli-doctrine.php orm:schema-tool:drop --force						(borrar cualquier esquema)
-	07.04.- php cli-doctrine.php orm:schema-tool:create							(crear un nuevo esquema)
-	07.05.- php cli-doctrine.php orm:schema-tool:update --force						(actualizar el esquema)
-	07.06.- php cli-doctrine.php orm:validate-schema							(para validar la base de datos)
-	07.07.- php cli-doctrine.php orm:convert-mapping -f --from-database annotation models  			(para importar loso objetos desde las tablas base de datos)
-	07.08.- php cli-doctrine.php orm:generate-entities --update-entities annotation models			(para crear metodos setter y getters)
+07.03.- php cli-doctrine.php orm:schema-tool:drop --force						(borrar cualquier esquema)
+07.04.- php cli-doctrine.php orm:schema-tool:create							(crear un nuevo esquema)
+07.05.- php cli-doctrine.php orm:schema-tool:update --force						(actualizar el esquema)
+07.06.- php cli-doctrine.php orm:validate-schema							(para validar la base de datos)
+07.07.- php cli-doctrine.php orm:convert-mapping -f --from-database annotation models  			(para importar loso objetos desde las tablas base de datos)
+07.08.- php cli-doctrine.php orm:generate-entities --update-entities annotation models			(para crear metodos setter y getters)
 	
 	
-		
+/**
+* @var string
+*
+* @ORM\Column(name="id", type="string", length=45, nullable=false, options={"comment"="Identificador idioma"})
+* @ORM\Id
+* @ORM\GeneratedValue(strategy="AUTO")
+* @ORM\GeneratedValue(strategy="NONE")
+*/		
