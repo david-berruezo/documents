@@ -8,9 +8,15 @@ Symfony
 
 CREAR UNA APLICACIÓN VACIA O OTRA APLICACIÓN DEMO
 -------------------------------------------------------------------------
-01.- composer create-project symfony/website-skeleton my_project_name  
+01.- composer create-project symfony/website-skeleton talleres
 02.- composer create-project symfony/symfony-demo my_project
 03.- composer require symfony/apache-pack
+04.- composer require symfony/orm-pack
+
+
+COMANDOS SYMFONY
+-------------------------------------------------------------------------
+01.- php bin/console make:controller HomeController
 
 
 LO PRIMERO CONFIGURAR ROUTES
@@ -33,6 +39,15 @@ SYMFONY MAKER BUNDLE
 	01.09.- make:unit-test
 	01.10.- make:validator
 	01.11.- make:voter
+
+
+COMANDOS DOCTRINE DENTRO DE SYMFONY
+-------------------------------------------------
+01.- php bin/console doctrine:schema:drop --force 
+02.- php bin/console doctrine:schema:create
+03.- php bin/console doctrine:schema:update --force
+04.- php bin/console doctrine:mapping:import "App\Entity" annotation --path=src/Entity --no-debug
+05.- php bin/console make:entity --regenerate App
 
 
 PROBLEMA

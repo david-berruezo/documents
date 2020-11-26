@@ -10,8 +10,9 @@ COMANDOS DOCTRINE
 06.- luego hay que remplazar esta linia con los espacios
 	
 	04.1.- use Doctrine\ORM\Mapping as ORM; 
-	
-	04.2.- 
+	04.2.-
+
+<?php 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Mapping\Entity;
 use Doctrine\ORM\Mapping\Table;
@@ -20,12 +21,30 @@ use Doctrine\ORM\Mapping\Column;
 use Doctrine\ORM\Mapping\GeneratedValue;
 
 
+BORRAR CACHE
+-------------------------------------------------
+vendor/bin/doctrine orm:clear-cache:metadata
+vendor/bin/doctrine orm:clear-cache:query
+vendor/bin/doctrine orm:clear-cache:result
+
+
+COMANDOS DOCTRINE DENTRO DE SYMFONY
+-------------------------------------------------
+01.- php bin/console doctrine:schema:drop --force 
+02.- php bin/console doctrine:schema:create
+03.- php bin/console doctrine:schema:update --force
+04.- php bin/console doctrine:mapping:import "App\Entity" annotation --path=src/Entity
+05.- php bin/console make:entity --regenerate App
+
+
+php bin/console doctrine:clear-cache:metadata
+php bin/console doctrine orm:clear-cache:query
+php bin/console doctrine orm:clear-cache:result
+
 
 DOCTRINE
 -------------------------------------------------
 This means there is no difference between a bidirectional one-to-many and a bidirectional many-to-one.
-
-
 
 
 07.- CODEIGNITER + DOCTRINE
