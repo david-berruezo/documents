@@ -1,0 +1,9 @@
+POWER SHELL
+-------------------------------
+Recordar que la mayoría de comandos son con verbo + sustantivo ejemplo de ello sería:
+	01.- sl 			=== set location
+	02.- get-childitem		=== Obtener hijos
+	etc	
+
+01.- saber la version ==== get-host | $PSversiontable
+02.- 	 

@@ -375,3 +375,12 @@ The date and time parts can be separated by T rather than a space. For example, 
 As a string with no delimiters in either 'YYYYMMDDhhmmss' or 'YYMMDDhhmmss' format, provided that the string makes sense as a date. For example, '20070523091528' and '070523091528' are interpreted as '2007-05-23 09:15:28', but '071122129015' is illegal (it has a nonsensical minute part) and becomes '0000-00-00 00:00:00'.
 
 As a number in either YYYYMMDDhhmmss or YYMMDDhhmmss format, provided that the number makes sense as a date. For example, 19830905132800 and 830905132800 are interpreted as '1983-09-05 13:28:00'.
+
+
+
+EXPORTAR TODAS LAS BASES DE DATOS
+---------------------------------------------------------
+mysqldump -u root -p --all-databases > alldb.sql
+mysqldump -h localhost -u root -p --all-databases > D:\bases_de_datos\all.sql
+
+

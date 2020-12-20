@@ -45,5 +45,15 @@ En la ventana Utilidad de configuración del sistema, ve a la pestaña Inicio y de
 que se inicien automáticamente al comenzar Windows. Pulsa el botón Aceptar y reincia el sistema: 
 
 
-3198 * 1800 
-4 imagenes
+VER SERVICIOS Y PUERTOS ABIERTOS
+------------------------------------------
+01.- netstat -an
+
+
+DESHABILITAR UN SERVICIO
+------------------------------------------
+sc config "MySQL80" start=disabled
+
+DESHABILITAR UN SERVICIO
+------------------------------------------
+sc config "MySQL80" start=demand

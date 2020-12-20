@@ -8,10 +8,11 @@ Symfony
 
 CREAR UNA APLICACIÓN VACIA O OTRA APLICACIÓN DEMO
 -------------------------------------------------------------------------
-01.- composer create-project symfony/website-skeleton talleres
-02.- composer create-project symfony/symfony-demo my_project
+01.- composer create-project symfony/website-skeleton talleres | composer create-project symfony/symfony-demo my_project
+02.- composer require annotations
 03.- composer require symfony/apache-pack
 04.- composer require symfony/orm-pack
+05.- composer require symfony/maker-bundle
 
 
 COMANDOS SYMFONY
@@ -21,24 +22,31 @@ COMANDOS SYMFONY
 
 LO PRIMERO CONFIGURAR ROUTES
 -------------------------------------------------------------------------
-01.- composer require annotations
 
 
 
 SYMFONY MAKER BUNDLE
 -------------------------------------------------------------------------
+php bin/console list make
+
 01.- composer require doctrine maker
 	01.01.- php bin/console make ....
-	01.02.- make:command
-	01.03.- make:controller
-	01.04.- make:entity
-	01.05.- make:form
-	01.06.- make:functional-test
-	01.07.- make:subscriber
-	01.08.- make:twig-extension
-	01.09.- make:unit-test
-	01.10.- make:validator
-	01.11.- make:voter
+	01.02.- php bin/console make:command
+	01.03.- php bin/console make:controller
+	01.04.- php bin/console make:entity
+	01.05.- php bin/console make:form
+	01.06.- php bin/console make:functional-test
+	01.07.- php bin/console make:subscriber
+	01.08.- php bin/console make:twig-extension
+	01.09.- php bin/console make:unit-test
+	01.10.- php bin/console make:validator
+	01.11.- php bin/console make:voter
+
+
+SYMFONY REPOSITORY
+----------------------------------------------------------------------
+@ORM\Entity repositoryClass
+php bin/console make:entity --regenerate
 
 
 COMANDOS DOCTRINE DENTRO DE SYMFONY
@@ -46,9 +54,23 @@ COMANDOS DOCTRINE DENTRO DE SYMFONY
 01.- php bin/console doctrine:schema:drop --force 
 02.- php bin/console doctrine:schema:create
 03.- php bin/console doctrine:schema:update --force
-04.- php bin/console doctrine:mapping:import "App\Entity" annotation --path=src/Entity --no-debug
-05.- php bin/console make:entity --regenerate App
+04.- php bin/console doctrine:mapping:import "App\Entity" annotation --path=src/Entity --force
+05.- php bin/console make:entity --regenerate App\Entity --overwrite
 
+!!! RECORDAR PARA ACTUALIZAR BASE DE DATOS === COMPOSER DUMP_AUTOLOAD 
+
+php bin/console doctrine:mapping:import App\\Entity annotation --path=src/Entity
+php bin/console make:entity --regenerate App
+
+
+php bin/console doctrine:generate:entity --regenerate App 
+--no-debug
+
+LIMIAR CACHE
+---------------------------------------------------------------------
+php bin/console doctrine:cache:clear-metadata
+php bin/console doctrine:cache:clear-query
+php bin/console doctrine:cache:clear-result
 
 PROBLEMA
 -----------------------------------------------------------------------
