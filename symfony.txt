@@ -8,7 +8,7 @@ Symfony
 
 CREAR UNA APLICACIÓN VACIA O OTRA APLICACIÓN DEMO
 -------------------------------------------------------------------------
-01.- composer create-project symfony/website-skeleton talleres | composer create-project symfony/symfony-demo my_project
+01.- composer create-project symfony/website-skeleton talleres (EL BUENO) | composer create-project symfony/symfony-demo my_project   
 02.- composer require annotations
 03.- composer require symfony/apache-pack
 04.- composer require symfony/orm-pack
@@ -71,6 +71,39 @@ LIMIAR CACHE
 php bin/console doctrine:cache:clear-metadata
 php bin/console doctrine:cache:clear-query
 php bin/console doctrine:cache:clear-result
+
+
+MIGRATIONS
+----------------------------------------------------------------------
+php bin/console make:migration
+php bin/console doctrine:migrations:current                [current] Outputs the current version.
+php bin/console doctrine:migrations:diff                   [diff] Generate a migration by comparing your current database to your mapping information.
+php bin/console doctrine:migrations:dump-schema            [dump-schema] Dump the schema for your database to a migration.
+php bin/console doctrine:migrations:execute                [execute] Execute a single migration version up or down manually.
+php bin/console doctrine:migrations:generate               [generate] Generate a blank migration class.
+php bin/console  doctrine:migrations:latest                 [latest] Outputs the latest version number
+php bin/console  doctrine:migrations:migrate                [migrate] Execute a migration to a specified version or the latest available version.
+php bin/console  doctrine:migrations:rollup                 [rollup] Roll migrations up by deleting all tracked versions and inserting the one version that exists.
+php bin/console  doctrine:migrations:status                 [status] View the status of a set of migrations.
+php bin/console  doctrine:migrations:up-to-date             [up-to-date] Tells you if your schema is up-to-date.
+php bin/console  doctrine:migrations:version                [version] Manually add and delete migration versions from the version table.
+php bin/console  doctrine:migrations:sync-metadata-storage  [sync-metadata-storage] Ensures that the metadata storage is at the latest version.
+php bin/console  doctrine:migrations:list                   [list-migrations] Display a list of all available migrations and their status.
+
+
+
+CREAR BASE DE DATOS DESDE DOCTRINE
+----------------------------------------------------------------------
+01.- php bin/console doctrine:database:create
+02.- php bin/console doctrine:schema:create
+
+
+
+EXPORTAR DE DOCTINE A BASE DE DATOS EL CÓDIGO FUENTE
+----------------------------------------------------------------------
+01.- php bin/console doctrine:schema:update --dump-sql
+
+
 
 PROBLEMA
 -----------------------------------------------------------------------

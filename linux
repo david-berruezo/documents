@@ -1,3 +1,12 @@
+LINUX UBUNTU TRUSTY VAGRANT
+-----------------------------------------------
+01.- sudo apt-get install xinit 
+02.- sudo apt-get install unity 
+03.- sudo apt-get install gnome 
+04.- sudo apt-get install ubuntu-desktop
+05.- startx
+
+
 Servidor Python
 ------------------------------------------------
 python -m SimpleHTTPServer

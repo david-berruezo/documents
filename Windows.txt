@@ -1,3 +1,16 @@
+REPOSITORIO
+---------------------------------------------------------
+https://resources.oreilly.com/examples/
+http://www.mattkruse.com/javascript/mktree/source.html
+http://web.mit.edu/rhel-doc/3/rhel-rg-es-3/s1-apache-config.html
+
+
+WINDOWS SHORTCUTS
+---------------------------------------------------------
+01.- 
+
+
+
 PROYECTOS
 ---------------------------------
 2 VISTAS
@@ -210,13 +223,6 @@ https://codepen.io/sdras/pen/RZGqxR
 
 https://httpd.apache.org/docs/2.4/upgrading.html
 
-REPOSITORIO
----------------------------------------------------------
-https://resources.oreilly.com/examples/
-
-http://www.mattkruse.com/javascript/mktree/source.html
-
-http://web.mit.edu/rhel-doc/3/rhel-rg-es-3/s1-apache-config.html
 
 Licencia para PhpStorm
 --------------------------

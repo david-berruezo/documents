@@ -16,4 +16,4 @@ npx webpack-dev-server
 
 babel other project
 ----------------------------------
- 
+npm i babel-cli babel-register babel-preset-es-2015  
