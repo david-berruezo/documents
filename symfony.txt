@@ -43,6 +43,13 @@ php bin/console list make
 	01.11.- php bin/console make:voter
 
 
+
+CREAR REPOSITORIOS DIRECTAMENTE
+-------------------------------------------------------------------------
+01.- @ORM\Entity(repositoryClass=DynamicGeolocalityRepository::class)		(COPIAR EN LA ENTIDAD PARA QUE CREE LOS REOPISOTRIOS EN EL DIRECTORIO DE LA ENTIDAD)
+02.- php bin/console make:entity --regenerate  (para crear los repositorios)	(COPIAR LOS REPOSITORIOS DEL DIRECTORIOS DE LA ENTIDAD A LA CARPETA REPOSITORY)
+
+
 SYMFONY REPOSITORY
 ----------------------------------------------------------------------
 @ORM\Entity repositoryClass
@@ -56,7 +63,7 @@ COMANDOS DOCTRINE DENTRO DE SYMFONY
 03.- php bin/console doctrine:schema:update --force
 04.- php bin/console doctrine:mapping:import "App\Entity" annotation --path=src/Entity --force
 05.- php bin/console make:entity --regenerate App\Entity --overwrite
-
+a
 !!! RECORDAR PARA ACTUALIZAR BASE DE DATOS === COMPOSER DUMP_AUTOLOAD 
 
 php bin/console doctrine:mapping:import App\\Entity annotation --path=src/Entity
@@ -91,12 +98,10 @@ php bin/console  doctrine:migrations:sync-metadata-storage  [sync-metadata-stora
 php bin/console  doctrine:migrations:list                   [list-migrations] Display a list of all available migrations and their status.
 
 
-
 CREAR BASE DE DATOS DESDE DOCTRINE
 ----------------------------------------------------------------------
 01.- php bin/console doctrine:database:create
 02.- php bin/console doctrine:schema:create
-
 
 
 EXPORTAR DE DOCTINE A BASE DE DATOS EL CÓDIGO FUENTE
