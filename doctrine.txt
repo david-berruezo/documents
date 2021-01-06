@@ -1,9 +1,14 @@
+Error Code: 1005. Can't create table `temp_pisosenm_inmobiliaria`.`#sql-a24_83` (errno: 150 "Foreign key constraint is incorrectly formed")
+
 COMANDOS DOCTRINE
 -------------------------------------------------
 01.- vendor/bin/doctrine orm:schema-tool:drop --force					(borrar cualquier esquema)
 02.- vendor/bin/doctrine orm:schema-tool:create						(crear un nuevo esquema)
 02.- vendor/bin/doctrine orm:schema-tool:update --force					(actualizar el esquema)
-03.- vendor/bin/doctrine orm:validate-schema						(para validar la base de datos)
+03.- vendor/bin/doctrine orm:schema-tool:update --force --dump-sql			(actualizar la base de datos)	
+04.- vendor/bin/doctrine orm:validate-schema						(para validar la base de datos)
+
+
 
 04.- vendor/bin/doctrine orm:convert-mapping -f --from-database annotation ./src  	(para importar loso objetos desde las tablas base de datos)
 05.- vendor/bin/doctrine orm:generate-entities --update-entities annotation ./src	(para crear metodos setter y getters)
@@ -68,3 +73,36 @@ This means there is no difference between a bidirectional one-to-many and a bidi
 * @ORM\GeneratedValue(strategy="AUTO")
 * @ORM\GeneratedValue(strategy="NONE")
 */		
+
+
+doctrine
+-------------------------------------------------
+doctrine:cache:clear-collection-region Clear a second-level cache collection region.
+doctrine:cache:clear-entity-region Clear a second-level cache entity region.
+doctrine:cache:clear-metadata Clears all metadata cache for an entity manager
+doctrine:cache:clear-query Clears all query cache for an entity manager
+doctrine:cache:clear-query-region Clear a second-level cache query region.
+doctrine:cache:clear-result Clears result cache for an entity manager
+doctrine:database:create Creates the configured database
+doctrine:database:drop Drops the configured database
+doctrine:ensure-production-settings Verify that Doctrine is properly configured for a production environment.
+doctrine:generate:crud Generates a CRUD based on a Doctrine entity
+doctrine:generate:entities Generates entity classes and method stubs from your mapping information
+doctrine:generate:entity Generates a new Doctrine entity inside a bundle
+doctrine:generate:form Generates a form type class based on a Doctrine entity
+doctrine:mapping:convert Convert mapping information between supported formats.
+doctrine:mapping:import Imports mapping information from an existing database
+doctrine:mapping:info
+doctrine:migrations:diff Generate a migration by comparing your current database to your mapping information.
+doctrine:migrations:execute Execute a single migration version up or down manually.
+doctrine:migrations:generate Generate a blank migration class.
+doctrine:migrations:latest Outputs the latest version number
+doctrine:migrations:migrate Execute a migration to a specified version or the latest available version.
+doctrine:migrations:status View the status of a set of migrations.
+doctrine:migrations:version Manually add and delete migration versions from the version table.
+doctrine:query:dql Executes arbitrary DQL directly from the command line.
+doctrine:query:sql Executes arbitrary SQL directly from the command line.
+doctrine:schema:create Executes (or dumps) the SQL needed to generate the database schema
+doctrine:schema:drop Executes (or dumps) the SQL needed to drop the current database schema
+doctrine:schema:update Executes (or dumps) the SQL needed to update the database schema to match the current mapping metadata.
+doctrine:schema:validate Validate the mapping files.
