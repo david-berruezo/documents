@@ -1,4 +1,17 @@
-﻿----------------------------------------------------- VERSION BUENA ------------------------------------------------
+﻿TAREAS APLICACIÓN SUMA DE DIFERENTES MODULOS GRATUITOS
+----------------------------------------------------------------
+01.- MODULOS DE MYPRESTA 		https://mypresta.eu/
+02.- MODULES DE fmemodules		https://www.fmemodules.com/en/password-recovery 
+
+02.- 
+01.- descarga de modulos versiones 1.6 a 1.7		(falta)
+02.- descarga de themes versiones 1.6 a 1.7		(falta)
+03.- github tanto modulos como themes			(falta)
+
+
+
+
+----------------------------------------------------- VERSION BUENA ------------------------------------------------
 version 6.1.14
 ----------------------------------------------------- System Variables -------------------------------------------------------------
 01 $base_dir { root folder of your shop }
@@ -25,6 +38,7 @@ version 6.1.14
 22 $page_name { current page's name }
 23 $customerName { customer name [session dependent] }
 24 $priceDisplay { current price display settings [currency dependent] }
+
 
 
 Free Modules
