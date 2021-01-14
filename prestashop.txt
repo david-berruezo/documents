@@ -1,14 +1,40 @@
-﻿TAREAS APLICACIÓN SUMA DE DIFERENTES MODULOS GRATUITOS
+﻿DIFERENCIAS TABLAS ENTRE 1.6.1 Y 1.7.7
+----------------------------------------------------------------
+01.- ps_admin_filter			(PRESTASHOP 1.7)
+02.- ps_authorization_role		(PRESTASHOP 1.7)
+03.- ps_cms_block			(PRESTASHOP 1.6)
+04.- ps_cms_block_lang			(PRESTASHOP 1.6)
+05.- ps_cms_block_page			(PRESTASHOP 1.6)	
+06.- ps_cms_block_shop			(PRESTASHOP 1.6)
+07.- ps_compare				(PRESTASHOP 1.6)
+08.- ps_currency_lang			(PRESTASHOP 1.7)
+09.- ps_currency_shop			(PRESTASHOP 1.7)
+10.- ps_currency_shop			(PRESTASHOP 1.7)
+11.- ps_emailsubscription		(PRESTASHOP 1.7)
+12.- ps_employee_session		(PRESTASHOP 1.7)
+13.- ps_favorite_product		(PRESTASHOP 1.6)
+14.- ps_gsitemap_sitemap		(PRESTASHOP 1.7)	
+
+
+
+PAGINAS DE DESCARGA DE MODULOS PRESTASHOP
 ----------------------------------------------------------------
 01.- MODULOS DE MYPRESTA 		https://mypresta.eu/
 02.- MODULES DE fmemodules		https://www.fmemodules.com/en/password-recovery 
+03.- MODULES DE belvg 			https://module-presta.com/modules.html
 
-02.- 
+
+
+MARKET PLACE APLICACIÓN SUMA DE DIFERENTES MODULOS GRATUITOS
+----------------------------------------------------------------
 01.- descarga de modulos versiones 1.6 a 1.7		(falta)
 02.- descarga de themes versiones 1.6 a 1.7		(falta)
 03.- github tanto modulos como themes			(falta)
 
 
+
+MODULOS INSTALADOS EN OFIPRIX
+----------------------------------------------------------------
 
 
 ----------------------------------------------------- VERSION BUENA ------------------------------------------------
@@ -209,6 +235,7 @@ CAMBIAR PASSWORD ADMINISTRADOR BY MYSQL
 2.- COPIAMOS EL VALOR DE DEFINE COOKIE KEY
 3.- use prestashop15dosa;
 4.- 
+
 update ps_employee set passwd=md5('aYuOEydUsGbm6CawTu88mw6WnIJKUecycHwvK0JweACqnwE8oznCdi1S') where email='pedidos@2automocion.com'; 
 
 
