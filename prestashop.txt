@@ -16,6 +16,56 @@
 14.- ps_gsitemap_sitemap		(PRESTASHOP 1.7)	
 
 
+CONFIGURACIÓN DEL PHP EN LA TIENDA
+-----------------------------------------------------------------
+01. PHP
+
+[Date]
+date.timezone = UTC
+
+[Session]
+session.auto_start = Off
+
+[PHP]
+short_open_tag = Off
+display_errors = Off
+
+magic_quotes_gpc = off
+; Increase this value if you are able to do it
+memory_limit = 512M
+max_execution_time = 300
+max_input_time = 300
+upload_max_filesize = 20M
+post_max_size = 22M
+; Increase this value if you work with products with a lot of combinations
+max_input_vars = 20000
+allow_url_fopen = on
+
+02.- PHP & File system
+
+[PHP]
+realpath_cache_size = 4096K
+realpath_cache_ttl = 600
+
+[opcache]
+opcache.enable=1
+opcache.enable_cli=0
+opcache.memory_consumption=256
+opcache.interned_strings_buffer=32
+opcache.max_accelerated_files=16229
+opcache.max_wasted_percentage=10
+opcache.revalidate_freq=10
+opcache.fast_shutdown=1
+opcache.enable_file_override=0
+opcache.max_file_size=0
+
+
+CAMBIO DE IDIONA ADMIN PANEL
+-----------------------------------------------------------------
+01.- LOCALITZATION Y BAJAR EL IDIOMA CORRESPONDIENTE
+02.- IR AL ICONO DE USUARIO PINCHAR TU PERFIL EN IDIOMA SELECCIONAR EL NUEVO
+
+
 
 PAGINAS DE DESCARGA DE MODULOS PRESTASHOP
 ----------------------------------------------------------------
@@ -32,13 +82,13 @@ MARKET PLACE APLICACIÓN SUMA DE DIFERENTES MODULOS GRATUITOS
 03.- github tanto modulos como themes			(falta)
 
 
-
 MODULOS INSTALADOS EN OFIPRIX
 ----------------------------------------------------------------
 
 
 ----------------------------------------------------- VERSION BUENA ------------------------------------------------
-version 6.1.14
+
+PRESTASHOP  1.6.1.14
 ----------------------------------------------------- System Variables -------------------------------------------------------------
 01 $base_dir { root folder of your shop }
 02 $base_dir_ssl { root folder of your shop using HTTPS protocol }
@@ -64,6 +114,65 @@ version 6.1.14
 22 $page_name { current page's name }
 23 $customerName { customer name [session dependent] }
 24 $priceDisplay { current price display settings [currency dependent] }
+
+
+
+PRESTASHOP  1.7.7
+----------------------------------------------------- System Variables -------------------------------------------------------------
+__PS_BASE_URI__			PHP	/prefix/	relative url	
+_DB_PREFIX_			PHP	Your SQL table prefix		
+_MAIL_DIR_			PHP	/prefix/mails/	relative url	front + back
+_MODULE_DIR_			PHP	/prefix/modules/	relative url	front + back
+_PS_ADMIN_CONTROLLER_DIR_	PHP	/var/www/html/prestashop/controllers/admin/		front + back
+_PS_ADMIN_DIR_			PHP	/var/www/html/prestashop/admin-dev	full path	back
+_PS_ADMIN_IMG_			PHP	/prefix/img/admin/	relative url	front + back
+_PS_ALL_THEMES_DIR_		PHP	/var/www/html/prestashop/themes/		front + back
+_PS_BO_ALL_THEMES_DIR_		PHP	/var/www/html/prestashop/Backoffice/themes/		front + back
+_PS_CACHE_CA_CERT_FILE_		PHP	/var/www/html/prestashop/app/cache/dev/cacert.pem		front + back
+_PS_CACHE_DIR_			PHP	/var/www/html/prestashop/app/cache/dev/		front + back
+_PS_CACHEFS_DIRECTORY_		PHP	/var/www/html/prestashop/cache/cachefs/		front + back
+_PS_CAT_IMG_DIR_		PHP	/var/www/html/prestashop/img/c/		front + back
+_PS_CLASS_DIR_			PHP	/var/www/html/prestashop/classes/		front + back
+_PS_COL_IMG_DIR_		PHP	/var/www/html/prestashop/img/co/		front + back
+_PS_CONFIG_DIR_			PHP	/var/www/html/prestashop/config/		front + back
+_PS_CONTROLLER_DIR_		PHP	/var/www/html/prestashop/controllers/		front + back
+_PS_CORE_DIR_			PHP	/var/www/html/prestashop	full path	front + back
+_PS_CORE_IMG_DIR_		PHP	/var/www/html/prestashop/img/		front + back
+_PS_CSS_DIR_			PHP	/prefix/css/	relative url	front + back
+_PS_CUSTOM_CONFIG_FILE_		PHP	/var/www/html/prestashop/config/settings_custom.inc.php		front + back
+_PS_DEBUG_PROFILING_		PHP	true	bool	front + back
+_PS_DEBUG_SQL_			PHP	true	bool	front + back
+_PS_DEFAULT_THEME_NAME_		PHP	classic		front + back
+_PS_DOWNLOAD_DIR_		PHP	/var/www/html/prestashop/download/		front + back
+_PS_EMPLOYEE_IMG_DIR_		PHP	/var/www/html/prestashop/img/e/		front + back
+_PS_FRONT_CONTROLLER_DIR_	PHP	/var/www/html/prestashop/controllers/front/		front + back
+_PS_GENDERS_DIR_		PHP	/var/www/html/prestashop/img/genders/		front + back
+_PS_GEOIP_CITY_FILE_		PHP	GeoLite2-City.mmdb		front + back
+_PS_GEOIP_DIR_			PHP	/var/www/html/prestashop/app/Resources/geoip/		front + back
+_PS_IMG_			PHP	/prefix/img/	relative url	front + back
+_PS_IMG_DIR_			PHP	/var/www/html/prestashop/img/		front + back
+_PS_JQUERY_VERSION_		PHP	1.11.0		front + back
+_PS_JS_DIR_			PHP	/prefix/js/	relative url	front + back
+_PS_LANG_IMG_DIR_		PHP	/var/www/html/prestashop/img/l/		front + back
+_PS_MAIL_DIR_			PHP	/var/www/html/prestashop/mails/		front + back
+_PS_MANU_IMG_DIR_		PHP	/var/www/html/prestashop/img/m/		front + back
+_PS_MODE_DEMO_			PHP	true	bool	front + back
+_PS_MODE_DEV_			PHP	true	bool	front + back
+_PS_MODULE_DIR_			PHP	/var/www/html/prestashop/modules/		front + back
+_PS_ORDER_STATE_IMG_DIR_	PHP	/var/www/html/prestashop/img/os/		front + back
+_PS_OVERRIDE_DIR_		PHP	/var/www/html/prestashop/override/		front + back
+_PS_PARENT_THEME_DIR_		PHP	/var/www/html/prestashop/themes/classic/	full path	front + back
+_PS_PARENT_THEME_URI_		PHP	/prefix/themes/classic/	relative url	front + back
+_PS_PDF_DIR_			PHP	/var/www/html/prestashop/pdf/		front + back
+_PS_PEAR_XML_PARSER_PATH_	PHP	/var/www/html/prestashop/tools/pear_xml_parser/		front + back
+_PS_PROD_IMG_			PHP	/prefix/img/p/	relative url	front + back
+_PS_PROD_IMG_DIR_		PHP	/var/www/html/prestashop/img/p/		front + back
+_PS_ROOT_DIR_			PHP	/var/www/html/prestashop	full path	front + back
+
+
+
+
+
 
 
 
