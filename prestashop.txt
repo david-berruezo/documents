@@ -1,22 +1,131 @@
-﻿DIFERENCIAS TABLAS ENTRE 1.6.1 Y 1.7.7
-----------------------------------------------------------------
-01.- ps_admin_filter			(PRESTASHOP 1.7)
-02.- ps_authorization_role		(PRESTASHOP 1.7)
-03.- ps_cms_block			(PRESTASHOP 1.6)
-04.- ps_cms_block_lang			(PRESTASHOP 1.6)
-05.- ps_cms_block_page			(PRESTASHOP 1.6)	
-06.- ps_cms_block_shop			(PRESTASHOP 1.6)
-07.- ps_compare				(PRESTASHOP 1.6)
-08.- ps_currency_lang			(PRESTASHOP 1.7)
-09.- ps_currency_shop			(PRESTASHOP 1.7)
-10.- ps_currency_shop			(PRESTASHOP 1.7)
-11.- ps_emailsubscription		(PRESTASHOP 1.7)
-12.- ps_employee_session		(PRESTASHOP 1.7)
-13.- ps_favorite_product		(PRESTASHOP 1.6)
-14.- ps_gsitemap_sitemap		(PRESTASHOP 1.7)	
+﻿Variables Globales en Prestashop 1.7
+-----------------------------------------------------------------
+01.- {$currency|var_dump}
+
+{$currency.name} -> Nombre de la moneda activa.
+{$currency.iso_code} -> Código ISO del idioma activado.
+{$currency.sign} -> Símbolo de la moneda activa
+{$currency.iso_code_num} -> Código ISO de la Moneda activa
 
 
-CONFIGURACIÓN DEL PHP EN LA TIENDA
+02.- {$shop|var_dump}
+
+{$shop.name} -> Nombre de la tienda en Prestashop 1.7
+{$shop.email} -> Email de la tienda en Prestashop 1.7
+{$shop.logo} ->  Ruta imagen logo de la tienda en Prestashop 1.7
+{$shop.favicon} ->  Ruta imagen favicon de la tienda en Prestashop 1.7
+{$shop.address.address1} -> Dirección 1 de la tienda en Prestashop 1.7
+{$shop.address.address2} -> Dirección 2 de la tienda en Prestashop 1.7
+{$shop.address.postcode} -> Codigo Postal de la tienda en Prestashop 1.7
+{$shop.address.city} -> Ciudad de la tienda en Prestashop 1.7
+{$shop.address.state} -> Provincia de la tienda en Prestashop 1.7
+{$shop..address.country} -> País de la tienda en Prestashop 1.7
+{$shop.phone} -> Telefono de la tienda en Prestashop 1.7
+{$shop.fax} -> Fax de la tienda en Prestashop 1.7
+
+
+03.- {$language|var_dump}
+
+{$language.name} -> Nombre del idioma activado
+{$language.iso_code} -> Código ISO del idioma activado
+{$language.language_code} -> Código idioma activado (es para el Español, fr para el Francés, tc..)
+{$language.is_rtl} -> ( 1 -> Activado / 0 Desactivado (para cuando el idioma se escribe de derecha a izquierda)
+{$language.format_lite} y {$language.format_full} -> Formato de fecha simplicado y formato de fecha completo
+{$language.id} -> ID del idioma activado
+
+
+{$customer|var_dump}
+
+{$customer.newsletter_date_add} -> Fecha de suscripción al boletín
+{$customer.ip_registration_newsletter} -> IP Registro clientes newsletter
+{$customer.optin} -> Suscrito a ofertas de nuestros socios en Prestashop 1.7
+{$customer.date_add} -> Fecha creación del cliente en Prestashop 1.7
+{$customer.date_upd}  -> Última fecha actualización del cliente en Prestashop 1.7
+{$customer.id} -> ID del Cliente en Prestashop 1.7
+{$customer.id_default_group} -> Grupo por defecto al que esta asociado el cliente en Prestashop 1.7
+{$customer.is_logged} -> Comprobar si el cliente esta “logeado” en Prestashop 1.7
+{$customer.gender.name[$customer.gender.id]} -> Genero del Cliente (Sr / Sra)
+{$customer.addresses[ID Direccion].city} -> Ciudad del cliente de la dirección ‘X’ que tiene asociado.  (ID Dirección, porque un cliente teóricamente puede tener múltiples direcciones)
+{$customer.addresses[ID Direccion].alias} -> Alias de la dirección
+{$customer.addresses[ID Direccion].firstname} -> Apellido del titular de la dirección
+{$customer.addresses[ID Direccion].lastname} -> Nombre del titular de dirección
+{$customer.addresses[ID Direccion].company} -> Nombre empresa del titular de la dirección
+{$customer.addresses[ID Direccion].address1} -> Dirección 1
+{$customer.addresses[ID Direccion].address2} -> Dirección 2
+{$customer.addresses[ID Direccion].postcode} -> Código postal de la dirección
+{$customer.addresses[ID Direccion].id_state} -> ID de la provincia de la dirección
+{$customer.addresses[ID Direccion].state} -> Provincia de la dirección
+{$customer.addresses[ID Direccion].state_iso} -> Código ISO de la provincia de la dirección
+{$customer.addresses[ID Direccion].id_country} -> ID País de la dirección
+{$customer.addresses[ID Direccion].country} -> País de la dirección
+{$customer.addresses[ID Direccion].country_iso} -> Código ISO del país de la dirección
+{$customer.addresses[ID Direccion].phone} -> Teléfono de la dirección
+{$customer.addresses[ID Direccion].phone_mobile} -> Teléfono móvil de la dirección
+{$customer.addresses[ID Direccion].dni} -> DNI de la dirección
+{$customer.addresses[ID Direccion].vat_number} -> Numero IVA Cliente
+{$customer.addresses[ID Direccion].formatted} -> Dirección formateada del Cliente
+
+04.- {$page|var_dump}
+
+Meta Titulo (Titulo)  página -> {$page.meta.title}
+Meta Descripción página -> {$page.meta.description}
+Nombre sección donde estamos situado -> {$page.page_name}
+
+05.- {$urls|var_dump}
+
+{$urls.base_url} -> Dirección tienda
+{$urls.current_url} -> Actual dirección (url) donde nos encontramos
+{$urls.shop_domain_url} -> Dominio de la tienda
+{$urls.img_ps_url} -> Url del directorio raíz de imágenes (/img/)
+{$urls.img_cat_url} -> Url del directorio de imágenes de las categorías (/img/c/)
+{$urls.img_lang_url} -> Url del directorio de imágenes de los idiomas (/img/l/)
+{$urls.img_prod_url} -> Url del directorio de imágenes de los productos (/img/p/)
+{$urls.img_manu_url} -> Url del directorio de imágenes de los fabricantes (/img/m/)
+{$urls.img_sup_url} ->Url del directorio de imágenes de los proveedores (/img/su/)
+{$urls.img_ship_url} -> Url del directorio de imágenes de los transportistas (/img/s/)
+{$urls.img_store_url} -> Url del directorio de las imágenes de la/s tienda/s (/img/st/)
+{$urls.img_url} -> Url del directorio de imágenes de la plantilla (/themes/TuPlantilla/assets/img/)
+{$urls.css_url} -> Url del directorio de CSS de la plantilla (/themes/TuPlantilla/assets/css/)
+{$urls.js_url} -> Url del directorio de JS de la plantilla (/themes/TuPlantilla/assets/js/)
+{$urls.pic_url} -> Url del directorio de ficheros subidos (/upload/)
+{$urls.pages.address} ->Url de la sección “Mis dirección”
+{$urls.pages.addresses} -> Url de la sección “Mis direcciones”
+{$urls.pages.authentication} -> Url de la sección de la página de autentificación
+{$urls.pages.cart} -> Url de la sección del carrito (resumen pedido)
+{$urls.pages.category} -> Url de la sección de las categorías
+{$urls.pages.cms} -> Url de la sección de contenidos
+{$urls.pages.contact} –> Url de la sección del formulario de contacto
+{$urls.pages.discount} -> Url de la sección vales de descuento
+{$urls.pages.guest_tracking} -> Url de seguimiento para clientes no registrados
+{$urls.pages.history} -> Url de la sección del historial de pedidos
+{$urls.pages.identity} ->  Url de la sección “Datos personales”
+{$urls.pages.index} -> Url de la página
+{$urls.pages.my_account} -> Url de la sección mi cuenta
+{$urls.pages.order_confirmation} -> Url de la sección de la página de confirmación del pedido.
+{$urls.pages.order_follow} –> Url de la sección “Seguimiento del pedido”
+{$urls.pages.order} -> Url de la sección del pedido
+{$urls.pages.order_return}
+{$urls.pages.order_slip}
+{$urls.pages.pagenotfound} -> Url de la sección “404 (Página no encontrada)”
+{$urls.pages.password} -> Url de la sección “Recuperar Contraseña”
+{$urls.pages.pdf_invoice}
+{$urls.pages.pdf_order_return}
+{$urls.pages.pdf_order_slip}
+{$urls.pages.prices_drop} -> Url de la sección bajamos los precios/productos rebajados/descuentos
+{$urls.pages.product} -> Url de la ficha del producto
+{$urls.pages.search} -> Url de la sección del buscador
+{$urls.pages.sitemap} -> Url de la sección del Mapa de sitio
+{$urls.pages.stores} -> Url de la sección “Tiendas / Nuestras tiendas”
+{$urls.pages.supplier} -> Url de la sección de los proveedores
+{$urls.pages.register} -> Url de la página de registro
+{$urls.pages.order_login} ->
+{$urls.theme_assets} -> Url del directorio “assets” de la plantilla (/themes/TuPlantilla/assets/)
+{$urls.actions.logout} -> Url para cerrar sesión en la tienda
+
+
+
+
+OPTIMIZACIÓN Y CONFIGURACIÓN DEL PHP EN LA TIENDA
 -----------------------------------------------------------------
 01. PHP
 
@@ -58,6 +167,43 @@ opcache.revalidate_freq=10
 opcache.fast_shutdown=1
 opcache.enable_file_override=0
 opcache.max_file_size=0
+
+
+OPTIMIZACIÓN PRESTASHOP
+--------------------------------------------------------
+01.- LIMPIAR LISTA MODULOS ADDONS src/core/addon/module/ModuleRepository			 
+
+
+
+INSTALAR MEMCACHED
+--------------------------------------------------------
+01.- https://www.journaldev.com/42/how-to-install-memcached-server-on-windows-as-service
+02.- memcached.ext -d install
+03.- memcached.ext -d start
+
+
+
+PARA VALIDAR MODULOS PRESTASHOP 1.7
+----------------------------------------------------------------
+https://validator.prestashop.com/generator
+
+
+DIFERENCIAS TABLAS ENTRE 1.6.1 Y 1.7.7
+----------------------------------------------------------------
+01.- ps_admin_filter			(PRESTASHOP 1.7)
+02.- ps_authorization_role		(PRESTASHOP 1.7)
+03.- ps_cms_block			(PRESTASHOP 1.6)
+04.- ps_cms_block_lang			(PRESTASHOP 1.6)
+05.- ps_cms_block_page			(PRESTASHOP 1.6)	
+06.- ps_cms_block_shop			(PRESTASHOP 1.6)
+07.- ps_compare				(PRESTASHOP 1.6)
+08.- ps_currency_lang			(PRESTASHOP 1.7)
+09.- ps_currency_shop			(PRESTASHOP 1.7)
+10.- ps_currency_shop			(PRESTASHOP 1.7)
+11.- ps_emailsubscription		(PRESTASHOP 1.7)
+12.- ps_employee_session		(PRESTASHOP 1.7)
+13.- ps_favorite_product		(PRESTASHOP 1.6)
+14.- ps_gsitemap_sitemap		(PRESTASHOP 1.7)	
 
 
 CAMBIO DE IDIONA ADMIN PANEL
@@ -170,9 +316,10 @@ _PS_PROD_IMG_DIR_		PHP	/var/www/html/prestashop/img/p/		front + back
 _PS_ROOT_DIR_			PHP	/var/www/html/prestashop	full path	front + back
 
 
-
-
-
+__PS__JS_DIR
+__PS__CSS_DIR
+__PS_IMG__
+__PS_IMG__DIR_
 
 
 
