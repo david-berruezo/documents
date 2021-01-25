@@ -1,0 +1,10 @@
+INSTALACIÓN
+--------------------------------------------------
+01.- BAJAR LIBRERIA PECL
+02.- COPIAR DLL EN PHP EXT CARPETA
+03.- REINICIAR
+
+
+DOCUMENTACION
+--------------------------------------------------
+https://learnxinyminutes.com/docs/es-es/yaml-es/

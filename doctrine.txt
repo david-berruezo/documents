@@ -1,3 +1,137 @@
+DOCTRINE RELATIONS
+-------------------------------------------------
+01.- Many-To-One, Unidirectional
+02.- One-To-One, Unidirectional
+03.- One-To-One, Bidirectional
+04.- One-To-One, Self-referencing
+
+05.- One-To-Many, Bidirectional
+06.- One-To-Many, Unidirectional with Join Table
+07.- One-To-Many, Self-referencing
+08.- Many-To-Many, Unidirectional
+10.- Many-To-Many, Bidirectional
+11.- Many-To-Many, Self-referencing
+
+
+
+01.- Many-To-One, Unidirectional 
+-------------------------------------------------
+
+class User
+{
+    // ...
+
+    /**
+     * @ManyToOne(targetEntity="Address")
+     * @JoinColumn(name="address_id", referencedColumnName="id")
+     */
+    private $address;
+}
+
+class Address
+{
+    // ...
+}
+
+CREATE TABLE User (
+    id INT AUTO_INCREMENT NOT NULL,
+    address_id INT DEFAULT NULL,
+    PRIMARY KEY(id)
+) ENGINE = InnoDB;
+
+CREATE TABLE Address (
+    id INT AUTO_INCREMENT NOT NULL,
+    PRIMARY KEY(id)
+) ENGINE = InnoDB;
+
+ALTER TABLE User ADD FOREIGN KEY (address_id) REFERENCES Address(id);
+
+
+
+
+02.- One-To-One, Unidirectional
+-------------------------------------------------
+
+class Product
+{
+    // ...
+
+    /**
+     * One Product has One Shipment.
+     * @OneToOne(targetEntity="Shipment")
+     * @JoinColumn(name="shipment_id", referencedColumnName="id")
+     */
+    private $shipment;
+
+    // ...
+}
+
+class Shipment
+{
+    // ...
+}
+
+CREATE TABLE Product (
+    id INT AUTO_INCREMENT NOT NULL,
+    shipment_id INT DEFAULT NULL,
+    UNIQUE INDEX UNIQ_6FBC94267FE4B2B (shipment_id),
+    PRIMARY KEY(id)
+) ENGINE = InnoDB;
+
+CREATE TABLE Shipment (
+    id INT AUTO_INCREMENT NOT NULL,
+    PRIMARY KEY(id)
+) ENGINE = InnoDB;
+
+ALTER TABLE Product ADD FOREIGN KEY (shipment_id) REFERENCES Shipment(id);
+
+
+
+03.- One-To-One, Bidirectional
+-------------------------------------------------
+
+class Customer
+{
+    // ...
+
+    /**
+     * One Customer has One Cart.
+     * @OneToOne(targetEntity="Cart", mappedBy="customer")
+     */
+    private $cart;
+
+    // ...
+}
+
+
+class Cart
+{
+    // ...
+
+    /**
+     * One Cart has One Customer.
+     * @OneToOne(targetEntity="Customer", inversedBy="cart")
+     * @JoinColumn(name="customer_id", referencedColumnName="id")
+     */
+    private $customer;
+
+    // ...
+}
+
+
+CREATE TABLE Cart (
+    id INT AUTO_INCREMENT NOT NULL,
+    customer_id INT DEFAULT NULL,
+    PRIMARY KEY(id)
+) ENGINE = InnoDB;
+
+CREATE TABLE Customer (
+    id INT AUTO_INCREMENT NOT NULL,
+    PRIMARY KEY(id)
+) ENGINE = InnoDB;
+
+ALTER TABLE Cart ADD FOREIGN KEY (customer_id) REFERENCES Customer(id);
+
 Error Code: 1005. Can't create table `temp_pisosenm_inmobiliaria`.`#sql-a24_83` (errno: 150 "Foreign key constraint is incorrectly formed")
 
 COMANDOS DOCTRINE

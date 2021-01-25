@@ -1,3 +1,44 @@
+Symfony relaciones
+-----------------------------------------------------------------------
+01.- ManyToOne
+02.- OneToMany
+03.- ManyToMany
+04.- OneToOne
+
+
+EJEMPLO ManyToOne Cateogory to Product
+---------------------------------------- 
+1.1.- make entity Category
+1.2.- field name string 255
+1.3.- null in database no
+
+2.1.- make entity Product
+2.2.- field name category relation ManyToOne
+2.3.- in the product category property allwed null no
+2.4.- New field name inside Category products
+2.4.- Want automatically delete ... no
+2.5.- 
+
+
+
+
+Make entity Address
+-------------------------------
+relation
+sobre objeto user
+ManyToOne
+permitir null no
+añadir propiedad no
+
+
+Make entity Address
+-------------------------------
+relation
+sobre objeto user
+OneToMany
+permitir null no
+añadir propiedad no
+
 Symfony
 -------------------------------------------------------------------------
 01.- INSTALAR EL INSTALADOR
@@ -54,6 +95,7 @@ CREAR REPOSITORIOS DIRECTAMENTE
 	@ORM\Entity(repositoryClass=DynamicGeolocalityRepository::class)
 	@ORM\Entity(repositoryClass=LanguagesRepository::class)
 
+
 SYMFONY REPOSITORY
 ----------------------------------------------------------------------
 @ORM\Entity repositoryClass
@@ -62,12 +104,15 @@ php bin/console make:entity --regenerate
 
 COMANDOS DOCTRINE DENTRO DE SYMFONY
 -------------------------------------------------
+00.- php bin/console doctrine:schema:validate
 01.- php bin/console doctrine:schema:drop --force 
 02.- php bin/console doctrine:schema:create
 03.- php bin/console doctrine:schema:update --force
-04.- php bin/console doctrine:mapping:import "App\Entity" annotation --path=src/Entity --force
-05.- php bin/console make:entity --regenerate App\\Entity --overwrite
-a
+04.- php bin/console doctrine:schema:update --force --dump-sql
+05.- php bin/console doctrine:mapping:import "App\Entity" annotation --path=src/Entity --force
+06.- php bin/console make:entity --regenerate App\\Entity --overwrite
+
+
 !!! RECORDAR PARA ACTUALIZAR BASE DE DATOS === COMPOSER DUMP_AUTOLOAD 
 
 php bin/console doctrine:mapping:import App\\Entity annotation --path=src/Entity
