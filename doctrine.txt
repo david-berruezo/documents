@@ -1,3 +1,8 @@
+OPCIONES DE DESCARGAS
+-------------------------------------------------
+01.- 
+
+
 DOCTRINE RELATIONS
 -------------------------------------------------
 01.- Many-To-One, Unidirectional
@@ -13,9 +18,72 @@ DOCTRINE RELATIONS
 11.- Many-To-Many, Self-referencing
 
 
+Clase User relacion uno a varios con address ManyToOne
+------------------------------------
+@ManyToOne(targetEntity="Address")
+@JoinColumn(name="address_id", referencedColumnName="id")
 
-01.- Many-To-One, Unidirectional 
--------------------------------------------------
+
+Clase Product relacion uno a uno con shipment OneToOne Unidirectional
+------------------------------------
+@OneToOne(targetEntity="Shipment")
+@JoinColumn(name="shipment_id", referencedColumnName="id")
+
+
+Clase Customer relacion uno a uno con cart OneToOne Bidirectional
+------------------------------------
+Customer: @OneToOne(targetEntity="Cart", mappedBy="customer")
+Cart: @OneToOne(targetEntity="Customer", inverseBy="cart")
+Cart: @JoinColumn(name="customer_id", referencedColumnName="id")
+
+
+Clase Student relacion uno a uno consigo mismo OneToOne Self
+------------------------------------
+@OneToOne(targetEntity="Student")
+@JoinColumn(name="mentor_id", referencedColumnName="id")
+
+
+Clase Product relacion OneToMany Bidirectional
+------------------------------------
+Product: @OneToMany(targetEntity="Feature" mappedBy="product") ==== producto
+Product: con la variable $features
+
+Feature: @ManyToOne(targetEntity="Product" inversedBy="features")
+Feature: @JoinColumn(name="product_id", referencedColumnName="id")
+
+
+Clase User OneToMany Unidireccional Join Table
+------------------------------------
+User:@ManyToMany(TargetEntity="Phonenumber")
+User:@JoinTable(name="users_phonenumbers",
+	joinColumns={@JoinColumn(name="user_id", referencedColumnName="id")},
+	inverseJoinColumns={@JoinColumn(name="phonenumber_id",referencedColumnName="id", unique=true )}
+	)
+
+
+Clase User OneToMany Self-refactoring
+-------------------------------------
+Category: @OneToMany(targetEntity="Category" mappedBy="parent")
+	campo $children
+
+Category: @ManyToTone(targetEntity="Category" inverrseBy="children")
+	  @JoinColumn(name="parent_id" referencedColumnName="id")
+	campo $parent
+
+
+PRODUCT Y CATEGORY SYMFONY
+------------------------------------
+01.- Category = @ORM\OneToMany(targetEntity=Product::class, mappedBy="category")
+01.- Category = con la variable products
+
+02.- Product  = @ORM\ManyToOne(targetEntity=Category::class, inversedBy="products")
+
+
+
+EXPORTAR OBJETOS A BASE DE DATOS
+------------------------------------
+vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
+
 
 class User
 {
@@ -151,6 +219,10 @@ COMANDOS DOCTRINE
 	04.1.- use Doctrine\ORM\Mapping as ORM; 
 	04.2.-
 
+
+php vendor/bin/doctrine orm:schema-tool-create --dump-sql
+
+
 <?php 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Mapping\Entity;
@@ -159,6 +231,7 @@ use Doctrine\ORM\Mapping\Id;
 use Doctrine\ORM\Mapping\Column;
 use Doctrine\ORM\Mapping\GeneratedValue;
 
+php vendor/bin/doctrine.php orm:clear-cache:metadata
 
 BORRAR CACHE
 -------------------------------------------------

@@ -1,4 +1,134 @@
-﻿Variables Globales en Prestashop 1.7
+﻿grupo crid entrevista
+--------------------------------------------------------------  
+
+
+viernes
+---------------------------------------------------------------
+01.- 10:00h
+02.- word experiencia tecnologia 
+
+
+
+PRESTASHOP CON NPM
+---------------------------------------------------------------
+npm run watch
+
+
+ESTRUCTURA LAYOUT 
+-----------------------------------------------------------------
+doctype
+html
+	01.- head
+	
+
+
+PAGINAS POR SEO URL O POR TEMA Y LOGOTIPO PARA ACTUALIZAR LAYOUT
+-----------------------------------------------------------------
+01.- entre 25 y 20 paginas a personalizar url y tipos de columnas
+	01.- fullwidth layout
+	02.- three columns
+	03.- left column
+	04.- right column   	
+
+
+Botones product list
+-----------------------------------------------------------------
+01.- vista previa | detalle | combinaciones (home featured)
+02.- 
+
+
+Hook list para Prestashop 1.7 (Example modules)
+-----------------------------------------------------------------
+01.- my_popup
+	01.1.- $this->registerHook('header')
+        01.2.- $this->registerHook('actionAdminControllerSetMedia')
+        01.3.- $this->registerHook('displayHeader')  
+
+02.- my_comments
+	02.1.- registerHook('displayProductTabContent')
+	02.2.- registerHook('displayBackOfficeHeader')
+	02.3.- registerHook('displayAdminProductsExtra') 
+	02.4.- registerHook('displayAdminCustomers')
+	02.5.- $this->registerHook('ModuleRoutes')
+
+
+NUEVOS HOOKS INSERTADOS POR MI
+------------------------------------------------------------------------
+01.- displayMyCustomBanner
+02.- displayMyCustomReaseguros
+03.- displayMyCustomPromociones
+04.- displayMyCustomNewArrivals
+05.- displayMyCustomNewArrivals
+06.- displayMyCustomPromocionUnica
+07.- displayMyCustomPromocionUnica
+08.- displayMyCustomMejoresVentas
+09.- displayMyCustomPromocionesSegundas
+10.- displayMyCustomBlog
+11.- displayMyCustomPromocionesTerceras
+12.- displayMyCustomPromocionesTerceras
+13.- displayMyCustomFooterOne
+14.- displayMyCustomFooterTwo
+
+
+
+Hook’s name 			Hook’s description
+-------------------------------------------------------------------------
+displayHeader 			For inserting modules in the header
+displayTop 			For inserting modules between the header and the content
+displayBanner 			For inserting banners or images before the cap
+displayHome 			For inserting modules on the main page
+displayLeftColumn 		For inserting modules in the left column
+displayRightColumn 		For inserting modules in the right column
+displayFooter 			For inserting modules into the footer
+displayNotFound 		For inserting modules on the error page
+
+
+
+CATEGORY MODULES
+-----------------------------------------------------------------
+01.- administration
+02.- advertising_marketing
+03.- analytics_stats
+04.- billing_invoicing
+05.- Checkout
+06.- content_management
+07.- export
+08.- emailing
+09.- front_office_features
+10.- i18n
+11.- localization
+12.- merchandizing
+13.- migration_tools
+14.- payments_gateways
+15.- payment_security
+16.- pricing_promotion
+17.- quick_bulk_update
+18.- search_filter
+19.- seo
+20.- shipping_logistics
+21.- slideshows
+22.- smart_shopping
+23.- market_place
+24.- social_networks
+25.- others
+26.- mobile
+
+
+03.- analytics_stats
+03.- analytics_stats
+03.- analytics_stats
+
+TODO LIST PARA CASA
+-----------------------------------------------------------------
+01.- descargar popup de diferentes temáticas para el modulos popup, carritos abandandonados, descuentos, promociones cualquier
+cosa que encontremos interesante para el mundo ecommerce
+02.- comprobar que el hook header carga css y javascript para el front y el actionAdminControllerSetMedia carga para el admin
+03.- mirar todos los modulos de takuma fr 
+04.- cuantos tabs tiene prestashop para poner los modulos dentro
+
+
+
+Variables Globales en Prestashop 1.7
 -----------------------------------------------------------------
 01.- {$currency|var_dump}
 
@@ -121,7 +251,6 @@ Nombre sección donde estamos situado -> {$page.page_name}
 {$urls.pages.order_login} ->
 {$urls.theme_assets} -> Url del directorio “assets” de la plantilla (/themes/TuPlantilla/assets/)
 {$urls.actions.logout} -> Url para cerrar sesión en la tienda
-
 
 
 
@@ -318,7 +447,6 @@ _PS_ROOT_DIR_			PHP	/var/www/html/prestashop	full path	front + back
 
 __PS__JS_DIR
 __PS__CSS_DIR
-__PS_IMG__
 __PS_IMG__DIR_
 
 

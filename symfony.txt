@@ -1,3 +1,9 @@
+Instalar php unit
+-----------------------------------------------------------------------
+01.- php bin/phpunit
+02.- php bin/console make:unit-test y creamos el nombre del test
+
+
 Symfony relaciones
 -----------------------------------------------------------------------
 01.- ManyToOne
@@ -17,9 +23,13 @@ EJEMPLO ManyToOne Cateogory to Product
 2.3.- in the product category property allwed null no
 2.4.- New field name inside Category products
 2.4.- Want automatically delete ... no
-2.5.- 
+
+From the perspective of the Product entity, this is a many-to-one relationship. 
+From the perspective of the Category entity, this is a one-to-many relationship.
 
 
+Ejemplo ManyToOne Georegion to Geocountry
+--------------------------------------------
 
 
 Make entity Address
@@ -75,6 +85,7 @@ php bin/console list make
 	01.02.- php bin/console make:command
 	01.03.- php bin/console make:controller
 	01.04.- php bin/console make:entity
+	01.04.- php bin/console make:fixtures
 	01.05.- php bin/console make:form
 	01.06.- php bin/console make:functional-test
 	01.07.- php bin/console make:subscriber
@@ -110,7 +121,7 @@ COMANDOS DOCTRINE DENTRO DE SYMFONY
 03.- php bin/console doctrine:schema:update --force
 04.- php bin/console doctrine:schema:update --force --dump-sql
 05.- php bin/console doctrine:mapping:import "App\Entity" annotation --path=src/Entity --force
-06.- php bin/console make:entity --regenerate App\\Entity --overwrite
+06.- php bin/console make:entity --regenerate App 
 
 
 !!! RECORDAR PARA ACTUALIZAR BASE DE DATOS === COMPOSER DUMP_AUTOLOAD 
@@ -132,6 +143,9 @@ php bin/console doctrine:cache:clear-result
 MIGRATIONS
 ----------------------------------------------------------------------
 php bin/console make:migration
+php bin/console  doctrine:migrations:migrate
+
+
 php bin/console doctrine:migrations:current                [current] Outputs the current version.
 php bin/console doctrine:migrations:diff                   [diff] Generate a migration by comparing your current database to your mapping information.
 php bin/console doctrine:migrations:dump-schema            [dump-schema] Dump the schema for your database to a migration.

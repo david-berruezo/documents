@@ -1,3 +1,11 @@
+MODULOS EN JAVASCRIPT
+-----------------------------
+Module format (CommonJS, AMD, UMD, ES6 Modules)
+Bundling modules (Browserify, jspm, Webpack, many more)
+Transpilers (Babel, CoffeeScript, Typescript)
+Module loading (Require.js, System.js)
+
+
 Tipos de objetos (5)
 -----------------------------
 1.- number, string, boolean, null, and undefined

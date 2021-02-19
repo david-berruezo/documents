@@ -1,0 +1,4 @@
+DOCKER FOR WINDOWS
+-----------------------------------
+01.- start docker desktop on windows
+02.- docker run hello-world

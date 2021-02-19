@@ -5,11 +5,7 @@ INSTALAR MEMCACHED
 03.- memcached.ext -d start
 
 
-REPOSITORIO
----------------------------------------------------------
-https://resources.oreilly.com/examples/
-http://www.mattkruse.com/javascript/mktree/source.html
-http://web.mit.edu/rhel-doc/3/rhel-rg-es-3/s1-apache-config.html
+
 
 
 WINDOWS SHORTCUTS
