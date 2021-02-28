@@ -1,0 +1,3 @@
+01.- npm install -g grunt-cli
+02.- npm install -S grunt
+03.- grunt default (console) 
