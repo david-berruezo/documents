@@ -383,4 +383,12 @@ EXPORTAR TODAS LAS BASES DE DATOS
 mysqldump -u root -p --all-databases > alldb.sql
 mysqldump -h localhost -u root -p --all-databases > D:\bases_de_datos\all.sql
 
+MYSQL TUNNING
+----------------------------------
+01.- # añado estas linias my.ini
+	01.1.-innodb_file_per_table=1
+	01.2.-innodb_file_format = Barracuda
 
+02.- alter table 
+	02.-1.- row format = compress
+	02.-2.- size 8k

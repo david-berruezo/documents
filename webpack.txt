@@ -1,3 +1,13 @@
+k18-00245688
+REPASO DE TIPOS DE MODULOS PARA WEBPACK
+---------------------------------
+Common JS modules
+AMD modules
+CSS import
+Images url
+ES modules
+
+
 WEBPACK PRESTASHOP CORE AND PACKAGIST
 ---------------------------------
 "devDependencies": {
@@ -35,6 +45,7 @@ WEBPACK PRESTASHOP CORE AND PACKAGIST
     "webpack": "^2.2.1",
     "webpack-sources": "^0.1.0"
   },
+
 
 
 WEBPACK PRESTASHOP CORE AND PACKAGIST
